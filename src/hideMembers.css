@@ -7,7 +7,7 @@
  * @version      1.0 
  */
 
- :root {
+:root {
     --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240px*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
