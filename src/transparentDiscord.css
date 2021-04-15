@@ -30,6 +30,9 @@
 }
 
 /*Transparent panels*/
+.appMount-3lHmkl, body {
+    background-color: var(--bg-main-panels);
+}
 .app-2rEoOp { /*Discord Background*/
     background-color: var(--bg-main-panels);
 }
