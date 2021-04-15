@@ -8,10 +8,11 @@
  */
 
 :root {
-    --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
-    --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240px*/
+    --members-hiding-width: 2.9%; /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
+    --showing-width: 13.5%; /*Amount that will be shown when the panels show | Default 13.5%*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
+    --transition-speed: 0.35s; /*Changes the transition speed*/
 }
 
 /*Hides server members list*/
@@ -27,7 +28,8 @@
     width: var(--members-hiding-width);
     min-width: unset;
     justify-content: unset;
-    transition: width 0.35s ease-in;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
 }
 .membersGroup-v9BXpm { /*Hides the member's role*/
     -webkit-backface-visibility: hidden;
@@ -39,7 +41,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     color: transparent;
-    transition: color 0.35s ease-in;
+    transition: color var(--transition-speed) ease-in;
+    will-change: color;
 }
 .member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
     margin-left: 2px;

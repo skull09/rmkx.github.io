@@ -8,8 +8,9 @@
  */
 
 :root {
-    --server-hiding-width: 50px; /*Amount that will be shown when the channels panel hide | Default 50px*/
-    --showing-width: 252px; /*Amount that will be shown when the panels show | Default 252*/
+    --server-hiding-width: 2.5%; /*Amount that will be shown when the channels panel hide | Default 2.5%*/
+    --showing-width: 13.5%; /*Amount that will be shown when the panels show | Default 13.5%*/
+    --transition-speed: 0.35s; /*Changes the transition speed*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
 }
@@ -25,7 +26,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     width: var(--server-hiding-width);
-    transition: width 0.35s ease-in;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
 }
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
@@ -41,7 +43,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     color: transparent;
-    transition: color 0.35s ease;
+    transition: color var(--transition-speed) ease;
+    will-change: color;
 }
 .wrapper-2tAnRe { /*Hides the amount of people in a voice channel when hidden*/
     -webkit-backface-visibility: hidden;
@@ -53,7 +56,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     visibility: hidden;
-    transition: visibility 0.15s ease;
+    transition: visibility calc(var(--transition-speed) - 0.2s) ease;
+    will-change: visibility;
 }
 .containerDefault-3tr_sE { /*Removes padding between channels when hidden for aesthetical purposes*/
     -webkit-backface-visibility: hidden;
@@ -65,7 +69,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     padding: 0px;
-    transition: padding 0.35s ease;
+    transition: padding var(--transition-speed) ease;
+    will-change: padding;
 }
 .container-2Pjhx-.channel-2QD9_O{ /*Moves the online friends list to the left for aesthetical purposes*/
     margin-left: 0px;
@@ -99,7 +104,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     color: transparent;
-    transition: color 0.35s ease;
+    transition: color var(--transition-speed) ease;
+    will-change: color;
 }
 .listeningAlong-30wH70 { /*Hides the listening along panel*/
     -webkit-backface-visibility: hidden;
@@ -113,7 +119,8 @@
     height: 0px;
     visibility: hidden;
     padding: 0px;
-    transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
+    transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
+    will-change: height, padding;
 }
 .container-1giJp5 { /*Hides the connected channel panel*/
     -webkit-backface-visibility: hidden;
@@ -127,7 +134,8 @@
     height: 0px;
     visibility: hidden;
     padding: 0px;
-    transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
+    transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
+    will-change: height, padding;
 }
 .activityPanel-28dQGo { /*Hides the sharing screen panel*/
     -webkit-backface-visibility: hidden;
@@ -141,7 +149,8 @@
     height: 0px;
     visibility: hidden;
     padding: 0px;
-    transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
+    transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
+    will-change: height, padding;
 }
 .list-2luk8a { /*Moves people connected to a voice channel when hidden*/
     -webkit-backface-visibility: hidden;
@@ -153,7 +162,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     padding-left: 5px;
-    transition: padding 0.35s ease;
+    transition: padding var(--transition-speed) ease;
+    will-change: padding;
 }
 .addButton-3bLyEA { /*Hides the add channel in the channel list*/
     -webkit-backface-visibility: hidden;
@@ -165,7 +175,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     color: transparent;
-    transition: color 0.35s ease;
+    transition: color var(--transition-speed) ease;
+    will-change: color;
 }
 .listDefault-3ir5aS .avatarContainer-28iYmV { /*Centers the avatars of peole connected to a vc even more*/
     margin-left: 5px;
@@ -181,7 +192,8 @@
     transform: translateZ(0);
     top: 15px;
     left: 7px;
-    transition: left 0.35s ease-in, top 0.35s ease-in;
+    transition: left var(--transition-speed) ease-in, top var(--transition-speed) ease-in;
+    will-change: top, left;
 }
 .button-1w5pas { /* Arrow button*/
     margin-left: -3px;
@@ -196,7 +208,8 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     color: transparent;
-    transition: color 0.35s ease;
+    transition: color var(--transition-speed) ease;
+    will-change: color;
 }
 .searchBar-6Kv8R2 { /*Hides the searchbar on top of DMs*/
     -webkit-backface-visibility: hidden;
@@ -207,8 +220,9 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: calc(var(--server-hiding-width) - 26px);
-    transition: width 0.35s ease-in;
+    width: 45%;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
 }
 .header-2V-4Sw { /*Server name panel*/
     -webkit-backface-visibility: hidden;
@@ -219,9 +233,10 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: calc(var(--server-hiding-width) - 8px);
+    width: 85%;
     padding-left: 14px;
-    transition: width 0.35s ease-in;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
 }
 
 /*Shows the server's channel list*/
@@ -366,8 +381,8 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: var(--showing-width);
-}
+    width: 100%;
+  }
 .sidebar-2K8pFh:hover .content-3YMskv .privateChannelsHeaderContainer-3NB1K1, .sidebar-2K8pFh:hover .privateChannelsHeaderContainer-3NB1K1 > .clickable-3rdHwn .icon-22AiRD { /*Shows DM text*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -388,5 +403,5 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: calc(var(--showing-width) - 48px);
+    width: 80%;
 }

@@ -150,7 +150,7 @@
     background: url(https://rmkx.github.io/svg/search-icon.svg) left no-repeat;
     background-size: 22px;
     padding: 0px;
-    width: calc(var(--showing-width) - 48px);
+    width: 100%;
     margin-bottom: 5px;
 }
 .container-2Pjhx-.channel-2QD9_O { /*Online friends list*/
