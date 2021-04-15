@@ -12,121 +12,206 @@
 :root {
     --avatar-radius: 0%;
 }
+#app-mount .wrapper-3t9DeA svg:not(:root) { /*Makes the status bar show*/
+    overflow: visible;
+}
 
 /*Avatars*/
 .userInfo-2zN2z8 .avatar-3W3CeO svg foreignObject { /*Modifies avatar on friends list*/
-    mask: unset;
+    mask: none;
     border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 .avatar-3uk_u9 svg:not(.linkButtonIcon-Mlm5d6) foreignObject { /*Modifies avatar on server members*/
-    mask: unset;
+    mask: none;
     border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
-.avatarWrapper-3H_478 { /*User card wrapper*/
-    margin-top: -15%;
-    position: relative;
-    top: 0;
+.headerTop-3C2Zn0 { /*User card main modal*/
+    min-height: 250px;
+    padding: 0;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 { /*User card avatar wrapper*/
     left: 0;
-}
-.avatarWrapper-3H_478 .wrapper-3t9DeA{ /*User card avatar wrapper*/
-    width: 250px!important;
-    height: 250px!important;
-}
-.avatarHint-1qgaV3 { /*User card avatar hint*/
+    bottom: 0;
     width: 250px;
-    height: 250px;
 }
-.avatarWrapper-3H_478 .wrapper-3t9DeA svg foreignObject { /*User card avatar picture*/
-    y: 0;
-    x: 0;
-    mask: unset;
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA { /*User card avatar wrapper*/
+    height: 250px !important;
+    width: 250px !important;
+    margin-bottom: 2%;
+}
+.avatarHint-1qgaV3 { /*"View Profile" Hint"*/
     width: 100%;
-    border-radius: var(--avatar-radius);
+    height: 100%;
+    border-radius: 0;
 }
-.avatarHint-1qgaV3 foreignObject { /*User card "View Profile" hint*/
-    mask: unset;
-    border-radius: var(--avatar-radius);
+.headerTop-3C2Zn0 foreignObject { /*Modifies avatar on user card*/
+    mask: none;
+    border-radius: inherit;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.headerText-2sdzFM { /*User card Username*/
+    padding-bottom: 5px;
+}
+.avatarHintInner-Dco91E { /*"View Profile" hint*/
+    font-size: 0.4em;
+    text-shadow: 1px 1px 3px black;
+}
+.avatarHint-1qgaV3 foreignObject { /*"View Profile" hint*/
+    y: -0.5;
 }
 .avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar*/
     border-radius: var(--avatar-radius);
 }
 .container-3baos1 .avatar-SmRMf2 svg foreignObject { /*Status bar avatar*/
-    mask: unset;
+    mask: none;
     border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 .repliedMessage-VokQwo .replyAvatar-1K9Wmr { /*Reply avatar*/
     border-radius: var(--avatar-radius);
 }
 .wrapper-25eVIn svg foreignObject { /*Server icons*/
-    mask: unset;
+    mask: none;
     border-radius: var(--avatar-radius);
 }
 .headerAvatar-2MDZJn svg foreignObject{ /*Active now icons*/
-    mask: unset;
+    mask: none;
     border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 .avatar-3EQepX svg foreignObject { /*Profile avatar*/
-    mask: unset;
+    mask: none;
     border-radius: var(--avatar-radius);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 /*User status*/
 .userInfo-2zN2z8 .avatar-3W3CeO svg > :last-child:not(foreignObject) { /*Modifies the user status on friends list*/
-    mask: unset;
-    x: 28;
+    mask: none;
+    x: 32;
     y: -32;
     transform: rotate(90deg);
     width: 4px;
     height: inherit;
+}
+.userInfo-2zN2z8 .avatar-3W3CeO svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on friends list*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.userInfo-2zN2z8 .avatar-3W3CeO svg > svg:not(foreignObject) { /*Status changed on friends list*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
 }
 .avatar-3uk_u9 svg:not(.linkButtonIcon-Mlm5d6) > :last-child:not(foreignObject) { /*Modifies userstatus on server members*/
-    mask: unset;
-    x: 28;
+    mask: none;
+    x: 32;
     y: -32;
     transform: rotate(90deg);
     width: 4px;
     height: inherit;
 }
+.avatar-3uk_u9 svg:not(.linkButtonIcon-Mlm5d6) > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on server members/DMs*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+    transform: rotate(0deg);
+}
+.avatar-3uk_u9 svg > svg:not(foreignObject) { /*Status changed on server members/DMs*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}
 .avatarWrapper-3H_478 .wrapper-3t9DeA svg > :last-child:not(foreignObject) { /*User card status*/
-    mask: unset;
+    mask: none;
     y: -80;
-    x: 77;
+    x: 79.75;
     transform: rotate(90deg);
     width: 3px;
     height: 100%;
 }
+.avatarWrapper-3H_478 .wrapper-3t9DeA svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*User card status changed settings*/
+    mask: none;
+    width: 200%;
+    height: 4px;
+    y: 28!important;
+    x: -48!important;
+    transform: rotate(0deg);
+}
+.avatarWrapper-3H_478 .wrapper-3t9DeA svg > svg:not(foreignObject) { /*User card status changed*/
+    x: 0!important;
+    y: 15!important;
+    width: 100%!important;
+}
 .container-3baos1 .avatar-SmRMf2 svg > :last-child:not(foreignObject) { /*Status bar status*/
-    mask: unset;
+    mask: none;
     width: 80%;
     height: 4px;
-    y: 28;
+    y: 32;
     x: 0;
 }
 .container-3baos1 .avatar-SmRMf2 svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed settings*/
-    mask: unset;
-    width: 250%;
+    mask: none;
+    width: 126%;
     height: 4px;
-    y: 10;
+    y: 15!important;
+    x: -14!important;
 }
-/**************************************************/
-.container-3baos1 .avatar-SmRMf2 svg > svg:not(foreignObject) { /*Need to modify this somehow for status when changing*/
-    x: -8!important;
+.container-3baos1 .avatar-SmRMf2 svg > svg:not(foreignObject) { /*Status changed settings*/
+    x: 0!important;
+    y: 15!important;
     width: 40px!important;
 }
-/*************************************************/
 .headerAvatar-2MDZJn svg > :last-child:not(foreignObject) { /*Active now status*/
-    mask: unset;
-    x: 28;
+    mask: none;
+    x: 32;
     y: -32;
     transform: rotate(90deg);
     width: 4px;
     height: inherit;
 }
+.headerAvatar-2MDZJn svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on active now*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.headerAvatar-2MDZJn svg > svg:not(foreignObject) { /*Status changed on active now*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
+}
 .avatar-3EQepX svg > :last-child:not(foreignObject) { /*Profile status*/
-    mask: unset;
+    mask: none;
     x: 76;
     y: -80;
     transform: rotate(90deg);
     width: 4px;
     height: inherit;
+}
+.avatar-3EQepX svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on profile*/
+    mask: none;
+    width: 126%;
+    height: 4px;
+    y: 15!important;
+    x: -14!important;
+}
+.avatar-3EQepX svg > svg:not(foreignObject) { /*Status changed on profile*/
+    x: 0!important;
+    y: 15!important;
+    width: 40px!important;
 }
