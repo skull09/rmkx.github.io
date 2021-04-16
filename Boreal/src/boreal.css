@@ -608,7 +608,7 @@
     margin-top: .7rem;
     margin-bottom: .7rem;
 }
-.divider-JfaTT5 {
+.divider-JfaTT5 { /*New day divider*/
     border: unset;
 }
 .content-1o0f9g { /*Day text*/
@@ -2390,4 +2390,12 @@
     background-color: var(--main-accent);
     border-radius: 5px;
     color: white;
+}
+.bd-toast { /*BD unloaded theme*/
+    background: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+}
+.bd-toast.toast-success { /*BD applied theme*/
+    background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
 }
