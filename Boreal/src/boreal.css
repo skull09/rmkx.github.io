@@ -562,7 +562,7 @@
     padding-right: 30px;
 }
 .message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover { /*Chat messages when hovering*/
-    background-color: var(--chat-hover);
+    background-color: var(--chat-hover)!important;
 }
 .groupStart-23k01U { /*First message of a user*/
     border-top-left-radius: var(--panel-border-radius);
