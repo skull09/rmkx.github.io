@@ -252,11 +252,11 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
-.bd-minimal .layout-2DM8Md { /*Channel container*/
+.bd-minimal .privateChannels-1nO12o .layout-2DM8Md { /*Channel container*/
     justify-content: unset;
     padding-left: 0;
 }
-.bd-minimal .layout-2DM8Md .avatar-3uk_u9 { /*Minimal mode DM avatar hidden*/
+.bd-minimal .privateChannels-1nO12o .layout-2DM8Md .avatar-3uk_u9 { /*Minimal mode DM avatar hidden*/
     justify-content: unset;
     padding-left: 10%;
 }
