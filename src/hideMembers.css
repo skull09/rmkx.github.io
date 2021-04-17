@@ -31,6 +31,21 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
+.bd-minimal .membersWrap-2h-GB4 { /*Minimal mode server members hiding*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: var(--members-hiding-width);
+    min-width: unset;
+    justify-content: unset;
+    transition: width var(--transition-speed) ease-in;
+    will-change: width;
+}
 .membersGroup-v9BXpm { /*Hides the member's role*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -51,8 +66,38 @@
 
 /*Shows the server members list*/
 .membersWrap-2h-GB4:hover { /*Shows server's members*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     width: var(--showing-width);
+    will-change: width;
+}
+.bd-minimal .membersWrap-2h-GB4:hover { /*Minimal mode server members showing*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: calc(var(--showing-width) - 0.9%);
+    will-change: width;
 }
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     color: white;
+    will-change: color;
 }
