@@ -865,6 +865,11 @@
     border-radius: var(--panel-border-radius);
     background-color: var(--panel-boxes);
 }
+.theme-dark .wrapperAudio-1jDe0Q { /*Embed audio*/
+    border: var(--panel-border);
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+}
 
 /*Right click pannel settings*/
 
@@ -2420,4 +2425,19 @@
 }
 .progress-3Rbvu0 { /*Uploading remaining bar*/
     background-color: var(--panel-boxes)!important;
+}
+.mediaBarWrapper-3D7r67,
+.mediaBarWrapper-3D7r67:after,
+.mediaBarWrapper-3D7r67:before { /*Audio progress bar*/
+    background-color: var(--panel-boxes);
+}
+.buffer-26XPkd,
+.buffer-26XPkd:after,
+.buffer-26XPkd:before { /*Audio buffer bar*/
+    background-color: rgba(var(--main-accent-rgb), 0.5);
+}
+.mediaBarPreview-1jfyFs,
+.mediaBarPreview-1jfyFs:after,
+.mediaBarPreview-1jfyFs:before { /*Audio hover*/
+    background-color: rgba(var(--main-accent-rgb), 0.7);
 }

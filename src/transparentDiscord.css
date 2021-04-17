@@ -831,3 +831,7 @@
 .bd-minimal .nowPlayingColumn-2sl4cE { /*Minimal mode active now*/
     background: var(--bg-main-panels);
 }
+.theme-dark .wrapperAudio-1jDe0Q { /*Embed audio*/
+    border: unset;
+    background-color: var(--bg-second-panels);
+}
