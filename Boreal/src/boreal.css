@@ -1223,7 +1223,9 @@
     backdrop-filter: blur(5px);
     position: absolute;
     top: 7%!important;
+    transform: translateY(-7%);
     left: 20%;
+    transform: translateX(-20%);
     width: var(--settings-width);
     height: var(--settings-heigth);
     background: var(--panel-boxes);
@@ -2348,6 +2350,9 @@
 
 .bd-minimal .base-3dtUhz { /*Main Modal*/
     left: 0px;
+}
+.bd-minimal .peopleColumn-29fq28 { /*Minimal mode Friends modal*/
+    max-width: 70%;
 }
 
 /*Misc*/

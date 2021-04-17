@@ -828,3 +828,6 @@
 .marketingRefreshSectionTier1-dRwS-6 { /*Nitro gift border*/
     border: unset;
 }
+.bd-minimal .nowPlayingColumn-2sl4cE { /*Minimal mode active now*/
+    background: var(--bg-main-panels);
+}
