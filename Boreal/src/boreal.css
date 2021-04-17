@@ -858,6 +858,11 @@
 .wrapper-3vR61M, .wrapper-1F5TKx { /*Chat loading messages*/
     background:transparent
 }
+.attachment-33OFj0 { /*Uploading file*/
+    border: var(--panel-border);
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+}
 
 /*Right click pannel settings*/
 
@@ -2396,4 +2401,10 @@
 .bd-toast.toast-success { /*BD applied theme*/
     background-color: var(--main-accent);
     border-radius: var(--panel-border-radius);
+}
+.small-1CUeBa { /*Uploading colored bar*/
+    background-color: var(--main-accent)!important;
+}
+.progress-3Rbvu0 { /*Uploading remaining bar*/
+    background-color: var(--panel-boxes)!important;
 }

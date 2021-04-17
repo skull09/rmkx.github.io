@@ -811,3 +811,11 @@
 .tabBody-3YRQ8W::before {
     box-shadow: unset;
 }
+.theme-dark .message-2qRu38 { /*Deleting message*/
+    box-shadow: unset;
+    background-color: var(--bg-second-panels);
+}
+.attachment-33OFj0 { /*Uploading file*/
+    border: unset;
+    background-color: var(--bg-second-panels);
+}
