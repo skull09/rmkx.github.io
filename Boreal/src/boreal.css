@@ -33,7 +33,7 @@
     --panel-border-radius: 8px; /*Changes the radius of the surrounded panels*/
 
     --chat-hover: rgb(0, 0, 0, 0.2); /*Message background when hovering*/
-    --embed-border: 4px; /*Makes it so some embeds in chat have their corresponding border | 0px = no borders*/
+    --embed-border: 0px; /*Makes it so some embeds in chat have their corresponding border | 0px = no borders*/
 
     --buttons-background: rgba(0, 0, 0, 0.3); /*Changes the color of the buttons*/
     --buttons-border: 0px solid rgb(70, 69, 69); /*Changes the color of the buttons*/
