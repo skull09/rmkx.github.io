@@ -381,10 +381,10 @@
 }
 .unread-2lAfLh { /*Unread server channel message*/
     margin-top: -15.5px;
-    background: rgb(35, 77, 117);
+    background: rgb(var(--main-accent-rgb));
     height: 30px;
     border-color: var(--panel-boxes);
-    box-shadow: 0px 0px 5px 3px rgba(35, 77, 117, 0.747);
+    box-shadow: 0px 0px 5px 3px rgba(var(--main-accent-rgb), 0.747);
 }
 .header-2V-4Sw { /*Server name panel*/
     border-radius: var(--panel-border-radius);
@@ -671,7 +671,7 @@
     background-color: var(--main-accent);
     width: 5px;
     border-radius: var(--buttons-radius);
-    box-shadow: 0px 0px 3px 3px rgba(90, 160, 221, 0.397);
+    box-shadow: 0px 0px 3px 3px rgba(var(--main-accent-rgb), 0.8);
 }
 .repliedMessage-VokQwo:before {
     border-color: var(--main-accent);
@@ -1731,7 +1731,7 @@
 .item-2hkk8m { /*Selected server bar icon*/
     background-color: var(--main-accent);
     border-radius: var(--panel-border-radius);
-    box-shadow: 0px 0px 5px 2px rgba(103, 139, 216, 0.226);
+    box-shadow: 0px 0px 3px 2px rgba(var(--main-accent-rgb), 1);
 }
 .circleIconButton-1QV--U.selected-1JjBPm { /*Explore and Add buttons*/
     border-radius: var(--panel-border-radius);
