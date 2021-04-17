@@ -455,8 +455,6 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    opacity: unset!important;
-    background: transparent!important;
 }
 .note-3HfJZ5 { /*Add a note box*/
     box-shadow: var(--elevation-high);
