@@ -16,6 +16,7 @@
 }
 
 /*Hides the server's channel list*/
+
 .sidebar-2K8pFh {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -251,8 +252,56 @@
     transition: width var(--transition-speed) ease-in;
     will-change: width;
 }
+.bd-minimal .layout-2DM8Md { /*Channel container*/
+    justify-content: unset;
+    padding-left: 0;
+}
+.bd-minimal .layout-2DM8Md .avatar-3uk_u9 { /*Minimal mode DM avatar hidden*/
+    justify-content: unset;
+    padding-left: 10%;
+}
+.bd-minimal .channel-2QD9_O[href="/channels/@me"] { /*Minimal mode friends icon wrapper*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    margin-left: 1px;
+    width: 50px;
+    min-width: 30.8px;
+    max-width: 60%;
+}
+.bd-minimal .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9 { /*Minimal mode friends icon*/
+    padding-left: 0;
+}
+.bd-minimal .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9,
+.bd-minimal .channel-2QD9_O[href="/library"] .avatar-3uk_u9,
+.bd-minimal .channel-2QD9_O[href="/store"] .avatar-3uk_u9 { /*Friends/Library/Nitro buttons minimal mode*/
+    justify-content: center;
+}
+.bd-minimal .channel-2QD9_O[href="/library"],
+.bd-minimal .channel-2QD9_O[href="/store"],
+.bd-minimal .channel-2QD9_O[href="/library"] .avatar-3uk_u9,
+.bd-minimal .channel-2QD9_O[href="/store"] .avatar-3uk_u9 { /*Friends/Library/Nitro buttons minimal mode*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    height: 0px;
+    width: 0px;
+    transition: height var(--transition-speed) ease, width var(--transition-speed) ease;
+    will-change: height, width;
+}
 
 /*Shows the server's channel list*/
+
 .sidebar-2K8pFh:hover {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -428,4 +477,46 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     width: 80%;
+}
+.bd-minimal .sidebar-2K8pFh:hover .searchBar-6Kv8R2 { /*Minimal mode searchbar*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    width: 90%;
+    will-change: width;
+}
+.bd-minimal .sidebar-2K8pFh:hover .channel-2QD9_O[href="/library"],
+.bd-minimal .sidebar-2K8pFh:hover .channel-2QD9_O[href="/store"] { /*Friends/Library/Nitro buttons minimal mode*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    height: 42px;
+    width: 50px;
+    transition: height calc(var(--transition-speed) + 0.25s) ease, width calc(var(--transition-speed) + 0.25s) ease;
+    will-change: height, width;
+}
+.bd-minimal .sidebar-2K8pFh:hover .channel-2QD9_O[href="/library"] .avatar-3uk_u9,
+.bd-minimal .sidebar-2K8pFh:hover .channel-2QD9_O[href="/store"] .avatar-3uk_u9 { /*Friends/Library/Nitro buttons minimal mode*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    height: 42px;
+    width: 42px;
+    transition: width calc(var(--transition-speed) + 0.25s) ease, height calc(var(--transition-speed) + 0.25s) ease;
+    will-change: width, height;
 }

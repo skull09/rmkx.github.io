@@ -819,3 +819,12 @@
     border: unset;
     background-color: var(--bg-second-panels);
 }
+.applicationStore-1pNvnv { /*Nitro gift main modal*/
+    background-color: var(--bg-main-panels);
+}
+.scroller-9moviB { /*Nitro gift content*/
+    background-color: var(--bg-main-panels);
+}
+.marketingRefreshSectionTier1-dRwS-6 { /*Nitro gift border*/
+    border: unset;
+}
