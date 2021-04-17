@@ -854,8 +854,8 @@
 .repliedTextPreview-2NBljf.clickable-1bVtEA { /*Replied to message*/
     max-width: 1300px;
 }
-.imageWrapper-2p5ogY img { /*Embed image*/
-    margin-left: 10px;
+.imageWrapper-2p5ogY { /*Embed image*/
+    margin-left: 0.5%;
 }
 .wrapper-3vR61M, .wrapper-1F5TKx { /*Chat loading messages*/
     background:transparent
