@@ -86,7 +86,7 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: calc(var(--showing-width) - 0.9%);
+    width: calc(var(--showing-width) - 1.9%);
     will-change: width;
 }
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
