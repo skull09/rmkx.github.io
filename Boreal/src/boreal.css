@@ -93,13 +93,15 @@
     background: var(--underline-gradient);
     transform: rotate(180deg);
 }
-.nowPlayingColumn-2sl4cE { /*Surrounds the Active Now panel*/   
-    right: 0px;
+.nowPlayingColumn-2sl4cE { /*Surrounds the Active Now panel*/
+    position: absolute;
+    top: 5%;
+    left: 62.5%;   
     margin-top: 10px;
     margin-left: 5px;
-    margin-right: 10px;
-    margin-bottom: 57px;
     border-radius: var(--panel-border-radius);
+    width: 100%;
+    height: 86%;
 }
 .wrapper-3D2qGf { /*Settings for the Active Now friends panel*/
     background-color: var(--panel-boxes);
@@ -189,17 +191,27 @@
 
 /*Friends Window*/
 
+.theme-dark .container-1D34oG { /*Main friends panel*/
+    position: absolute;
+    top: 0%;
+    left: var(--showing-width);
+    width: 100%;
+    height: 100%;
+}
 .peopleList-3c4jOR { /*Online friends middle pannel*/
     overflow-y: auto!important;
 }
 .container-1r6BKw.themed-ANHk51 { /*Friends Online, All, ... , Help panel*/
-    height: auto;
+    position: absolute;
+    top: 2%;;
 }
 .divider-3FBTu8 { /*Friends Online, All, ... , Help divider*/
     background-color: transparent;
 }
 .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx { /*Moves the New DM, Inbox and Help buttons*/
-    padding-right: 10%;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-75%);
 }
 .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .icon-22AiRD{ /*Settings for the New DM, Inbox and Help buttons*/
     -webkit-backface-visibility: hidden;
@@ -236,15 +248,19 @@
     width: 100%;
     height: 4px;
     left: 0%;
-    top: 23px;
+    top: 24px;
     background: var(--underline-gradient);
 }
 .peopleColumn-29fq28 { /*Add friend panel*/
+    position: absolute;
+    top: 5%;
+    left: 22.5%;
+    transform: translateX(-22.5%);
     border-radius: var(--panel-border-radius);
-    margin-bottom: 57px;
     margin-top: 10px;
-    margin-right: 50px;
-    margin-left: 10%;
+    margin-left: 0%;
+    width: 50%;
+    height: 86%;
 }
 .sectionHeader-20RGqu .header-1-dBpZ, .sectionHeader-20RGqu .description-1EvxpH { /*Moves the text on the Add Friend tab*/
     text-align: center;
@@ -277,12 +293,9 @@
     width: 96%;
 }
 .container-1D34oG .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
-    margin-right: 50px;
-    margin-left: 25%;
-    transition: margin-left 0.54s ease;
-}
-.sidebar-2K8pFh:hover+.container-1D34oG .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
-    margin-left: 25%;
+    position: absolute;
+    left: 27.5%;
+    transform: translateX(-27.5%);
 }
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover { /*Online, All, Pending friends... Elements when hovered*/
     margin-right: 20px;
