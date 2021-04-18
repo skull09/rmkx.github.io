@@ -835,3 +835,12 @@
     border: unset;
     background-color: var(--bg-second-panels);
 }
+.featureIcon-3p1TC_ { /*Community features icon*/
+    background-color: var(--bg-second-panels);
+}
+.checkboxWrapper-SkhIWG.row-3QHy4I { /*Verification panel*/
+    background-color: var(--bg-second-panels);
+}
+.checkboxWrapper-SkhIWG.row-3QHy4I:hover:not(.checked-3_4uQ9) { /*Verification panel*/
+    background-color: var(--bg-second-panels);
+}

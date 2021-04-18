@@ -1238,12 +1238,15 @@
 }
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ { /*Settings selected*/
     background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
 }
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ[aria-selected="false"]:hover:not(.disabled-1Hwwfb) { /*Settings hovered not selected*/
     background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
 }
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ[aria-selected="true"]:hover:not(.disabled-1Hwwfb){ /*Settings hovered selected*/
     background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"] { /*Discord nitro tab default*/
     color: white!important;
@@ -1257,7 +1260,7 @@
 .radioBar-bMNUI- { /*Privacy panels*/
     border-top-left-radius: 0px;
     border-bottom-left-radius:0px;
-    border-right: var(--panel-border-radius);
+    border-radius: var(--panel-border-radius);
 }
 .radioBar-bMNUI-:hover { /*Privacy panels*/
     background-color: var(--panel-boxes);
@@ -1396,6 +1399,21 @@
 }
 .option-n0icdO:hover { /*Overlay position hover*/
     background-color: var(--main-accent);
+}
+.closeButton-1tv5uR { /*Close button circle*/
+    border-color: var(--main-accent)!important;
+    filter: brightness(1.5);
+}
+.closeButton-1tv5uR:hover { /*Close button hover*/
+    background-color: rgba(var(--main-accent-rgb), 0.3)!important;
+}
+.closeButton-1tv5uR path { /*Close button X*/
+    fill: var(--main-accent);
+    filter: brightness(1.5);
+}
+.keybind-KpFkfr { /*Esc text under close button*/
+    color: var(--main-accent)!important;
+    filter: brightness(1.5);
 }
 .closeButton-1tv5uR::before { /*Close button left backdrop*/
     content: '';
@@ -2235,6 +2253,69 @@
     border-radius: var(--panel-border-radius);
 }
 
+/*Server Admin settings 18/04/2021*/
+.container-_phMUq { /*Role permissions*/
+    border: var(--panel-border);
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+}
+.container-_phMUq:hover { /*Role permissions hover*/
+    background-color: var(--main-accent);
+}
+.icon-3_8HGa { /*Role permission panel icon background*/
+    background-color: transparent;
+}
+.titleContainer-2CXtJo { /*Role panel background*/
+    background-color: transparent;
+}
+.header-2mZ9Ov { /*Edit role panel*/ 
+    background-color: transparent;
+    transition: backdrop-filter 250ms ease-in, border-radius 250ms ease-in;
+}
+.stickyHeaderElevated-I6QUOA { /*Edit role panel scrolling*/
+    backdrop-filter: blur(7px);
+    box-shadow: unset;
+    border-radius: var(--panel-border-radius);
+    transition: backdrop-filter 350ms ease-in, border-radius 350ms ease-in;
+}
+.tabBar-11f3uI { /*Role category main box*/
+    border-bottom: unset;
+}
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active,
+.top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ { /*Selected role category*/
+    border-color: var(--main-accent);
+}
+.disabled-1Hwwfb.item-PXvHYJ { /*Disabled role category*/
+    color: var(--interactive-normal);
+    border-color: transparent;
+}
+.top-28JiJ- .disabled-1Hwwfb.brand-1Zl8en.item-PXvHYJ:hover { /*Disabled role category hover*/
+    color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(var(--main-accent-rgb), 1);
+}
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:disabled { /*Upload server image disabled*/
+    background-color: var(--buttons-background);
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+}
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) { /*Role list hovered*/
+    background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i { /*Role buttons hover*/
+    background-color: transparent;
+}
+.roleRow-30TwGe:before, .roleRow-30TwGe:last-child:after { /*Role divider*/
+    background-color: transparent;
+}
+.backgroundAccent-349kuI { /*Information panel*/
+    background-color: transparent;
+}
+.developerPortalCtaWrapper-2XNafh { /*Server Insights drawing background*/
+    background-color: transparent;
+}
+
 /*Tags*/
 
 .verified-1eC5dy { /*Verified tag*/
@@ -2360,6 +2441,35 @@
     max-width: 70%;
 }
 
+/*Enable community panel*/
+.checkboxWrapper-SkhIWG.row-3QHy4I:hover:not(.checked-3_4uQ9) { /*Verification panel hovered*/
+    background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
+.checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 { /*Selected verification panel*/
+    border-radius: var(--panel-border-radius);
+    background-color: rgba(var(--main-accent-rgb), 0.3);
+    border: var(--panel-border);
+}
+.theme-dark .checkbox-1ix_J3[style*="background-color: rgb(114, 137, 218);"] { /*Marked checkbox*/
+    background-color: var(--main-accent)!important  ;
+    border: unset!important;
+}
+.overviewSidebar-auQZeh { /*Drawing background*/
+    background: transparent;
+}
+.stepIndex-3rtpcw { /*Steps required icon*/
+    background: transparent;
+}
+.selected-3AsYnC .stepIndex-3rtpcw { /*Current step required*/
+    background-color: rgba(var(--main-accent-rgb), 0.3);
+    color: white;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled { /*Disabled next color*/
+    background-color: rgba(var(--main-accent-rgb), 0.3);
+}
+
 /*Misc*/
 
 .protip-3-1FNm { /*Protip text*/
@@ -2440,4 +2550,14 @@
 .mediaBarPreview-1jfyFs:after,
 .mediaBarPreview-1jfyFs:before { /*Audio hover*/
     background-color: rgba(var(--main-accent-rgb), 0.7);
+}
+.required-7sPBq3 { /*Required field*/
+    color: var(--main-accent);
+}
+.checkboxWrapper-SkhIWG.row-3QHy4I:hover:not(.checked-3_4uQ9) { /*Verification panel hovered*/
+    background-color: var(--main-accent);
+}
+.colorBrand-ROmMP1 { /*Invite people to server button*/
+    color: var(--main-accent);
+    filter: brightness(2);
 }
