@@ -413,6 +413,15 @@
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
 }
+.users-3kndPl { /*Current users in Voice Chat*/
+    background-color: rgba(var(--main-accent-rgb), 0.3);
+}
+.total-i6us2n { /*Total users in Voice Chat*/
+    background-color: var(--main-accent);
+}
+.total-i6us2n:after { /*Total users in Voice Chat 2*/
+    border-right-color: var(--main-accent);
+}
 
 /*User card settings*/
 
@@ -2315,6 +2324,74 @@
 }
 .developerPortalCtaWrapper-2XNafh { /*Server Insights drawing background*/
     background-color: transparent;
+}
+
+/*Server community*/
+
+.upsellContainer-L9xv7w,
+.upsellFooter-ZYsio_,
+.checklistContainer-mFJZEJ,
+.checklistHeader-1KWcEY,
+.container-2w0lh0,
+.header-2Y0-A-,
+.exampleContainer-3ekFIr,
+.exampleContainer-25sB-A { /*Server community panels*/
+    background-color: transparent;
+}
+.separator-Hx_3SF,
+.separator-2V2oIO,
+.separator-1COOpU { /*Server community separators*/
+    background-color: transparent;
+}
+.exampleModal-2oh58d,
+.exampleModal-2X2Vf8 { /*Server community example*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+}
+.exampleTextSingleLine-1kvErc,
+.optionContainer-1FtykV { /*Server community text example*/
+    background-color: var(--panel-boxes);
+}
+.exampleModal-2oh58d .guildSidebar-339BqP,
+.exampleModal-2oh58d .content-BMIBeK,
+.theme-dark .footer-1JuRYY,
+.formFieldWrapper-malor5 { /*Server community example 2*/
+    background-color: transparent;
+}
+.fakeButton-kGEmb3 { /*Example button*/
+    background-color: var(--main-accent);
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+}
+.enableContainer-6E-puu,
+.previewContainer-1SS3uO { /*Enable Welcome Message*/
+    background-color: var(--panel-boxes);
+}
+.enableContainer-6E-puu { /*Enable Welcome Message header*/
+    border-top-left-radius: var(--panel-border-radius);
+    border-top-right-radius: var(--panel-border-radius);
+}
+.previewContainer-1SS3uO { /*Enable Welcome Message content*/
+    border-bottom-left-radius: var(--panel-border-radius);
+    border-bottom-right-radius: var(--panel-border-radius);
+}
+.enableContainer-2DIT9Q { /*Enable Membership Screening*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
+.editCircle-y9c7xP,
+.editCircle-ityklj,
+.editButton-1MavoF,
+.editButtonDisabled-1F2FLU, .editButtonDisabled-1F2FLU:focus,
+.editButtonDisabled-1F2FLU:hover { /*Edit icon*/
+    background-color: transparent;
+}
+.settingsFormItem-103g1I,
+.getStartedWrapper-2AGgRZ { /*Membership Screening rule*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
 }
 
 /*Tags*/
