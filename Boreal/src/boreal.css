@@ -1427,22 +1427,22 @@
 }
 .closeButton-1tv5uR::before { /*Close button left backdrop*/
     content: '';
-    position: fixed;
-    top: calc(0% - calc(100% - var(--settings-heigth)));
-    left: -40%;
-    width: calc(100% - var(--settings-width));
-    height: 2000px;
+    position: absolute;
+    top: var(--settings-height);
+    left: -4405%;
+    width: calc(1010% + calc(100% - var(--settings-width)));
+    height: 5550%;
     cursor: pointer;
     pointer-events: inherit;
     transition: 250ms ease-in;
 }
 .closeButton-1tv5uR::after { /*Close button right backdrop*/
     content: '';
-    position: fixed;
-    top: calc(0% - calc(100% - var(--settings-heigth)));
-    left: 100%;
-    width: calc(100% - var(--settings-width));
-    height: 2000px;
+    position: absolute;
+    top: var(--settings-height);
+    left: 540%;
+    width: calc(1010% + calc(100% - var(--settings-width)));
+    height: 5550%;
     cursor: pointer;
     pointer-events: inherit;
     transition: 250ms ease-in;
