@@ -322,7 +322,7 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: calc(var(--showing-width) - 3%);
+    width: calc(var(--showing-width) - 2.3%);
 }
 .sidebar-2K8pFh:hover .mainContent-2h-GEV .overflow-WK9Ogt, .sidebar-2K8pFh:hover .mainContent-2h-GEV .icon-2yIBmh{  /*Shows channel group*/
     -webkit-backface-visibility: hidden;
