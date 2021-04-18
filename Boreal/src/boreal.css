@@ -2640,3 +2640,6 @@
     color: var(--main-accent);
     filter: brightness(2);
 }
+.ring-13rgEW { /*Focused element when tabbing*/
+    box-shadow: unset;
+}
