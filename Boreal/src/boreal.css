@@ -97,7 +97,7 @@
     position: absolute;
     top: 5%;
     left: 62.5%;   
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 5px;
     border-radius: var(--panel-border-radius);
     width: 100%;
@@ -253,11 +253,11 @@
 }
 .peopleColumn-29fq28 { /*Add friend panel*/
     position: absolute;
-    top: 5%;
+    top: 4%;
     left: 22.5%;
     transform: translateX(-22.5%);
     border-radius: var(--panel-border-radius);
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 0%;
     width: 50%;
     height: 86%;
