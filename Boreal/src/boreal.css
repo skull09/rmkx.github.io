@@ -693,7 +693,8 @@
 .mentioned-xhSam7 { /*Mentioned/replied message*/
     background-color: rgba(var(--main-accent-rgb), 0.3);
 }
-.mentioned-xhSam7:before { /*Line before the replied message*/
+.mentioned-xhSam7:before,
+.ephemeral-1PsL1r:before { /*Line before the replied message*/
     background-color: var(--main-accent);
     width: 5px;
     border-radius: var(--buttons-radius);
