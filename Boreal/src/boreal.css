@@ -846,13 +846,18 @@
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
     border-left: var(--embed-border) solid;
-    margin-left: 10px;
+    margin-left: 0.5%;
 }
 .wrapper-35wsBm { /*Discord invite embed*/
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
-    margin-left: 10px;
+    margin-left: 0.5%;
+}
+.theme-dark .wrapper-2TxpI8 { /*Video embed*/
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+    background-color: var(--panel-boxes);
 }
 .theme-dark .autocomplete-1vrmpx { /*Autocomplete box*/
     background-color: var(--panel-boxes);
@@ -876,13 +881,13 @@
 }
 .container-1ov-mD > iframe[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
     border-radius: var(--panel-border-radius)!important;
-    margin-left: 8px;
+    margin-left: 0.5%;
 }
 .repliedTextPreview-2NBljf.clickable-1bVtEA { /*Replied to message*/
     max-width: 1300px;
 }
 .imageWrapper-2p5ogY { /*Embed image*/
-    margin-left: 0.5%;
+    margin-left: 3%;
 }
 .wrapper-3vR61M, .wrapper-1F5TKx { /*Chat loading messages*/
     background:transparent
