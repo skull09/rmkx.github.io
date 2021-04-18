@@ -2660,3 +2660,9 @@
 .ring-13rgEW { /*Focused element when tabbing*/
     box-shadow: unset;
 }
+.theme-dark .checkbox-1ix_J3[style*="border-color: rgb(114, 137, 218);"] { /*Checkbox*/
+    border-color: var(--main-accent)!important;
+}
+.theme-dark .checkbox-1ix_J3[style*="border-color: rgb(114, 137, 218);"] path { /*Checkbox checkmark*/
+    fill: var(--main-accent)!important;
+}
