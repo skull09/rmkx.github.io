@@ -1260,10 +1260,9 @@
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     position: absolute;
-    top: 7%!important;
-    transform: translateY(-7%);
+    top: 50%!important;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     width: var(--settings-width);
     height: var(--settings-heigth);
     background: var(--panel-boxes);
@@ -2123,9 +2122,9 @@
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    position: absolute;
-    top: 7%;
-    left: 20%;
+    top: 50%!important;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     width: var(--settings-width);
@@ -2135,7 +2134,7 @@
     pointer-events: all!important;
 }
 .container-1sFeqf { /*Close window button*/
-    right: -150px;
+    right: -35%;
     top: 80px;
 }
 .carousel-18mXWH { /*Server level panels*/
