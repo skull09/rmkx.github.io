@@ -17,29 +17,30 @@
 :root {
     /*Background settings*/
     --background-image: url('https://i.imgur.com/B5pCrRt.jpg'); /*Background image*/
-    --bg-blur: 0px; /*Background blur*/
-    --bg-opacity: 0.4; /*Background opacity*/
+    --bg-blur: 0px; /*Background blur | Default 0px*/
+    --bg-opacity: 0.4; /*Background opacity | Default 0.4*/
 
     /*Server member panel*/
     --members-hiding: 680%; /*Position of the members panel when it hides | Default 680%*/
-    --members-showing: 599%; /*Position of the members panel when it shows | Default 599%*/
-    --transition-speed: 0.35s; /*Changes the showing speed*/
+    --members-showing: 599%; /*Position of the members panel when it shows | Default 598%*/
+    --transition-speed: 0.35s; /*Changes the showing speed | Default 0.35s*/
 
     /*General settings*/
-    --general-radius: 5px; /*Changes the radius of most modals*/
-    --main-color: 52, 52, 52; /*Main color of the theme | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR*/
-    --main-accent: 147, 227, 32; /*Theme accent color | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR*/
-    --headers: 210, 210, 210; /*Header color | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR*/
-    --avatar-radius: 5px; /*Avatar's radius*/
-    --links-color:  147, 227, 32; /*Changes the color of the links*/
-    --settings-width: 60%; /*Width for the settings window*/
-    --settings-heigth: 85%; /*Width for the settings window*/
-    --embed-border: 0px; /*Border for some of the embeds*/
-    --embed-bg: rgba(0,0,0,0.75); /*Embeds background*/
-    --selection-bg: rgba(36, 36, 36, 0.39); /*Changes the background of the selected text*/
-    --selection-color: rgba(var(--main-accent), 1); /*Changes the color of the selected text*/
-    --scrollbar-color: rgba(var(--main-accent), 0.4); /*Changes the color of the scrollbar*/
+    --general-radius: 5px; /*Changes the radius of most modals | Default 5px*/
+    --main-color: 52, 52, 52; /*Main color of the theme | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 52, 52, 52*/
+    --main-accent: 147, 227, 32; /*Theme accent color | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 147, 227, 32*/
+    --avatar-radius: 5px; /*Avatar's radius | Default 5px*/
+    --links-color:  147, 227, 32; /*Changes the color of the links | Default 147, 227, 32*/
+    --settings-width: 60%; /*Width for the settings window | Default 60%*/
+    --settings-heigth: 85%; /*Width for the settings window | Default 85%*/
+    --embed-border: 0px; /*Border for some of the embeds | Default 0px*/
+    --embed-bg: rgba(0,0,0,0.75); /*Embeds background | Default rgba(0, 0, 0, 0.75)*/
+    --selection-bg: rgba(36, 36, 36, 0.39); /*Changes the background of the selected text | Default 5px rgba(36, 36, 36, 0.39)*/
+    --selection-color: rgba(var(--main-accent), 1); /*Changes the color of the selected text | Default rgba(var(--main-accent), 1)*/
+    --scrollbar-color: rgba(var(--main-accent), 0.4); /*Changes the color of the scrollbar | Default rgba(var(--main-accent), 0.4)*/
+
 
     /*Font*/
     --font: 'Fjalla One', sans-serif; /*Main font*/
+    --message-size: 90%; /*Chat message font size | Default 90%*/
 }
