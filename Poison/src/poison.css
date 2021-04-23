@@ -991,6 +991,13 @@
     border-top-left-radius: var(--general-radius);
     border-top-right-radius: var(--general-radius);
     background: transparent;
+    border: 1px solid;
+    border-color: rgba(var(--main-accent), 0.3);
+    border-bottom-color: transparent;
+}
+.wrapper-3NnKdC:hover { /*Guild wrapper hover*/
+    border-color: rgba(var(--main-accent), 1);
+    border-bottom-color: transparent;
 }
 .wrapper-3NnKdC::before { /*Guild wrapper background*/
     content: '';
