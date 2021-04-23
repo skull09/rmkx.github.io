@@ -3414,7 +3414,7 @@
     background: transparent!important;
 }
 .iconWrapper-3LVgIo:hover { /*Server boost quantity hover*/
-    background: rgb(var(--main-accent))!important;
+    background: rgb(var(--main-accent), 0.55)!important;
 }
 .icon-TYbVk4, .icon-TYbVk4.disabled-24YXy-, .icon-TYbVk4.disabled-24YXy-:hover { /*Server boost quantity*/
     color: white;
@@ -3436,6 +3436,10 @@
 }
 .tierHeaderLocked-1a2opw { /*Server boost tier header*/
     background-color: rgba(var(--main-color), 0.1)!important;
+}
+.upsellFooter-3coAfO,
+.value-IR9osW  { /*Buying boosts*/
+    background-color: transparent;
 }
 
 /*Windows bar*/
