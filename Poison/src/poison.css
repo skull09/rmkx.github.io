@@ -62,11 +62,12 @@
 
 /*Scrollbar settings*/
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb { /*Scrollbar thumb*/
     background-color: var(--scrollbar-color)!important;
     border-radius: 20px!important;
 }
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track,
+.scroller-zPkAnE::-webkit-scrollbar-track { /*Scrollbar track*/
     background-color: transparent!important;
     border-radius: var(--general-radius)!important;
 }
@@ -1336,7 +1337,37 @@
 .wrapper-1cBijl:focus-within { /*Add friend username input focused*/
     border-color: rgba(var(--main-accent), 1);
 }
-
+.quickswitcher-3JagVE { /*Ctrl+K main modal*/
+    border-radius: var(--general-radius);
+    background-color: transparent;
+    box-shadow: none;
+}
+.quickswitcher-3JagVE::before { /*Ctrl+K main modal background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: var(--general-radius);
+    box-shadow: 0px 0px 3px 2px rgb(var(--main-accent));
+    background-color: rgb(var(--main-color));
+    filter: brightness(0.3);
+}
+.scroller-zPkAnE { /*Ctrl+K body*/
+    background-color: transparent;
+}
+.protip-1b9XPC { /*Ctrl+K protip*/
+    border-color: transparent;
+}
+.quickswitcher-3JagVE .input-2VB9rf { /*Input box*/
+    border-radius: var(--general-radius);
+    background-color: rgba(var(--main-color), 0.5);
+}
+.resultFocused-3aIoYe { /*Result focused*/
+    border-radius: var(--general-radius);
+    background-color: rgba(var(--main-color), 0.5);
+}
 
 /*Active now*/
 
