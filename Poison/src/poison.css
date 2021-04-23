@@ -688,6 +688,9 @@
     border-radius: var(--general-radius);
     background-color: var(--embed-bg)!important;
 }
+.iconWrapper-2OrFZ1 .iconBadge-qZ4Ksk { /*New pins color*/
+    background-color: rgb(var(--main-accent), 0.85);
+}
 
 /*Code and text preview modals*/
 
@@ -1960,6 +1963,25 @@
     filter: brightness(0.35);
     z-index: -1;
 }
+.wrapper-2jXpOf .content-1x5b-n { /*Mentions padding*/
+    padding-right: 15px;
+}
+.children-3rEycc .numberBadge-2s8kKX { /*Channel mentions badge*/
+    background-color: transparent!important;
+    border-radius: var(--avatar-radius);
+}
+.children-3rEycc .numberBadge-2s8kKX::before { /*Channel mentions badge background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: var(--avatar-radius);
+    background-color: rgb(var(--main-accent));
+    filter: brightness(0.5);
+    z-index: -1;
+}
 
 /*Pinned messages*/
 
@@ -1983,6 +2005,9 @@
 .header-ykumBX { /*Header modal*/
     background-color: transparent;
     box-shadow: unset;
+}
+.footer-1kmXd4 { /*Footer modal*/
+    background-color: transparent;
 }
 .messageGroupWrapper-o-Zw7G { /*Messages modal*/
     background-color: transparent;
