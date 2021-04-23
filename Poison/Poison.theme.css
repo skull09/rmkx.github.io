@@ -12,7 +12,7 @@
 @import url('https://rmkx.github.io/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position*/
 @import url('https://rmkx.github.io/Poison/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); /*Import fonts*/
-@import url('https://rmkx.github.io/Poison/src/poison.css');
+@import url('https://rmkx.github.io/Poison/src/poison.css'); /*Main theme import*/
 
 :root {
     /*Background settings*/
