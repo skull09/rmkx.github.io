@@ -29,7 +29,7 @@
     --settings-heigth: 85%; /*Width for the settings window | Default 85%*/
     --embed-border: 0px; /*Border for some of the embeds | Default 0px*/
     --embed-bg: rgba(0,0,0,0.75); /*Embeds background | Default rgba(0, 0, 0, 0.75)*/
-    --selection-bg: rgba(36, 36, 36, 0.39); /*Changes the background of the selected text | Default 5px rgba(36, 36, 36, 0.39)*/
+    --selection-bg: rgba(52, 52, 52, 0.6); /*Changes the background of the selected text | Default rgba(52, 52, 52, 0.6)*/
     --selection-color: rgba(var(--main-accent), 1); /*Changes the color of the selected text | Default rgba(var(--main-accent), 1)*/
     --scrollbar-color: rgba(var(--main-accent), 0.4); /*Changes the color of the scrollbar | Default rgba(var(--main-accent), 0.4)*/
 
