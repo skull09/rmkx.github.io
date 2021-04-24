@@ -3504,12 +3504,27 @@
 }
 .withFrame-haYltI::after { /*Wordmark*/
     content: "POISON";
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif!important;
+    font-family: 'Fjalla One', sans-serif!important;
     position: absolute;
     font-size: 1rem;
-    color: rgb(160, 160, 160)!important;
-    left: 0.5%;
+    color: rgba(var(--main-accent), 0.5)!important;
+    left: 0.8%;
     top: 4px;
+}
+.winButton-iRh8-Z { /*Windows minimize/maximize*/
+    color: rgba(var(--main-accent), 0.35);
+    transition: color 0.25s ease;
+}
+.winButton-iRh8-Z:hover { /*Windows minimize/maximize hover*/
+    background-color: transparent;
+    color: rgba(var(--main-accent), 0.85);
+}
+.winButtonClose-1HsbF- { /*Window close button*/
+    color: rgba(255, 0, 0, 0.5);
+    transition: color 0.25s ease;
+}
+.winButtonClose-1HsbF-:hover { /*Windows close button hover*/
+    color: rgba(255, 0, 0, 1);
 }
 
 /*User cards*/
