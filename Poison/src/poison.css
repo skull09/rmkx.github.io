@@ -935,7 +935,10 @@
     border-radius: var(--general-radius);
     background-color: rgba(var(--main-color), 0.35);
 }
-.premiumPromo-fVlLu- {
+.premiumPromo-fVlLu- { /*Emoji nitro panel*/
+    background-color: transparent;
+}
+.popoutContainer-1MXdqN { /*Clicked emoji modal*/
     background-color: transparent;
 }
 
