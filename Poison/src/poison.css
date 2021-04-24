@@ -2029,13 +2029,15 @@
 .avatarSpeaking-2c8-9i { /*Avatar speaking circle*/
     box-shadow: unset;
 }
-.unreadTop-3rAB3r .unread-1xRYoj { /*New undread messages*/
+.unreadTop-3rAB3r .unread-1xRYoj,
+.unreadBottom-1_LF_w .unread-1xRYoj { /*New undread messages*/
     background-color: transparent;
     border: 1px solid rgb(var(--main-accent), 0.55);
     border-radius: var(--general-radius);
     opacity: 1;
 }
-.unreadTop-3rAB3r .unread-1xRYoj::before {
+.unreadTop-3rAB3r .unread-1xRYoj::before ,
+.unreadBottom-1_LF_w .unreadBar-3t3sYc:before { /*New undread messages*/
     content: '';
     position: absolute;
     top: 0;
