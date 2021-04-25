@@ -1,6 +1,6 @@
 :root {
-    --members-hiding: 680%; /*Position of the members panel when it hides | Default 680%*/
-    --members-showing: 598%; /*Position of the members panel when it shows | Default 598%*/
+    --members-hiding: 80%; /*Position of the members panel when it hides | Default 80%*/
+    --members-showing: 0%; /*Position of the members panel when it shows | Default 0%*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
     --transition-speed: 0.35s; /*Changes the transition speed*/
@@ -8,6 +8,10 @@
 
 /*Hides server members list*/
 .membersWrap-2h-GB4 {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    height: 100%;
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);

@@ -15,8 +15,8 @@
     --bg-opacity: 0.4; /*Background opacity | Default 0.4*/
 
     /*Server member panel*/
-    --members-hiding: 680%; /*Position of the members panel when it hides | Default 680%*/
-    --members-showing: 599%; /*Position of the members panel when it shows | Default 598%*/
+    --members-hiding: 80%; /*Position of the members panel when it hides | Default 80%*/
+    --members-showing: 0%; /*Position of the members panel when it shows | Default 0%*/
     --transition-speed: 0.35s; /*Changes the showing speed | Default 0.35s*/
 
     /*General settings*/
