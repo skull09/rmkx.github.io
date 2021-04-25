@@ -2241,7 +2241,7 @@
 }
 .searchResultsWrap-3-pOjs { /*Search results main modal*/
     position: relative;
-    right: 75%;
+    right: -75%;
     border-radius: var(--general-radius);
     background-color: transparent;
     z-index: 1;
