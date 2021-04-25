@@ -823,7 +823,8 @@
 
 /*Emoji related*/
 
-.emojiSection-3Fb9ix { /*Clicked emoji in chat*/
+.emojiSection-3Fb9ix,
+.emojiPicker-3PwZFl { /*Clicked emoji in chat*/
     background-color: transparent;
 }
 .emojiSection-3Fb9ix::before { /*Clicked emoji in chat background*/
@@ -840,7 +841,8 @@
     width: 100%;
     z-index: -1;
 }
-.contentWrapper-SvZHNd { /*Main modal*/
+.contentWrapper-SvZHNd,
+.emojiPicker-3PwZFl { /*Main modal*/
     background-color: transparent;
     border-radius: var(--general-radius);
     box-shadow: unset;
@@ -848,7 +850,8 @@
 .contentWrapper-SvZHNd::before,
 .wrapper-1-Fsb8::before,
 .premiumPromo-fVlLu-::before,
-.diversitySelectorOptions-4YM-vX::before { /*Main modal background*/
+.diversitySelectorOptions-4YM-vX::before,
+.emojiPicker-3PwZFl::before { /*Main modal background*/
     content: '';
     position: absolute;
     top: 0;
