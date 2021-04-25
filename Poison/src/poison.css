@@ -2237,10 +2237,11 @@
     border-color: transparent!important;
 }
 .searchResultsWrap-3-pOjs { /*Search results main modal*/
-    position: absolute;
-    right: 0.5%;
+    position: relative;
+    right: 75%;
     border-radius: var(--general-radius);
     background-color: transparent;
+    z-index: 1;
 }
 .searchResultsWrap-3-pOjs::before { /*Search results main modal background*/
     content: '';
