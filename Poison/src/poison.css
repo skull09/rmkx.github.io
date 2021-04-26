@@ -708,7 +708,8 @@
 .wrapper-2qzCYF { /*In call background*/
     background-color: transparent;
 }
-.card-3RzMcx { /*New channel cards*/
+.card-3RzMcx,
+.card-3RzMcx:hover { /*New channel cards*/
     background-color: transparent;
 }
 
