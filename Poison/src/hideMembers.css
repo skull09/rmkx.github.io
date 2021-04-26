@@ -1,8 +1,6 @@
 :root {
     --members-hiding: 80%; /*Position of the members panel when it hides | Default 80%*/
     --members-showing: 0%; /*Position of the members panel when it shows | Default 0%*/
-    --hidden-background: transparent; /*Background of the elements when hidden*/
-    --showing-background: transparent;/*Background of the elements when showing*/
     --transition-speed: 0.35s; /*Changes the transition speed*/
 }
 
