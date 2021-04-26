@@ -5,7 +5,7 @@
 * @source       https://github.com/rmkx/rmkx.github.io/blob/main/Poison/src/poison.css
 * @author       rmkx
 * @invite       HnGWVQbQBv
-* @version      1.0 
+* @version      1.0.1 
 */
 
 @import url('https://rmkx.github.io/src/avatarStyle.css'); /*Avatar's style mini-theme*/
@@ -17,6 +17,7 @@
 :root {
     /*Background settings*/
     --background-image: url('https://i.imgur.com/B5pCrRt.jpg'); /*Background image*/
+    --menu-bg: url('https://i.imgur.com/pvk9Zir.png'); /*Background image for some panels, like right click*/
     --bg-blur: 0px; /*Background blur | Default 0px*/
     --bg-opacity: 0.4; /*Background opacity | Default 0.4*/
 
