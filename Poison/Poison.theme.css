@@ -12,7 +12,6 @@
 @import url('https://rmkx.github.io/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position*/
 @import url('https://rmkx.github.io/Poison/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); /*Import fonts*/
-@import url('https://rmkx.github.io/Poison/src/poison.css'); /*Main theme import*/
 
 :root {
     /*Background settings*/
@@ -39,6 +38,7 @@
     --selection-bg: rgba(52, 52, 52, 0.6); /*Changes the background of the selected text | Default rgba(52, 52, 52, 0.6)*/
     --selection-color: rgba(var(--main-accent), 1); /*Changes the color of the selected text | Default rgba(var(--main-accent), 1)*/
     --scrollbar-color: rgba(var(--main-accent), 0.4); /*Changes the color of the scrollbar | Default rgba(var(--main-accent), 0.4)*/
+    --icon-padding: 35px; /*Changes the padding between the icon and the text | Default 35px*/
 
 
     /*Font*/
