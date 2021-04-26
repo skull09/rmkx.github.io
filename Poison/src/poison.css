@@ -701,6 +701,10 @@
 .cozy-3raOZG .messageContent-2qWWxC { /*Chat message font-size*/
     font-size: var(--message-size);
 }
+.wrapper-2qzCYF.minimum-28Z35l,
+.wrapper-2qzCYF { /*In call background*/
+    background-color: transparent;
+}
 
 /*Code and text preview modals*/
 
