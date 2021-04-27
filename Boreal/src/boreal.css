@@ -1451,25 +1451,25 @@
 }
 .closeButton-1tv5uR::before { /*Close button left backdrop*/
     content: '';
-    position: absolute;
-    top: var(--settings-height);
-    left: -4405%;
-    width: calc(1010% + calc(100% - var(--settings-width)));
-    height: 5550%;
+    position: fixed;
+    top: calc(0% - calc(100% - var(--settings-heigth)));
+    left: -40%;
+    width: calc(100% - var(--settings-width));
+    height: 2000px;
     cursor: pointer;
     pointer-events: inherit;
-    transition: 250ms ease-in;
+    transition: 0.25s ease-in;
 }
 .closeButton-1tv5uR::after { /*Close button right backdrop*/
     content: '';
-    position: absolute;
-    top: var(--settings-height);
-    left: 540%;
-    width: calc(1010% + calc(100% - var(--settings-width)));
-    height: 5550%;
+    position: fixed;
+    top: calc(0% - calc(100% - var(--settings-heigth)));
+    left: 100%;
+    width: calc(100% - var(--settings-width));
+    height: 2000px;
     cursor: pointer;
     pointer-events: inherit;
-    transition: 250ms ease-in;
+    transition: 0.25s ease-in;
 }
 .closeButton-1tv5uR:active { /*Makes the window dissapear*/
     transform: none;
@@ -2157,6 +2157,28 @@
 }
 .icon-TYbVk4, .icon-TYbVk4.disabled-24YXy-, .icon-TYbVk4.disabled-24YXy-:hover { /*Server boost quantity*/
     color: white;
+}
+.root-3R2ngo .closeButton-1tv5uR::before { /*Close button left backdrop*/
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(80% - var(--settings-width));
+    height: 100%;
+    cursor: pointer;
+    pointer-events: inherit;
+    transition: 0.25s ease-in;
+}
+.root-3R2ngo .closeButton-1tv5uR::after { /*Close button right backdrop*/
+    content: '';
+    position: fixed;
+    top: 0;
+    left: calc(20% + var(--settings-width));
+    width: calc(80% - var(--settings-width));
+    height: 100%;
+    cursor: pointer;
+    pointer-events: inherit;
+    transition: 0.25s ease-in;
 }
 
 /*Notification settings*/
