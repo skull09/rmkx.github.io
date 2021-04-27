@@ -3236,7 +3236,8 @@
 .lookInverted-2D7oAl.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
-.lookGhost-2Fn_0-.colorGrey-2DXtkV  { /*Subscribe/Gift Nitro buttons*/
+.lookGhost-2Fn_0-.colorGrey-2DXtkV,
+.theme-dark .watchButton-2SbJEo  { /*Subscribe/Gift Nitro buttons*/
     color: white;
     background-color: transparent!important;
     border: 1px solid rgba(var(--main-color), .5);
@@ -3250,7 +3251,8 @@
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
-.lookGhost-2Fn_0-.colorGrey-2DXtkV:hover { /*Subscribe/Gift Nitro white buttons hovered*/
+.lookGhost-2Fn_0-.colorGrey-2DXtkV:hover,
+.theme-dark .watchButton-2SbJEo:not([disabled]):hover { /*Subscribe/Gift Nitro white buttons hovered*/
     background-color: transparent!important;
     border-color: rgba(var(--main-accent), 1.5);
     transition: border-color 0.25s ease;
