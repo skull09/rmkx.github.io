@@ -3977,3 +3977,33 @@
 .required-7sPBq3 { /*Required input*/
     color: rgb(var(--main-accent), 1);
 }
+
+/*Plugins compatibility*/
+
+/*DevilBro's Server Folders*/
+.lowerLeftBadge-zr4T_9 .numberBadge-2s8kKX,
+.upperLeftBadge-e35IpL .numberBadge-2s8kKX { /*DevilBro's Server Folders badges*/
+    background-color: transparent!important;
+}
+.lowerLeftBadge-zr4T_9 .numberBadge-2s8kKX::before,
+.upperLeftBadge-e35IpL .numberBadge-2s8kKX::before { /*DevilBro's Server Folders badges background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: var(--avatar-radius);
+    background-color: rgb(var(--main-accent));
+    filter: brightness(0.5);
+    z-index: -1;
+}
+.baseShapeRound-1Mm1YW { /*Badges radius*/
+    border-radius: var(--general-radius);
+}
+
+/*Member Count*/
+#MemberCount { /*Styling*/
+    margin-left: 8px!important;
+    background: transparent!important;
+}
