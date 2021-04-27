@@ -712,6 +712,10 @@
 .card-3RzMcx:hover { /*New channel cards*/
     background-color: transparent;
 }
+.messageAttachment-1aDidq { /*Text attachment*/
+    max-width: 100%;
+    min-width: 0;
+}
 
 /*Code and text preview modals*/
 
