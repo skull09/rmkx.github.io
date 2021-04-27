@@ -3986,6 +3986,11 @@
     color: rgb(var(--main-accent), 1);
 }
 
+/*Minimal Mode*/
+.bd-minimal .base-3dtUhz { /*Main modal*/
+    left: 0;
+}
+
 /*Plugins compatibility*/
 
 /*DevilBro's Server Folders*/
