@@ -40,3 +40,18 @@
 .wrapper-25eVIn { /*Server Icon*/
     transform: rotate(90deg);
 }
+
+/*DevilBro's Server Folder compatibility*/
+.wrapper-3NnKdC.content-Pph8t6 { /*Main folder modal when hidden*/
+    position: absolute;
+    width: 900px;
+    transform: translateX(-50%) translateY(-13px);
+    z-index: 2;
+}
+.content-Pph8t6.closed-j55_T- { /*Folder modal when closed*/
+    visibility: hidden;
+}
+.wrapper-3NnKdC.content-Pph8t6:hover:not(.hidden-3dXt4k) { /*Main folder modal expanded*/
+    position: absolute;
+    transform: translateX(-50%) translateY(-13px);
+}
