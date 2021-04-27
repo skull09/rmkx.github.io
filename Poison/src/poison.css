@@ -3285,6 +3285,14 @@
 .button-1YfofB .buttonColor-7qQbGO:disabled { /*Disabled buttons*/
     background-color: transparent;
 }
+.lookFilled-1Gx00P.colorRed-1TFJan.button-38aScr .contents-18-Yxp { /*Delete button*/
+    color: rgba(240, 71, 71, 0.5)!important;
+    transition: color 0.25s ease;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan.button-38aScr:hover .contents-18-Yxp { /*Delete button hover*/
+    color: rgba(240, 71, 71, 1)!important;
+    transition: color 0.25s ease;
+}
 
 /*Blur Username, E-mail and phone in settings*/
 
