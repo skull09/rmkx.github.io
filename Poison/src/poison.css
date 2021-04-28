@@ -3307,14 +3307,14 @@
 }
 .field-1HUseB+.field-1HUseB .colorHeaderPrimary-26Jzh-.size16-1P40sf:hover { /*Unblurs e-mail and phone number*/
     filter: blur(0px);
-    transition: 0.2s;
+    transition: 0.2s ease;
 }
 .usernameInnerRow-ZlFnET { /*Blurs username*/
     filter: blur(8px);
 }
 .usernameInnerRow-ZlFnET:hover { /*Unblurs username*/
     filter: blur(0px);
-    transition: 0.2s;
+    transition: 0.2s ease;
 }
 
 /*BD settings*/
