@@ -724,6 +724,16 @@
 .invalidPoopHorizontal-3Dfy7T { /*Nitro gift embed 2*/
     background-color: transparent!important;
 }
+.attachment-33OFj0 { /*Attached file*/
+    border-color: transparent;
+    background-color: var(--embed-bg);
+    border-radius: var(--general-radius);
+}
+.wrapperAudio-1jDe0Q { /*Attached audio*/
+    border-color: transparent!important;
+    background-color: var(--embed-bg)!important;
+    border-radius: var(--general-radius)!important;
+}
 
 /*Code and text preview modals*/
 
