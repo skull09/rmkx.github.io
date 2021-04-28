@@ -790,10 +790,19 @@
     filter: brightness(0.15);
     box-shadow: 0px 0px 4px 2px rgb(var(--main-accent), 0.85);
 }
+.menu-3sdvDG .scroller-3BxosC { /*Main container*/
+    padding-left: 0px;
+}
 .separator-2I32lJ { /*Separator in menu*/
     border-color: transparent;
 }
-.scroller-3BxosC .colorDefault-2K3EoJ { /*Category in menu*/
+.scroller-3BxosC .item-1tOPte { /*Main subcontainers*/
+    margin: 0px;
+}
+.scroller-3BxosC .item-1tOPte.labelContainer-1BLJti { /*Main subcontainer text*/
+    padding-bottom: 2px;
+}
+.scroller-3BxosC .scroller-3BxosC .item-1tOPte { /*Category in menu*/
     background-color: transparent!important;
     border-color: transparent;
     padding-left: 10px;
