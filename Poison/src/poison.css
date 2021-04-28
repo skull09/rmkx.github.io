@@ -843,7 +843,8 @@
 /*Emoji related*/
 
 .emojiSection-3Fb9ix,
-.emojiPicker-3PwZFl { /*Clicked emoji in chat*/
+.emojiPicker-3PwZFl,
+.guildSection-1EoFKd { /*Clicked emoji in chat*/
     background-color: transparent;
 }
 .emojiSection-3Fb9ix::before { /*Clicked emoji in chat background*/
