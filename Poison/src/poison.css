@@ -1007,7 +1007,8 @@
 .reactionMe-wv5HKu:hover .reactionCount-2mvXRV { /*Self reacter counter color*/
     color: white;
 }
-.button-F9qN4n { /*Add reaction*/
+.button-F9qN4n,
+.button-F9qN4n:hover { /*Add reaction*/
     background-color: transparent;
 }
 
