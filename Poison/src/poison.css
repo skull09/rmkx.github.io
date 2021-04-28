@@ -1394,6 +1394,12 @@
     border-radius: var(--general-radius);
     background-color: rgba(var(--main-color), 0.5);
 }
+.scroller-9moviB { /*Nitro panel*/
+    background-color: transparent;
+}
+.marketingRefreshSectionTier1-dRwS-6 { /*Dvider*/
+    border-color: transparent;
+}
 
 /*Active now*/
 
