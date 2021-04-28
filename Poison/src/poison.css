@@ -752,9 +752,20 @@
 
 /*Right click and other popups*/
 
+@keyframes menuAnimation1 {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
 .menu-3sdvDG { /*Main modal*/
     background-color: transparent;
     border-radius: var(--general-radius);
+    animation: menuAnimation1 0.2s ease-in;
+    transform-origin: top;
 }
 .menu-3sdvDG::before { /*Main modal background*/
     content: '';
@@ -2240,6 +2251,10 @@
     border: 1px solid rgb(var(--main-accent), 0.25);
     transition: border-color 0.25s ease;
 }
+.searchBar-3dMhjb,
+.focused-31_ccS .searchBar-3dMhjb { /*Searchbar animation*/
+    transition: width 0.25s ease-in;
+}
 .searchBar-3dMhjb:not([aria-expanded="true"]):hover,
 .searchBar-1YE5UV:hover { /*Searchbar hover*/
     border-color: rgb(var(--main-accent), 0.65);
@@ -2251,9 +2266,21 @@
 .elevationBorderHigh-2WYJ09 { /*Box shadow on main modal*/
     box-shadow: unset!important;
 }
+
+@keyframes menuAnimation2 {
+    0% {
+        transform: scaleX(0) scaleY(0);
+    }
+    100% {
+        transform: scaleX(1) scaleY(1);
+    }
+}
+
 .container-3ayLPN { /*Main modal*/
     border-radius: var(--general-radius);
     background-color: transparent!important;
+    animation: menuAnimation2 0.25s ease-in;
+    transform-origin: top right;
 }
 .option-96V44q.selected-rZcOL- { /*Hovered option*/
     border-radius: var(--general-radius);
@@ -3161,6 +3188,8 @@
     background-color: transparent;
     border-color: rgba(var(--main-accent), 1.5);
     border-top-color: transparent!important;
+    animation: menuAnimation1 0.2s ease-in;
+    transform-origin: top;
     transition: border-color 0.25s ease;
 }
 .css-3vaxre-menu::before,
