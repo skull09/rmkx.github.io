@@ -2802,7 +2802,7 @@
     animation-fill-mode: forwards;
 }
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) { /*Hovered selected item*/
-    background-color: transparent;
+    background-color: transparent!important;
 }
 .divider-3573oO { /*Settings divider*/
     border-color: transparent;
