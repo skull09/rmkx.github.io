@@ -851,6 +851,17 @@
     border-left: var(--embed-border) solid;
     margin-left: 0.5%;
 }
+.tileHorizontal-3eee4N { /*Nitro gift embed*/
+    background-color: var(--panel-boxes)!important;
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+    border-left: var(--embed-border) solid;
+    margin-left: 0.5%;
+    box-shadow: unset!important;
+}
+.invalidPoopHorizontal-3Dfy7T { /*Nitro gift embed 2*/
+    background-color: transparent!important;
+}
 .wrapper-35wsBm { /*Discord invite embed*/
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);

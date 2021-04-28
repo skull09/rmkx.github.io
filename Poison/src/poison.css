@@ -716,6 +716,14 @@
     max-width: 100%;
     min-width: 0;
 }
+.tileHorizontal-3eee4N { /*Nitro gift embed*/
+    background-color: var(--embed-bg)!important;
+    box-shadow: unset!important;
+    border-radius: var(--general-radius);
+}
+.invalidPoopHorizontal-3Dfy7T { /*Nitro gift embed 2*/
+    background-color: transparent!important;
+}
 
 /*Code and text preview modals*/
 
