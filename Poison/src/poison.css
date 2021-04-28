@@ -796,15 +796,13 @@
 .separator-2I32lJ { /*Separator in menu*/
     border-color: transparent;
 }
-.scroller-3BxosC .item-1tOPte { /*Main subcontainers*/
-    margin: 0px;
-}
 .scroller-3BxosC .item-1tOPte.labelContainer-1BLJti { /*Main subcontainer text*/
     padding-bottom: 2px;
 }
-.scroller-3BxosC .scroller-3BxosC .item-1tOPte { /*Category in menu*/
+.scroller-3BxosC .item-1tOPte { /*Category in menu*/
     background-color: transparent!important;
     border-color: transparent;
+    margin: 0px;
     padding-left: 10px;
     transition: 0.25s ease-in;
     will-change: padding-left;
