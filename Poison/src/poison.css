@@ -822,12 +822,13 @@
     animation-fill-mode: forwards;
     filter: brightness(0.25);
 }
-.scroller-3BxosC .colorDefault-2K3EoJ.focused-3afm-j { /*Hovered category underline 1*/
+.scroller-3BxosC .colorDefault-2K3EoJ.focused-3afm-j { /*Hovered category*/
+    background-color: transparent;
     padding-left: 18px;
     transition: 0.25s ease-in;
     will-change: padding-left;
 }
-.scroller-3BxosC .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j::after { /*Hovered category underline 2*/
+.scroller-3BxosC .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j::after { /*Hovered category underline*/
     content: '';
     position: absolute;
     left: 0;
@@ -840,6 +841,7 @@
     filter: brightness(0.65);
 }
 .scroller-3BxosC .colorDanger-2qLCe1.focused-3afm-j { /*Leave server button*/
+    background-color: transparent;
     color: rgb(240, 71, 71);
 }
 .scroller-3BxosC .colorDanger-2qLCe1::after { /*Leave server button*/
