@@ -2244,16 +2244,17 @@
     filter: brightness(0.25);
     z-index: -1;
 }
-.searchBar-3dMhjb,
 .searchBar-1YE5UV { /*Searchbar main modal*/
     background-color: transparent;
     border-radius: var(--general-radius);
     border: 1px solid rgb(var(--main-accent), 0.25);
     transition: border-color 0.25s ease;
 }
-.searchBar-3dMhjb,
-.focused-31_ccS .searchBar-3dMhjb { /*Searchbar animation*/
-    transition: width 0.25s ease-in;
+.searchBar-3dMhjb { /*Searchbar animation*/
+    background-color: transparent;
+    border-radius: var(--general-radius);
+    border: 1px solid rgb(var(--main-accent), 0.25);
+    transition: border-color 0.25s ease, width 0.25s ease-in;
 }
 .searchBar-3dMhjb:not([aria-expanded="true"]):hover,
 .searchBar-1YE5UV:hover { /*Searchbar hover*/
@@ -2261,7 +2262,7 @@
 }
 .focused-31_ccS .searchBar-3dMhjb { /*Searchbar focused*/
     border-color: rgb(var(--main-accent), 1);
-    transition: border-color 0.25s ease;
+    transition: border-color 0.25s ease, width 0.25s ease-in;
 }
 .elevationBorderHigh-2WYJ09 { /*Box shadow on main modal*/
     box-shadow: unset!important;
