@@ -156,7 +156,7 @@
     position: relative;
     left: 0;
     width: 24px;
-    height: 21px;
+    height: 24px;
     filter: brightness(0.95);
     transition: 0.25s ease;
     background: currentColor;
