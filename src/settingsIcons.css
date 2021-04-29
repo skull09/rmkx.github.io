@@ -240,3 +240,9 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-edit"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/edit.svg');
 }
+.scroller-3BxosC .colorDefault-2K3EoJ[id*="user-context-spotify-play-"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/playOnSpotify.svg');
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[id*="user-context-spotify-sync-"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/listenAlong.svg');
+}
