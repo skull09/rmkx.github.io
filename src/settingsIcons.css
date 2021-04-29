@@ -216,10 +216,12 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-remove-friend"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/remove.svg'); 
 }
-.scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy-native-link"]::before {    
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy-native-link"]::before,
+.scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-copy-native-link"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copyLink.svg'); 
 }
-.scroller-3BxosC .colorDefault-2K3EoJ[id="message-open-native-link"]::before {    
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-open-native-link"]::before,
+.scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-open-native-link"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/openLink.svg'); 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-add-reaction"]::before {    
@@ -245,4 +247,12 @@
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id*="user-context-spotify-sync-"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/listenAlong.svg');
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy-image"]::before,
+.scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-copy-image"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copyImage.svg');
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-save-image"]::before,
+.scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-save-image"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/saveImage.svg');
 }
