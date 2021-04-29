@@ -110,13 +110,7 @@
 
 /*Server members settings*/
 
-.members-1998pB .content-3YMskv {
-    position: absolute;
-}
-.members-1998pB { /*Main modal*/
-    background: transparent;
-}
-.members-1998pB .content-3YMskv::before { /*Main modal background*/
+.membersWrap-2h-GB4::before { /*Main modal background*/
     content: '';
     position: absolute;
     top: 0;
@@ -125,7 +119,12 @@
     right: 0;
     background-color: rgb(var(--main-color));
     filter: brightness(0.3);
-    width: 100%;
+}
+.members-1998pB { /*Main container*/
+    background: transparent;
+}
+.members-1998pB .content-3YMskv { /*Member container*/
+    position: absolute;
 }
 .membersGroup-v9BXpm:first-of-type { /*First role*/
     margin-top: 2%;
