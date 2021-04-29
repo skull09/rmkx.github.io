@@ -237,3 +237,6 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-delete"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg'); 
 }
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-edit"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/edit.svg');
+}
