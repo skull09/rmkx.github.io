@@ -151,7 +151,7 @@
 .menu-3sdvDG:not(.submenu-2-ysNh) .scroller-3BxosC .item-1tOPte .label-22pbtT { /*Separates text and icon*/
     padding-left: 8px;
 }
-.menu-3sdvDG .scroller-3BxosC .item-1tOPte:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"])::before { /*Category subcontainer pseudo*/
+.menu-3sdvDG .scroller-3BxosC .item-1tOPte:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"])::before { /*Category subcontainer pseudo*/
     content: '';
     position: relative;
     left: 0;
