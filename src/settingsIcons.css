@@ -161,7 +161,9 @@
     transition: 0.25s ease;
     background: currentColor;
 }
-
+.menu-3sdvDG .scroller-3BxosC .colorDefault-2K3EoJ:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"])::before {
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/defaultIcon.svg');
+}
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-user-profile"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg'); 
 }
