@@ -176,44 +176,6 @@
     color: white;
 }
 
-@keyframes memberHoverX {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(12px);
-    }
-}
-@keyframes memberUnhoverX {
-    0% {
-        transform: translateX(12px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
-}
-@keyframes memberHoverGlow {
-    0% {
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-    100% {
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(30%);
-    }
-}
-@keyframes memberUnhoverGlow {
-    0% {
-        background: rgb(var(--main-accent));
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(30%);
-    }
-    100% {
-        background: transparent;
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    } 
-}
 @keyframes memberSelected {
     0% {
         filter: brightness(0.25);
@@ -222,11 +184,10 @@
         filter: brightness(1);
     } 
 }
-
 .membersWrap-2h-GB4 .clickable-1JJAn8.container-2Pjhx- { /*Main member container*/
     background: transparent;
-    animation: memberUnhoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition:  0.25s ease-in;
 }
 .membersWrap-2h-GB4 .clickable-1JJAn8.container-2Pjhx-::after { /*Main member container underline*/
     content: '';
@@ -235,15 +196,16 @@
     bottom: 0;
     height: 1px;
     width: 74%;
-    background: rgb(var(--main-accent));
-    animation: memberUnhoverGlow 0.25s ease;
-    animation-fill-mode: forwards;
+    background: transparent;
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transform: translateX(0%);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .membersWrap-2h-GB4 .clickable-1JJAn8.container-2Pjhx-:hover { /*Main member container hovered*/
     background-color: transparent;
-    animation: memberHoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(12px);
+    transition:  0.25s ease-in;;
 }
 .membersWrap-2h-GB4 .clickable-1JJAn8.container-2Pjhx-:hover::after { /*Main member container hovered underline*/
     content: '';
@@ -253,9 +215,11 @@
     height: 1px;
     width: 74%;
     background: rgb(var(--main-accent));
+    border-color: transparent;
+    transform: translateX(30%);
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
-    animation: memberHoverGlow 0.25s ease;
-    animation-fill-mode: forwards;
 }
 .membersWrap-2h-GB4 .selected-aXhQR6.container-2Pjhx- { /*Selected server member*/
     background-color: transparent;
@@ -1156,44 +1120,7 @@
 .title-30qZAO { /*Friends category title (Online, etc...)*/
     text-align: center;
 }
-@keyframes dmHoveredX {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(8px);
-    }
-}
-@keyframes dmUnhoverX {
-    0% {
-        transform: translateX(8px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
-}
-@keyframes dmHovered {
-    0% {
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-    100% {
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(37%);
-    }
-}
-@keyframes dmUnhover {
-    0% {
-        background: rgb(var(--main-accent));
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(37%);
-    }
-    100% {
-        background: transparent;
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-}
+
 @keyframes dmSelected {
     0% {
         filter: brightness(0.25);
@@ -1204,16 +1131,16 @@
 }
 .channel-2QD9_O.clickable-1JJAn8.container-2Pjhx-,
 .channel-2QD9_O.clickable-1JJAn8.container-2Pjhx- .muted-3mU76i { /*Default DM channel container*/
-    animation: dmUnhoverX 0.25s ease;   
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition:  0.25s ease-in;
 }
 .channel-2QD9_O.clickable-1JJAn8:hover .layout-2DM8Md { /*Hovered DM panel subcontainer*/
     background-color: transparent;
 }
 .channel-2QD9_O.clickable-1JJAn8.container-2Pjhx-:hover,
 .channel-2QD9_O.clickable-1JJAn8.container-2Pjhx-:hover .muted-3mU76i { /*Hovered DM panel container*/
-    animation: dmHoveredX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(8px);
+    transition:  0.25s ease-in;
 }
 .channel-2QD9_O.selected-aXhQR6.container-2Pjhx- { /*Selected DM panel*/
     background-color: transparent;
@@ -1228,9 +1155,10 @@
     bottom: -5%;
     height: 1px;
     width: 63%;
-    background-color: transparent;
-    animation: dmUnhover 0.25s ease;
-    animation-fill-mode: forwards;
+    background: transparent;
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transform: translateX(0%);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .content-3YMskv .channel-2QD9_O:not(.selected-aXhQR6) .layout-2DM8Md:hover::after { /*Hovered DM*/
@@ -1241,11 +1169,14 @@
     height: 1px;
     width: 63%;
     background: rgb(var(--main-accent));
-    animation: dmHovered 0.25s ease;
-    animation-fill-mode: forwards;
+    border-color: transparent;
+    transform: translateX(37%);
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
-.channel-2QD9_O.selected-aXhQR6.container-2Pjhx-::after { /*Selected DM panel*/
+.channel-2QD9_O.selected-aXhQR6.container-2Pjhx-::after,
+.channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md::after { /*Selected DM panel*/
     content: '';
     position: absolute;
     bottom: 0;
@@ -1255,7 +1186,7 @@
     transform: translateX(37%);
     background: rgb(var(--main-accent));
     box-shadow: 0px 0px 3px 1px rgb(var(--main-accent)); 
-    animation: channelSelected 0.25s ease;
+    animation: dmSelected 0.25s ease;
     animation-fill-mode: forwards;
 }
 .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md { /*Selected DM background*/
@@ -1300,7 +1231,7 @@
     border-top: unset;
 }
 
-@keyframes friendSelected { /*Hovered server animation*/
+@keyframes friendSelected { /*Selected friend animation*/
     0% {
         filter: brightness(0.55);
     }
@@ -1308,17 +1239,6 @@
         filter: brightness(1);
     }
 }
-@keyframes friendUnhovered {
-    0% {
-        transform: scaleX(1);
-        box-shadow: 0px 0px 3px 2px rgb(var(--main-accent));
-    }
-    100% {
-        transform: scaleX(0);
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-    }
-}
-
 .peopleListItem-2nzedh::after { /*Online friends list*/
     content: '';
     position: absolute;
@@ -1328,7 +1248,9 @@
     height: 2px;
     width: 100%;
     background: transparent;
-    animation: friendUnhovered 0.25s ease;
+    transform: scaleX(0);
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.55);
 }
 .peopleListItem-2nzedh:hover { /*Hovered friend*/
@@ -1342,11 +1264,10 @@
     color: white;
     height: 2px;
     width: 100%;
+    transform: scaleX(1);
     background: rgb(var(--main-accent));
     box-shadow: 0px 0px 3px 2px rgb(var(--main-accent));
     filter: brightness(0.55);
-    animation: channelGlowX 0.25s ease;
-    animation-fill-mode: forwards;
 }
 .peopleListItem-2nzedh.active-rhSpJJ { /*Selected friend*/
     background-color: transparent;
@@ -1515,10 +1436,11 @@
     color: white;
     height: 1px;
     width: 100%;
-    background: rgb(var(--main-accent));
-    animation: friendUnhovered 0.25s ease;
-    animation-fill-mode: forwards;
-    filter: brightness(0.55)
+    background: transparent;
+    transform: scaleX(0);
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
+    filter: brightness(0.55);
 }
 .nowPlayingColumn-2sl4cE .wrapper-3D2qGf { /*Active now card*/
     background-color: transparent;
@@ -1535,11 +1457,11 @@
     color: white;
     height: 1px;
     width: 100%;
+    transform: scaleX(1);
     background: rgb(var(--main-accent));
     box-shadow: 0px 0px 4px 1px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.55);
-    animation: channelGlowX 0.25s ease;
-    animation-fill-mode: forwards;
 }
 .outer-1AjyKL.active-1xchHY { /*Selected active now card*/
     background-color: transparent!important;
@@ -1699,8 +1621,8 @@
     background-color: transparent!important;
 }
 .categoryItem-1QIroW:not(.selected-aXhQR6) { /*Category main container*/
-    animation: memberUnhoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition:  0.25s ease-in;
 }
 .categoryItem-1QIroW:not(.selected-aXhQR6)::after { /*Category main container underline*/
     content: '';
@@ -1709,14 +1631,15 @@
     bottom: 0;
     height: 1px;
     width: 74%;
-    background: rgb(var(--main-accent));
-    animation: memberUnhoverGlow 0.25s ease;
-    animation-fill-mode: forwards;
+    background: transparent;
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transform: translateX(0%);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .categoryItem-1QIroW:not(.selectedCategoryItem-FHKU_o):hover { /*Category main container hovered*/
-    animation: memberHoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(12px);
+    transition:  0.25s ease-in;
 }
 .categoryItem-1QIroW:not(.selectedCategoryItem-FHKU_o):hover::after { /*Category main container hovered underline*/
     content: '';
@@ -1726,8 +1649,10 @@
     height: 1px;
     width: 74%;
     background: rgb(var(--main-accent));
-    animation: memberHoverGlow 0.25s ease;
-    animation-fill-mode: forwards;
+    border-color: transparent;
+    transform: translateX(30%);
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .categoryItem-1QIroW.selectedCategoryItem-FHKU_o { /*Category main container selected*/
