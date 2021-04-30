@@ -816,8 +816,8 @@
     background-color: transparent!important;
     border-color: transparent;
     margin: 0px;
-    transform: translateX(0%);
-    transition: 0.25s ease-in;
+    padding-left: 5px;
+    transition: padding-left 0.25s ease-in;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1)::after { /*Category in menu underline*/
     content: '';
@@ -828,14 +828,14 @@
     width: 100%;
     background: transparent;
     border-color: transparent;
-    transform: translateX(0%);
+    padding-left: 5px;
     box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-    transition: all 0.25s ease-in;
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .scroller-3BxosC .colorDefault-2K3EoJ.focused-3afm-j { /*Hovered category*/
     background-color: transparent;
-    transform: translateX(8%);
+    padding-left: 15px;
     transition: 0.25s ease-in;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j::after { /*Hovered category underline*/
@@ -847,9 +847,9 @@
     width: 100%;
     background: rgb(var(--main-accent));
     border-color: transparent;
-    transform: translateX(-3%);
+    transform: translateX(7%);
     box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-    transition: all 0.25s ease-in;
+    transition: 0.25s ease-in;
     filter: brightness(0.65);
 }
 .scroller-3BxosC .colorDanger-2qLCe1.focused-3afm-j { /*Leave server button*/
@@ -865,9 +865,9 @@
     width: 100%;
     background: transparent;
     border-color: transparent;
-    transform: translateX(0%);
+    padding-left: 5px;
     box-shadow: 0px 0px 0px 0px rgb(240, 71, 71);
-    transition: all 0.25s ease-in;
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .scroller-3BxosC .colorDanger-2qLCe1.focused-3afm-j::after { /*Leave server button hovered*/
@@ -879,9 +879,9 @@
     width: 100%;
     background: rgb(240, 71, 71);
     border-color: transparent;
-    transform: translateX(-3%);
+    transform: translateX(7%);
     box-shadow: 0px 0px 3px 1px rgb(240, 71, 71);
-    transition: all 0.25s ease-in;
+    transition: 0.25s ease-in;
     filter: brightness(0.65);
 }
 
