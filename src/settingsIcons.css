@@ -165,96 +165,96 @@
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/defaultIcon.svg');
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-user-profile"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-mention"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/mention.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/mention.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-message-user"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/message.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/message.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-call"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/call.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/call.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-note"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/note.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/note.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-invite-to-listen"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/listenAlong.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/listenAlong.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-invite-to-server"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/invites.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/invites.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-add-friend"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/addFriend.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/addFriend.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-block"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/block.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/block.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-roles"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/roles.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/roles.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-change-nickname"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/editNickname.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/editNickname.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-kick"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/remove.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/remove.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-ban"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/bans.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/bans.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-reply"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/reply.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/reply.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-mark-unread"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/markUnread.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/markUnread.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy-link"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/discordMessageLink.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/discordMessageLink.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-tts"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/tts.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/tts.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-remove-friend"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/remove.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/remove.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy-native-link"]::before,
 .scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-copy-native-link"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copyLink.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copyLink.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-open-native-link"]::before,
 .scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-open-native-link"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/openLink.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/openLink.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-add-reaction"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/emojis.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/emojis.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copy.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copy.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-search-google"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/googleSearch.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/googleSearch.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-pin"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/pin.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/pin.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-delete"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg')!important; 
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-edit"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/edit.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/edit.svg')!important;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id*="user-context-spotify-play-"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/playOnSpotify.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/playOnSpotify.svg')!important;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id*="user-context-spotify-sync-"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/listenAlong.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/listenAlong.svg')!important;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-copy-image"]::before,
 .scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-copy-image"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copyImage.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/copyImage.svg')!important;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-save-image"]::before,
 .scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-save-image"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/saveImage.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/saveImage.svg')!important;
 }
