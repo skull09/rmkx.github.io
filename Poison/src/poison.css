@@ -734,6 +734,9 @@
     background-color: var(--embed-bg)!important;
     border-radius: var(--general-radius)!important;
 }
+.message-2qRu38 { /*Deleting file*/
+    background-color: transparent!important;
+}
 
 /*Code and text preview modals*/
 
@@ -813,9 +816,8 @@
     background-color: transparent!important;
     border-color: transparent;
     margin: 0px;
-    padding-left: 10px;
+    transform: translateX(0%);
     transition: 0.25s ease-in;
-    will-change: padding-left;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1)::after { /*Category in menu underline*/
     content: '';
@@ -824,17 +826,17 @@
     bottom: 0;
     height: 1px;
     width: 100%;
-    background: rgb(var(--main-accent));
+    background: transparent;
     border-color: transparent;
-    animation: sectionUnhover 0.25s ease-in;
-    animation-fill-mode: forwards;
+    transform: translateX(0%);
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transition: all 0.25s ease-in;
     filter: brightness(0.25);
 }
 .scroller-3BxosC .colorDefault-2K3EoJ.focused-3afm-j { /*Hovered category*/
     background-color: transparent;
-    padding-left: 18px;
+    transform: translateX(8%);
     transition: 0.25s ease-in;
-    will-change: padding-left;
 }
 .scroller-3BxosC .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j::after { /*Hovered category underline*/
     content: '';
@@ -844,8 +846,10 @@
     height: 1px;
     width: 100%;
     background: rgb(var(--main-accent));
-    animation: sectionHovered 0.25s ease;
-    animation-fill-mode: forwards;
+    border-color: transparent;
+    transform: translateX(-3%);
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transition: all 0.25s ease-in;
     filter: brightness(0.65);
 }
 .scroller-3BxosC .colorDanger-2qLCe1.focused-3afm-j { /*Leave server button*/
@@ -859,10 +863,11 @@
     bottom: 0;
     height: 1px;
     width: 100%;
-    background: rgb(var(--main-accent));
+    background: transparent;
     border-color: transparent;
-    animation: logoutUnhover 0.25s ease-in;
-    animation-fill-mode: forwards;
+    transform: translateX(0%);
+    box-shadow: 0px 0px 0px 0px rgb(240, 71, 71);
+    transition: all 0.25s ease-in;
     filter: brightness(0.25);
 }
 .scroller-3BxosC .colorDanger-2qLCe1.focused-3afm-j::after { /*Leave server button hovered*/
@@ -873,8 +878,10 @@
     height: 1px;
     width: 100%;
     background: rgb(240, 71, 71);
-    animation: logoutHovered 0.25s ease;
-    animation-fill-mode: forwards;
+    border-color: transparent;
+    transform: translateX(-3%);
+    box-shadow: 0px 0px 3px 1px rgb(240, 71, 71);
+    transition: all 0.25s ease-in;
     filter: brightness(0.65);
 }
 
