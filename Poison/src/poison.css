@@ -1919,44 +1919,6 @@
     padding-bottom: 10px;
 }
 
-@keyframes channelHoveredX {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(14px);
-    }
-}
-@keyframes channelUnhoverX {
-    0% {
-        transform: translateX(14px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
-}
-@keyframes channelHovered {
-    0% {
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-    100% {
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(11%);
-    }
-}
-@keyframes channelUnhover {
-    0% {
-        background: rgb(var(--main-accent));
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(11%);
-    }
-    100% {
-        background: transparent;
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-}
 @keyframes channelSelected {
     0% {
         filter: brightness(0.5);
@@ -1967,8 +1929,8 @@
 }
 .wrapper-2jXpOf:not(.modeSelected-346R90) { /*Channel names*/
     background-color: transparent;
-    animation: channelUnhoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition: 0.25s ease-in;
 }
 .wrapper-2jXpOf:not(.modeSelected-346R90)::after { /*Channel names underline*/
     content: '';
@@ -1977,15 +1939,16 @@
     bottom: 0;
     height: 1px;
     width: 83%;
-    background: rgb(var(--main-accent));
-    animation: channelUnhover 0.25s ease;
-    animation-fill-mode: forwards;
+    background: transparent;
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transform: translateX(0px);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .wrapper-2jXpOf:hover:not(.modeSelected-346R90) { /*Channel names hovered*/
     background-color: transparent;
-    animation: channelHoveredX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(14px);
+    transition: 0.25s ease-in;
 }
 .wrapper-2jXpOf:hover:not(.modeSelected-346R90)::after { /*Channel names hovered underline*/
     content: '';
@@ -1995,8 +1958,9 @@
     height: 1px;
     width: 83%;
     background: rgb(var(--main-accent));
-    animation: channelHovered 0.25s ease;
-    animation-fill-mode: forwards;
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transform: translateX(14px);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .wrapper-2jXpOf.modeSelected-346R90 { /*Selected channel*/
