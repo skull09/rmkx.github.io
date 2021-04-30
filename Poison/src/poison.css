@@ -706,6 +706,10 @@
 .message-2qRu38 { /*Deleting file*/
     background-color: transparent!important;
 }
+.role-1P70N6,
+.role-1P70N6:hover { /*Allowed roles in channel*/
+    background-color: transparent;
+}
 
 /*Code and text preview modals*/
 
