@@ -1511,6 +1511,7 @@
 
 .pageWrapper-1PgVDX { /*Main modal*/
     background-color: transparent!important;
+    height: 98%;
 }
 .pageWrapper-1PgVDX::before { /*Main modal background*/
     content: '';
