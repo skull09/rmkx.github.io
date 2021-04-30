@@ -3234,20 +3234,33 @@
 
 /*BD settings*/
 
-.bd-switch { /*BD checkbox default/unchecked*/
+.bd-switch-body { /*BD checkbox default/unchecked*/
     border-radius: var(--general-radius);
-    background-color: transparent;
+    --switch-color: rgb(var(--main-color));
 }
-.bd-switch::before { /*BD checkbox default/unchecked background*/
-    opacity: 1;
+.bd-switch-body::before { /*BD checkbox default/unchecked background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--general-radius);
     background-color: rgb(var(--main-color));
     filter: brightness(0.85);
 }
-.bd-switch-checked { /*BD checked checkbox*/
-    background-color: transparent;
+.bd-switch input:checked+.bd-switch-body { /*BD checked checkbox*/
+    border-radius: var(--general-radius);
+    --switch-color: rgb(var(--main-color));
 }
-.bd-switch-checked::before { /*BD checked checkbox background*/
-    opacity: 1;
+.bd-switch input:checked+.bd-switch-body::before { /*BD checked checkbox background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--general-radius);
     background-color: rgb(var(--main-accent));
     filter: brightness(0.4);
 }
