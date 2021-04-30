@@ -17,5 +17,5 @@
 <p align="center">
   <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/s5Q4WDu.png"></p>
   <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/HmOuIP8.png"></p>
-  <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/0HpQh5a.gif"></p>
+  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/0HpQh5a.gif"></p>
 <p align="center">
