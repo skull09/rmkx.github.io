@@ -1882,11 +1882,12 @@
 
 /*Better Discord settings*/
 
-.bd-switch-checked { /*Checkbox checked*/
-    background-color: var(--main-accent)!important;
+.bd-switch input:checked+.bd-switch-body { /*Checkbox checked*/
+    border-radius: var(--buttons-radius);
+    --switch-color: var(--main-accent)!important;
 }
-.bd-switch { /*Checkbox unchecked*/
-    background-color: var(--buttons-background);
+.bd-switch-body { /*Checkbox unchecked*/
+    --switch-color: var(--buttons-background);
     border-radius: var(--buttons-radius);
 }
 .bd-setting-divider { /*Settings divider*/

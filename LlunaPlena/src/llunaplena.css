@@ -1176,8 +1176,8 @@ div.sidebarRegion-VFTUkN{
 .bd-addon-list .bd-addon-header {
     background-color: transparent;
 }
-.bd-switch-checked{
-    background-color: var(--channel-color)!important;
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--channel-color)!important;
 }
 .bd-pfbtn{
     background-color: var(--channel-color);
