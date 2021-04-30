@@ -1974,7 +1974,7 @@
     bottom: 0;
     height: 1px;
     width: 83%;
-    transform: translateX(11%);
+    transform: translateX(8%);
     background: rgb(var(--main-accent));
     box-shadow: 0px 0px 3px 1px rgb(var(--main-accent)); 
     animation: channelSelected 0.25s ease;
