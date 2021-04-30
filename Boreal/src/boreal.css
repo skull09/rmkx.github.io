@@ -916,6 +916,9 @@
     border-radius: var(--panel-border-radius);
     background-color: var(--panel-boxes);
 }
+.operations-36ENbA>a { /*Cancel/save buttons when editing*/
+    color: var(--main-accent);
+}
 
 /*Right click pannel settings*/
 
@@ -1961,20 +1964,6 @@
 .bd-modal-wrapper .error { /*Error divider*/
     border-bottom: unset;
 }
-
-/*User avatar settings*/
-
-/* .wrapper-3t9DeA > svg > foreignObject { /*Avatar settings
-    mask: unset!important;
-    border-radius: var(--panel-border-radius)!important;
-}
-.avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar
-    border-radius: var(--panel-border-radius);
-}
-.wrapper-25eVIn > svg > foreignObject { /*Server list avatars
-    mask: unset!important;
-    border-radius: var(--panel-border-radius)!important;
-} */
 
 /*Search results*/
 
