@@ -2573,66 +2573,6 @@
     background-color: transparent;
 }
 
-@keyframes sectionHoveredX {
-    0% {
-        transform: translateX(0px);
-    }
-    100% {
-        transform: translateX(18px);
-    }
-}
-@keyframes sectionUnhoverX {
-    0% {
-        transform: translateX(18px);
-    }
-    100% {
-        transform: translateX(0px);
-    }
-}
-@keyframes sectionHovered {
-    0% {
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-    100% {
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(3%);
-    }
-}
-@keyframes logoutHovered {
-    0% {
-        box-shadow: 0px 0px 0px 0px rgb(240, 71, 71);
-        transform: translateX(0%);
-    }
-    100% {
-        box-shadow: 0px 0px 3px 1px rgb(240, 71, 71);
-        transform: translateX(3%);
-    }
-}
-@keyframes sectionUnhover {
-    0% {
-        background: rgb(var(--main-accent));
-        box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
-        transform: translateX(3%);
-    }
-    100% {
-        background: transparent;
-        box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
-        transform: translateX(0%);
-    }
-}
-@keyframes logoutUnhover {
-    0% {
-        background: rgb(240, 71, 71);
-        box-shadow: 0px 0px 3px 1px rgb(240, 71, 71);
-        transform: translateX(3%);
-    }
-    100% {
-        background: transparent;
-        box-shadow: 0px 0px 0px 0px rgb(240, 71, 71);
-        transform: translateX(0%);
-    }
-}
 @keyframes sectionSelected {
     0% {
         filter: brightness(0.5);
@@ -2642,8 +2582,8 @@
     }
 }
 .side-8zPYf6 .item-PXvHYJ:not(.selected-3s45Ha):not([aria-controls="Discord Nitro-tab"]):not([aria-controls="GUILD_PREMIUM-tab"]) { /*Settings category main container*/
-    animation: sectionUnhoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition:  0.25s ease-in;
 }
 .side-8zPYf6 .item-PXvHYJ:not(.selected-3s45Ha):not([aria-controls="Discord Nitro-tab"]):not([aria-controls="GUILD_PREMIUM-tab"]):not([aria-controls='logout-tab']):after { /*Settings category main container underline*/
     content: '';
@@ -2652,9 +2592,10 @@
     bottom: 0;
     height: 1px;
     width: 100%;
-    background: rgb(var(--main-accent));
-    animation: sectionUnhover 0.25s ease-in;
-    animation-fill-mode: forwards;
+    background: transparent;
+    box-shadow: 0px 0px 0px 0px rgb(var(--main-accent));
+    transform: translateX(0%);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls='logout-tab']::after { /*Logout container*/
@@ -2665,14 +2606,15 @@
     height: 1px;
     width: 100%;
     background: transparent;
-    animation: logoutUnhover 0.25s ease-in;
-    animation-fill-mode: forwards;
+    box-shadow: 0px 0px 0px 0px rgb(240, 71, 71);
+    transform: translateX(0%);
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .side-8zPYf6 .item-PXvHYJ:not(.selected-3s45Ha):not([aria-controls="Discord Nitro-tab"]):not([aria-controls="GUILD_PREMIUM-tab"]):hover { /*Settings category main container hovered*/
     background-color: transparent;
-    animation: sectionHoveredX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(18px);
+    transition:  0.25s ease-in;;
 }
 .side-8zPYf6 .item-PXvHYJ:not(.selected-3s45Ha):not([aria-controls="Discord Nitro-tab"]):not([aria-controls='logout-tab']):not([aria-controls="GUILD_PREMIUM-tab"]):hover::after { /*Settings category main container hovered underline*/
     content: '';
@@ -2682,8 +2624,10 @@
     height: 1px;
     width: 100%;
     background: rgb(var(--main-accent));
-    animation: sectionHovered 0.25s ease;
-    animation-fill-mode: forwards;
+    border-color: transparent;
+    transform: translateX(3%);
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls='logout-tab']:hover {
@@ -2697,9 +2641,11 @@
     height: 1px;
     width: 100%;
     background: rgb(240, 71, 71);
-    animation: logoutHovered 0.25s ease;
-    animation-fill-mode: forwards;
-    filter: brightness(0.25);
+    border-color: transparent;
+    transform: translateX(3%);
+    box-shadow: 0px 0px 3px 1px rgb(240, 71, 71);
+    transition: 0.25s ease-in;
+    filter: brightness(1);
 }
 .side-8zPYf6 .selected-3s45Ha.item-PXvHYJ:not([aria-controls="Discord Nitro-tab"]):not([aria-controls="GUILD_PREMIUM-tab"]) { /*Settings category selected*/
     transform: translateX(18px);
@@ -2718,36 +2664,23 @@
     animation: sectionSelected 0.25s ease;
     animation-fill-mode: forwards;
 }
-.side-8zPYf6 .selected-3s45Ha.item-PXvHYJ[aria-controls='logout-tab']::after { /*Settings LogOut container selected underline*/
-    content: '';
-    position: absolute;
-    left: 0%;
-    bottom: 0;
-    height: 1px;
-    width: 100%;
-    transform: translateX(10%);
-    background: rgb(var(--main-accent));
-    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent)); 
-    animation: logoutSelected 0.25s ease;
-    animation-fill-mode: forwards;
-}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]:not([aria-selected="true"]),
 .side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"]:not([aria-selected="true"]) { /*Discord category main container*/
     color: var(--interactive-normal)!important;
-    animation: sectionUnhoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition:  0.25s ease-in;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]:not([aria-selected="true"])::after,
 .side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"]:not([aria-selected="true"])::after { /*Discord category main container underline*/
-    animation: sectionUnhoverX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(0px);
+    transition:  0.25s ease-in;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]:not([aria-selected="true"]):hover,
 .side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"]:not([aria-selected="true"]):hover { /*Discord category main container hovered*/
     color: var(--interactive-hover)!important;
     background-color: transparent!important;
-    animation: sectionHoveredX 0.25s ease;
-    animation-fill-mode: forwards;
+    transform: translateX(18px);
+    transition:  0.25s ease-in;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]:not([aria-selected="true"]):hover::after,
 .side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"]:not([aria-selected="true"]):hover::after { /*Discord category main container hovered underline*/
@@ -2758,8 +2691,10 @@
     height: 1px;
     width: 100%;
     background: rgb(var(--main-accent));
-    animation: sectionHovered 0.25s ease;
-    animation-fill-mode: forwards;
+    border-color: transparent;
+    transform: translateX(3%);
+    box-shadow: 0px 0px 3px 1px rgb(var(--main-accent));
+    transition: 0.25s ease-in;
     filter: brightness(0.25);
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"][aria-selected="true"],
