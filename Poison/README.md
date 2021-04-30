@@ -1,6 +1,6 @@
 <h1 align="center">Poison</h1>
 <p align="center">
-  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/uOzLiQu.png">
+  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/0xtQq87.png">
 <p align="center">
 <p>Enjoy Discord with a stylish dark theme with vibrant green elements.</p>
 <p align="center">
@@ -8,7 +8,14 @@
   <a href=""> <img alt="Download" src="https://img.shields.io/badge/Download-yellowgreen?style=plastic&logo=github"></a></p>
 
 <h2 align="center">Installation</h2>
-<p>1. Click this <a href="">link</a>.</p>
+<p>1. Click this <a href="https://betterdiscord.app/Download?id=163">link</a>.</p>
 <p>2. Save the file in your BetterDiscord themes folder. Don't forget to select "All types" under the file name when saving.</p>
 <p>3. Select the theme in the Theme section of the Settings window.</p>
 <p>Any problems/bugs/fixes/suggestions join the support server <a href="https://discord.com/HnGWVQbQBv">here</a>.</p>
+
+<h2 align="center">More screenshots</h2>
+<p align="center">
+  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/s5Q4WDu.png"></p>
+  <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/HmOuIP8.png"></p>
+  <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/0HpQh5a.gif"></p>
+<p align="center">
