@@ -161,7 +161,7 @@
     transition: 0.25s ease;
     background: currentColor;
 }
-.scroller-3BxosC .colorDefault-2K3EoJ:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"]):not([id*="guild-context-"])::before {
+.scroller-3BxosC .colorDefault-2K3EoJ:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"]):not([id*="guild-context-"]):not([id*="channel-context-"])::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/defaultIcon.svg');
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-user-profile"]::before {    
