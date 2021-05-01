@@ -245,12 +245,6 @@
 
 /*Chat settings*/
 
-.chatContent-a9vAAp { /*Chat pannel and message box*/
-    position: absolute;
-    width: 97%!important;
-    height: 100%;
-}
-
 @keyframes glowArea { 
     0% {
         box-shadow: 0px 0px 0px 0px inset transparent;
