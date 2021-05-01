@@ -469,11 +469,11 @@
 .mentioned-xhSam7::after { /*Replying to message background*/
     content: '';
     position: absolute;
-    top: 5%;
-    left: 72.5%;
-    transform: translateX(-72.5%) translateY(-5%);
+    top: 5.5%;
+    left: 70.2%;
+    transform: translateX(-71%) translateY(-5.5%);
     height: 100%;
-    width: 95.2%;
+    width: 97.5%;
     border-radius: var(--general-radius);
     background: rgba(var(--main-accent), 0.05);
     filter: brightness(1);
