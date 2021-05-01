@@ -1393,7 +1393,7 @@
 .premiumContainer-2Iux5m { /*Nitro window*/
     padding-top: 0px;
 }
-.scroller-9moviB .hero-EvfTTA { /*Nitro window header*/
+.hero-EvfTTA { /*Nitro window header*/
     height: 300px;
 }
 
@@ -3217,11 +3217,13 @@
 .button-1YfofB .buttonColor-7qQbGO:disabled { /*Disabled buttons*/
     background-color: transparent;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan.button-38aScr .contents-18-Yxp { /*Delete button*/
+.lookFilled-1Gx00P.colorRed-1TFJan.button-38aScr .contents-18-Yxp,
+.lookOutlined-3sRXeN.colorRed-1TFJan.button-38aScr .contents-18-Yxp { /*Delete button*/
     color: rgba(240, 71, 71, 0.5)!important;
     transition: color 0.25s ease;
 }
-.lookFilled-1Gx00P.colorRed-1TFJan.button-38aScr:hover .contents-18-Yxp { /*Delete button hover*/
+.lookFilled-1Gx00P.colorRed-1TFJan.button-38aScr:hover .contents-18-Yxp,
+.lookOutlined-3sRXeN.colorRed-1TFJan.button-38aScr:hover .contents-18-Yxp { /*Delete button hover*/
     color: rgba(240, 71, 71, 1)!important;
     transition: color 0.25s ease;
 }
