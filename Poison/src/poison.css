@@ -140,7 +140,8 @@
 .membersWrap-2h-GB4 { /*Server member panel*/
     z-index: 2;
 }
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm { /*Member role when hovering panel*/
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm,
+.membersGroup-v9BXpm { /*Member role when hovering panel*/
     color: rgb(var(--main-accent));
     filter: brightness(0.85)
 }
