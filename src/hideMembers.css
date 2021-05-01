@@ -15,11 +15,6 @@
     --transition-speed: 0.35s; /*Changes the transition speed*/
 }
 
-.chatContent-a9vAAp { /*Chat pannel and message box*/
-    position: absolute;
-    width: 97%!important;
-    height: 100%;
-}
 /*Hides server members list*/
 .membersWrap-2h-GB4 {
     -webkit-backface-visibility: hidden;
