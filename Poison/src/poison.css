@@ -721,6 +721,9 @@
     border-color: transparent!important;
     background-color: transparent!important;
 }
+.container-1ov-mD > iframe[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
+    border-radius: 8px!important;
+}
 
 /*Code and text preview modals*/
 
