@@ -258,3 +258,9 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="image-context-save-image"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/saveImage.svg')!important;
 }
+.scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-mark-channel-read"]::before {
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/markAsRead.svg')!important;
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-close-dm"]::before {
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/closeDM.svg')!important;
+}
