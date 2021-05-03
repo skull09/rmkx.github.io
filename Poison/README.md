@@ -13,7 +13,7 @@
 <p>3. Select the theme in the Theme section of the Settings window.</p>
 <p>Any problems/bugs/fixes/suggestions join the support server <a href="https://discord.com/HnGWVQbQBv">here</a>.</p>
 
-<h2 align="center">More screenshots</h2>
+<h2 align="center">More screenshots:</h2>
 <p align="center">
   <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/s5Q4WDu.png"></p>
   <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/HmOuIP8.png"></p>
