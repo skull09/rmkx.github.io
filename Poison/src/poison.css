@@ -1134,6 +1134,9 @@
     filter: brightness(0.5);
     z-index: -1;
 }
+.tree-2wKJdG:focus { /*Removes outline when double clicking guild bar*/
+    outline: none;
+}
 
 /*Friends window*/
 

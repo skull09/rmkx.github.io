@@ -1509,6 +1509,9 @@ div.sidebarRegion-VFTUkN{
 .iconBadge-2NuvG9 {
     background-color: var(--blue-hue-elements)!important;
 }
+.tree-2wKJdG:focus { /*Removes outline when double clicking guild bar*/
+    outline: none;
+}
 
 /*Folders*/
 .folderIconWrapper-1_bOZe {
