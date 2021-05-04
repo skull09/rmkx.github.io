@@ -8,7 +8,7 @@
   <a href="https://github.com/rmkx/rmkx.github.io/releases/download/bor-v1.0/Boreal.theme.css"> <img alt="Download" src="https://img.shields.io/badge/Download-yellowgreen?style=plastic&logo=github"></a></p>
 
 <h2 align="center">Installation</h2>
-<p>1. Click this <a href="https://github.com/rmkx/rmkx.github.io/releases/download/bor-v1.0/Boreal.theme.css">link</a>.</p>
+<p>1. Click this <a href="https://github.com/rmkx/rmkx.github.io/releases/download/bor-v1.0.1/Boreal.theme.css">link</a>.</p>
 <p>2. Save the file in your BetterDiscord themes folder. Don't forget to select "All types" under the file name when saving.</p>
 <p>3. Select the theme in the Theme section of the Settings window.</p>
 <p>Any problems/bugs/fixes/suggestions join the support server <a href="https://discord.com/HnGWVQbQBv">here</a>.</p>
