@@ -13,139 +13,155 @@
     left: 3px;
     width: 24px;
     height: 24px;
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/defaultIcon.svg');
     background: currentColor;
     transition: 0.25s ease;
 }
-
 .side-8zPYf6 .item-PXvHYJ[aria-controls="My Account-tab"]::before { 
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before { 
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/privacy.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/privacy.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Authorized Apps-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/authorizedApps.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/authorizedApps.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Connections-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/connections.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/connections.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/nitro.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/nitro.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Nitro Server Boost-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverBoost.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverBoost.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Library Inventory-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/gift.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/gift.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Billing-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/billing.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/billing.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Appearance-tab"]::before { 
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/appearance.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/appearance.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Accessibility-tab"]::before { 
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/accessibility.svg');
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/accessibility.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Voice & Video-tab"]::before { 
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/voiceVideo.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/voiceVideo.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Text & Images-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/textImages.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/textImages.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Notifications-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/notifications.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/notifications.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Keybinds-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/keybinds.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/keybinds.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Language-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/languages.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/languages.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Windows-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/windows.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/windows.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Streamer Mode-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/streaming.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/streaming.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Advanced-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/advanced.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/advanced.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Game Activity-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/gameActivity.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/gameActivity.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Overlay-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/overlay.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/overlay.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Settings-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/settings.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/settings.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Emotes-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/emojis.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/emojis.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="customcss-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/customCSS.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/customCSS.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="plugins-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/plugins.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/plugins.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="themes-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/themes.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/themes.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="changelog-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/changelog.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/changelog.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Hypesquad Online-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/hypesquad.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/hypesquad.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/logout.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/logout.svg')!important; 
 }
 
 /*Server settings*/
 
 .side-8zPYf6 .item-PXvHYJ[aria-controls="OVERVIEW-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/appearance.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/appearance.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="ROLES-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/roles.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/roles.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="EMOJI-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/emojis.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/emojis.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="MODERATION-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/moderation.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/moderation.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="AUDIT_LOG-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/auditlog.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/auditlog.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="INTEGRATIONS-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/integrations.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/integrations.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="WIDGET-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/widgets.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/widgets.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_TEMPLATES-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverTemplate.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverTemplate.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="COMMUNITY-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/community.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/community.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverBoost.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverBoost.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="MEMBERS-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/members.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/members.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="INSTANT_INVITES-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/invites.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/invites.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="BANS-tab"]::before {
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/bans.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/bans.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="DELETE-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg'); 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg')!important; 
 }
+.side-8zPYf6 .item-PXvHYJ[aria-controls="ANALYTICS-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverInsight.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="PARTNER-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/partnerProgram.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="DISCOVERY-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/discovery.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="MEMBER_VERIFICATION-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/membership.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="COMMUNITY_WELCOME-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/welcomeScreen.svg')!important; 
+}
+
 
 /*Right click menu*/
 .menu-3sdvDG:not(.submenu-2-ysNh) .scroller-3BxosC .item-1tOPte .label-22pbtT { /*Separates text and icon*/
