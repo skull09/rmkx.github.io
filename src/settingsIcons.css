@@ -3,10 +3,10 @@
 }
 
 /*Settings Icons*/
-.side-8zPYf6 .item-PXvHYJ { /*Category container*/
+.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ { /*Category container*/
     padding-left: var(--icon-padding);
 }
-.side-8zPYf6 .item-PXvHYJ::before { /*Category container pseudo*/
+.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before { /*Category container pseudo*/
     content: '';
     position: absolute;
     top: 12%;
