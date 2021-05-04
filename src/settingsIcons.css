@@ -280,3 +280,9 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-close-dm"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/closeDM.svg')!important;
 }
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-reactions"]::before {
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/reactions.svg')!important;
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-remove-reactions"]::before {
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/removeReactions.svg')!important;
+}
