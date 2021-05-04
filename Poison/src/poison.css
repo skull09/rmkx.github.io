@@ -3816,6 +3816,89 @@
     background-color: transparent!important;
     box-shadow: unset!important;
 }
+.cardPrimaryEditable-3KtE4g { /*Widget image*/
+    background-color: transparent;
+}
+.upsellContainer-L9xv7w,
+.upsellFooter-ZYsio_ { /*Community overview header*/
+    background-color: transparent;
+}
+.backgroundAccent-349kuI,
+.developerPortalCtaWrapper-2XNafh { /*Server insight*/
+    background-color: transparent;
+}
+.checklistContainer-mFJZEJ,
+.checklistHeader-1KWcEY,
+.separator-2V2oIO,
+.separator-Hx_3SF { /*Partner program*/
+    background-color: transparent;
+}
+.container-2w0lh0,
+.header-2Y0-A-,
+.separator-1COOpU { /*Discovery*/
+    background-color: transparent;
+}
+.exampleContainer-3ekFIr,
+.exampleModal-2oh58d,
+.guildSidebar-339BqP,
+.content-BMIBeK,
+.formFieldWrapper-malor5,
+.footer-1JuRYY,
+.exampleContainer-25sB-A,
+.exampleModal-2X2Vf8,
+.optionContainer-1FtykV { /*Examples*/
+    background-color: transparent!important;
+}
+.exampleContainer-3ekFIr,
+.exampleContainer-25sB-A { /*Examples 2*/
+    background-image: url('');
+}
+.fakeButton-kGEmb3 { /*fake submit button*/
+    background-color: rgba(var(--main-accent), 0.4);
+}
+.exampleModal-2oh58d::before { /*Modal bakground*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(var(--main-color), 1);
+    filter: brightness(0.25);
+    z-index: -1;
+}
+.exampleTextSingleLine-1kvErc { /*example text color*/
+    background-color: rgba(var(--main-color), 1)!important;
+}
+.titleContainer-2CXtJo { /*Admin role modal*/
+    background-color: transparent;
+}
+.header-2mZ9Ov { /*Role sticky header*/
+    background-color: transparent;
+    border-radius: var(--general-radius);
+}
+.header-2mZ9Ov::before { /*Role sticky header background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: var(--general-radius);
+    background-color: rgba(var(--main-color), 1);
+    filter: brightness(0.15);
+    z-index: -1;
+}
+.container-cMG81i { /*Role sticky header searchbar*/
+    background-color: rgba(var(--main-color), 0.3);
+}
+.tabBar-11f3uI {
+    border-color: transparent;
+}
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active, .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ { /*Role sticky header tab*/
+    color: rgba(var(--main-accent), 0.4);
+    border-bottom-color: rgba(var(--main-accent), 0.4);
+}
 
 /*User card roles*/
 
