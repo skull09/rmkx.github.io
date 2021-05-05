@@ -203,19 +203,19 @@
 .peopleList-3c4jOR { /*Online friends middle pannel*/
     overflow-y: auto!important;
 }
-.container-1r6BKw.themed-ANHk51 { /*Friends Online, All, ... , Help panel*/
+.container-1D34oG .container-1r6BKw.themed-ANHk51 { /*Friends Online, All, ... , Help panel*/
     position: absolute;
     top: 0%;
 }
 .divider-3FBTu8 { /*Friends Online, All, ... , Help divider*/
     background-color: transparent;
 }
-.container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx { /*Moves the New DM, Inbox and Help buttons*/
+.container-1D34oG .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx { /*Moves the New DM, Inbox and Help buttons*/
     position: absolute;
     left: 75%;
     transform: translateX(-75%);
 }
-.container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .icon-22AiRD{ /*Settings for the New DM, Inbox and Help buttons*/
+.container-1D34oG .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .icon-22AiRD { /*Settings for the New DM, Inbox and Help buttons*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
