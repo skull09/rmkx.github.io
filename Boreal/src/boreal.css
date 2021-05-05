@@ -1450,18 +1450,15 @@
 }
 .closeButton-1tv5uR { /*Close button circle*/
     border-color: var(--main-accent)!important;
-    filter: brightness(1.5);
 }
 .closeButton-1tv5uR:hover { /*Close button hover*/
     background-color: rgba(var(--main-accent-rgb), 0.3)!important;
 }
 .closeButton-1tv5uR path { /*Close button X*/
     fill: var(--main-accent);
-    filter: brightness(1.5);
 }
 .keybind-KpFkfr { /*Esc text under close button*/
     color: var(--main-accent)!important;
-    filter: brightness(1.5);
 }
 .closeButton-1tv5uR::before { /*Close button left backdrop*/
     content: '';
