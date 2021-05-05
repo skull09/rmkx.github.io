@@ -2763,3 +2763,36 @@
 }
 
 /*GooseMod compatibility*/
+.children-rWhLdy div[style*="background-color: var(--background-secondary);"] { /*Main elements background*/
+    background-color: transparent!important;
+}
+.children-rWhLdy div[style*="display: grid;"] div { /*Main elements addons*/
+    z-index: 2!important;
+}
+.children-rWhLdy div[style*="display: grid;"] div[style*="width: calc(100% - 32px);"] { /*Main elements addons*/
+    width: auto!important;
+}
+.children-rWhLdy div[style*="display: grid;"] > div::before { /*Main elements addons background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes)!important;
+    z-index: -1;
+}
+.children-rWhLdy div[style*="display: grid;"] div .control-2BBjec { /*Main elements addons background*/
+    left: 245px!important;
+}
+.children-rWhLdy div[style*="width: 100%;"] .titleDefault-a8-ZSr { /*Module count/tags*/
+    background-color: transparent!important;
+}
+.children-rWhLdy .item-26Dhrx[aria-checked=true] {
+    border-radius: var(--panel-border-radius)!important;
+    background-color: var(--panel-boxes);
+}
+.sidebarRegion-VFTUkN { /*Removes weird left movement*/
+    max-width: unset!important;
+}

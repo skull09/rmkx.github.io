@@ -844,3 +844,6 @@
 .checkboxWrapper-SkhIWG.row-3QHy4I:hover:not(.checked-3_4uQ9) { /*Verification panel*/
     background-color: var(--bg-second-panels);
 }
+.item-26Dhrx:hover:not([aria-checked=true]) { /*Hovered settings background*/
+    background-color: var(--bg-second-panels);
+}

@@ -86,13 +86,16 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="customcss-tab"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/customCSS.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="plugins-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="plugins-tab"]::before,
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Plugins-tab"]::before /*Goosemod*/ {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/plugins.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="themes-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="themes-tab"]::before,
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Themes-tab"]::before /*Goosemod*/ {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/themes.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="changelog-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="changelog-tab"]::before,
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Change Log-tab"]::before /*Goosemod*/ {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/changelog.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Hypesquad Online-tab"]::before {    
@@ -100,6 +103,18 @@
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/logout.svg')!important; 
+}
+
+/*GooseMod*/
+
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Fucklytics-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/fucklytics.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Visual Tweaks-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/visualTweaks.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Visual Tweaks-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/customSounds.svg')!important; 
 }
 
 /*Server settings*/
