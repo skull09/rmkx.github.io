@@ -1998,6 +1998,15 @@
 
 /*Search results*/
 
+@keyframes menuAnimation2 {
+    0% {
+        transform: scaleX(0) scaleY(0);
+    }
+    100% {
+        transform: scaleX(1) scaleY(1);
+    }
+}
+
 .theme-dark .container-3ayLPN { /*Search results container*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
@@ -2011,6 +2020,12 @@
     backdrop-filter: blur(5px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
+    animation: menuAnimation2 0.25s ease-in;
+    transform-origin: top right;
+}
+.searchBar-3dMhjb,
+.focused-31_ccS .searchBar-3dMhjb { /*Searchbar animation*/
+    transition: width 0.25s ease-in;
 }
 .theme-dark .resultsGroup-r_nuzN::before { /*Gradient line as divider*/
     content: '';
