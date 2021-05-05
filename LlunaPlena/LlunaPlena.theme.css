@@ -33,3 +33,7 @@
     --blue-hue-elements: #63a4a8; /*Color code for some parts of the theme | Default #63a4a8*/
     --background-modifier-accent: #293f47; /*Color for the lines separating some elements of some menus | Default #293f47*/
 }
+.children-rWhLdy div[style*="display: grid;"] > div {
+    border: 1px solid var(--channel-color)!important;
+    display: grid!important;
+}

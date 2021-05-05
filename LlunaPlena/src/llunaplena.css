@@ -1573,3 +1573,12 @@ div.sidebarRegion-VFTUkN{
 .keybindShortcut-1BD6Z1 span { /*KB shortcuts buttons*/
     background-color: var(--channel-color);
 }
+
+/*GooseMod compatibility*/
+.children-rWhLdy div[style*="display: grid;"] > div {
+    border: 1px solid var(--channel-color);
+    display: grid!important;
+}
+.children-rWhLdy div[style*="display: grid;"] div[style*="width: calc(100% - 32px);"] { /*Main elements addons*/
+    left: 5px!important;
+}
