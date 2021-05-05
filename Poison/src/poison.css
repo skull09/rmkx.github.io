@@ -3902,6 +3902,10 @@
     color: rgba(var(--main-accent), 0.4);
     border-bottom-color: rgba(var(--main-accent), 0.4);
 }
+.container-2VW0UT { /*Unsaved changes*/
+    background-color: rgba(var(--main-color), 0.25)!important;
+    backdrop-filter: blur(5px);
+}
 
 /*User card roles*/
 
