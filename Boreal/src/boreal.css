@@ -1448,43 +1448,73 @@
 .option-n0icdO:hover { /*Overlay position hover*/
     background-color: var(--main-accent);
 }
-.closeButton-1tv5uR { /*Close button circle*/
-    border-color: var(--main-accent)!important;
+@keyframes closeButtonHover {
+    0% {
+        filter: brightness(0.55);
+    }
+    100% {
+        filter: brightness(1.25);
+    }
 }
-.closeButton-1tv5uR:hover { /*Close button hover*/
-    background-color: rgba(var(--main-accent-rgb), 0.3)!important;
+@keyframes closeButtonUnhover {
+    0% {
+        filter: brightness(1.25);
+    }
+    100% {
+        filter: brightness(0.55);
+    }
 }
-.closeButton-1tv5uR path { /*Close button X*/
-    fill: var(--main-accent);
+.container-1sFeqf:hover .closeButton-1tv5uR svg,
+.closeButton-1tv5uR:hover svg,
+.container-1sFeqf:hover .keybind-KpFkfr,
+.close-hZ94c6:hover { /*Hovered close button & ESC text modals*/
+    animation: closeButtonHover 0.25s ease;
+    animation-fill-mode: forwards;
 }
-.keybind-KpFkfr { /*Esc text under close button*/
-    color: var(--main-accent)!important;
+.container-1sFeqf .closeButton-1tv5uR svg,
+.closeButton-1tv5uR svg,
+.container-1sFeqf .keybind-KpFkfr,
+.close-hZ94c6 { /*Close button & ESC text modals*/
+    animation: closeButtonUnhover 0.25s ease;
+    animation-fill-mode: forwards;
 }
-.closeButton-1tv5uR::before { /*Close button left backdrop*/
-    content: '';
-    position: fixed;
-    top: calc(0% - calc(100% - var(--settings-heigth)));
-    left: -40%;
-    width: calc(100% - var(--settings-width));
-    height: 2000px;
-    cursor: pointer;
-    pointer-events: inherit;
-    transition: 0.25s ease-in;
-}
-.closeButton-1tv5uR::after { /*Close button right backdrop*/
-    content: '';
-    position: fixed;
-    top: calc(0% - calc(100% - var(--settings-heigth)));
-    left: 100%;
-    width: calc(100% - var(--settings-width));
-    height: 2000px;
-    cursor: pointer;
-    pointer-events: inherit;
-    transition: 0.25s ease-in;
-}
-.closeButton-1tv5uR:active { /*Makes the window dissapear*/
-    transform: none;
-}
+ .closeButton-1tv5uR { /*Close button circle*/
+     border-color: transparent!important;
+ }
+ .closeButton-1tv5uR:hover { /*Close button hover*/
+     background-color: transparent!important;
+ }
+ .closeButton-1tv5uR path { /*Close button X*/
+     fill: var(--main-accent);
+ }
+ .keybind-KpFkfr { /*Esc text under close button*/
+     color: var(--main-accent)!important;
+ }
+ .closeButton-1tv5uR::before { /*Close button left backdrop*/
+     content: '';
+     position: fixed;
+     top: calc(0% - calc(100% - var(--settings-heigth)));
+     left: -40%;
+     width: calc(100% - var(--settings-width));
+     height: 2000px;
+     cursor: pointer;
+     pointer-events: inherit;
+     transition: 0.25s ease-in;
+ }
+ .closeButton-1tv5uR::after { /*Close button right backdrop*/
+     content: '';
+     position: fixed;
+     top: calc(0% - calc(100% - var(--settings-heigth)));
+     left: 100%;
+     width: calc(100% - var(--settings-width));
+     height: 2000px;
+     cursor: pointer;
+     pointer-events: inherit;
+     transition: 0.25s ease-in;
+ }
+ .closeButton-1tv5uR:active { /*Makes the window dissapear*/
+     transform: none;
+ }
 
 /*Find channel/someone panel*/
 
