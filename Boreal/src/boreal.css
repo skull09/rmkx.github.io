@@ -922,6 +922,18 @@
 
 /*Right click pannel settings*/
 
+@keyframes menuAnimation1 {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+.menu-3sdvDG { /*Main modal*/
+    animation: menuAnimation1 0.2s ease-in;
+    transform-origin: top;
+}
 .menu-3sdvDG .scroller-3BxosC{ /*Right click on a friend panel*/
     border-radius: var(--panel-border-radius);
     background-color: var(--panel-boxes);
