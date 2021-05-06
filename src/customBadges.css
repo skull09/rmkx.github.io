@@ -22,5 +22,10 @@
 
 .avatar-1BDn8e[src*="237627458143125506"]+h2::after { /*My badge*/
     background-image: url('https://rmkx.github.io/src/badges/mine.svg');
-    filter: drop-shadow(0 0 2.5px crimson);
+    filter: drop-shadow(0 0 2.5px crimson) brightness(0.55);
+    transition: 0.35s ease;
+}
+.cozy-3raOZG .contents-2mQqc9:hover .avatar-1BDn8e[src*="237627458143125506"]+h2::after { /*My badge hovered message*/
+    filter: drop-shadow(0 0 2.5px crimson) brightness(1.25);
+    transition: 0.35s ease;
 }
