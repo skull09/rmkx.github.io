@@ -3911,6 +3911,26 @@
     background-color: rgba(var(--main-color), 0.25)!important;
     backdrop-filter: blur(5px);
 }
+.settingCard-3w2mVL,
+.settingCard-3w2mVL.active-1ytUzX { /*Permissions main panel*/
+    background: transparent;
+}
+.settingCard-3w2mVL { /*Permissions main panel*/
+    border: 1px solid rgb(var(--main-accent), 1);
+    border-radius: var(--general-radius);
+}
+.cardFolder-28dwxo { /*Permissions body*/
+    background: transparent;
+}
+.group-1WdBVp { /*Permissions buttons*/ 
+    border-color: transparent;
+}
+.item-1yAxl1 { /*Permissions buttons 2*/ 
+    background-color: transparent;
+}
+.passthrough-1c2ewQ.selected-2YhbGh { /*Permissions buttons 3*/ 
+    background-color: rgba(var(--main-color), .5);
+}
 
 /*User card roles*/
 
