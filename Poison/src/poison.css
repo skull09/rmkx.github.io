@@ -2750,7 +2750,7 @@
     }
 }
 
-[aria-labelledby] .item-26Dhrx:first-child::before { /*First privacy option*/
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx:first-child::before { /*First privacy option*/
     content: '';
     position: absolute;
     top: 10.8%;
@@ -2763,7 +2763,7 @@
     animation: unhoveredItem 0.25s ease;
     animation-fill-mode: forwards;
 }
-[aria-labelledby] .item-26Dhrx:nth-child(2)::before { /*Second privacy option*/
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx:nth-child(2)::before { /*Second privacy option*/
     content: '';
     position: absolute;
     top: 14.5%;
@@ -2776,7 +2776,7 @@
     animation: unhoveredItem 0.25s ease;
     animation-fill-mode: forwards;
 }
-[aria-labelledby] .item-26Dhrx:last-child::before { /*Last privacy option*/
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx:last-child::before { /*Last privacy option*/
     content: '';
     position: absolute;
     top: 18.2%;
@@ -2789,13 +2789,13 @@
     animation: unhoveredItem 0.25s ease;
     animation-fill-mode: forwards;
 }
-[aria-labelledby] .item-26Dhrx:first-child:hover:not([aria-checked=true])::before,
-[aria-labelledby] .item-26Dhrx:nth-child(2):hover:not([aria-checked=true])::before,
-[aria-labelledby] .item-26Dhrx:last-child:hover:not([aria-checked=true])::before { /*Hovered privacy options*/
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx:first-child:hover:not([aria-checked=true])::before,
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx:nth-child(2):hover:not([aria-checked=true])::before,
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx:last-child:hover:not([aria-checked=true])::before { /*Hovered privacy options*/
     animation: hoveredItem 0.25s ease;
     animation-fill-mode: forwards;
 }
-[aria-labelledby] .item-26Dhrx[aria-checked=true]::before { /*Selected privacy option*/
+.children-rWhLdy div[aria-labelledby] .item-26Dhrx[aria-checked=true]::before { /*Selected privacy option*/
     animation: selectedItem 0.25s ease;
     animation-fill-mode: forwards;
 }
