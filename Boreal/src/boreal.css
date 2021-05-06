@@ -920,6 +920,9 @@
 .operations-36ENbA>a { /*Cancel/save buttons when editing*/
     color: var(--main-accent);
 }
+.avatar-1BDn8e { /*Chat avatar*/
+    padding-left: 3px;
+}
 
 /*Right click pannel settings*/
 
