@@ -176,6 +176,9 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="COMMUNITY_WELCOME-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/welcomeScreen.svg')!important; 
 }
+.side-8zPYf6 .item-PXvHYJ[aria-controls="PERMISSIONS-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/permissions.svg')!important; 
+}
 
 
 /*Right click menu*/
