@@ -725,6 +725,10 @@
 .container-1ov-mD > iframe[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
     border-radius: 8px!important;
 }
+.avatar-1BDn8e { /*Chat avatar*/
+    padding-left: 0px;
+    margin-left: -3px;
+}
 
 /*Code and text preview modals*/
 
