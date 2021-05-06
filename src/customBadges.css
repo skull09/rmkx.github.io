@@ -4,7 +4,7 @@
 .avatar-1BDn8e[src*="237627458143125506"]+h2::after { /*Mine*/
     content: '';
     position: absolute;
-    left: -25px;
+    left: -30px;
     bottom: -28px;
     height: 18px;
     width: 18px;
