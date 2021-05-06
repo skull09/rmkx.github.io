@@ -10,6 +10,7 @@
 
 @import url('https://rmkx.github.io/src/transparentDiscord.css');
 @import url('https://rmkx.github.io/src/settingsIcons.css');
+@import url('https://rmkx.github.io/src/customBadges.css');
 
 :root {
     --server-hiding-width: 2.5%; /*Amount that will be shown when the channels panel hides | Default 50px*/

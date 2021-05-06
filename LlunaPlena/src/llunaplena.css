@@ -8,6 +8,8 @@
  * @version      1.0 
  */
 
+@import url('https://rmkx.github.io/src/customBadges.css');
+
 /* Root Variables */
 :root {
     --channel-color: #293f47; /* Selected channel and background color | Default #293f47;*/
