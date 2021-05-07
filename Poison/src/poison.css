@@ -2334,16 +2334,6 @@
 .layer-3QrUeG { /*Settings background*/
     background-color: rgb(0,0,0,0.8);
 }
-.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk { /*Blurs the background behind the settings window*/
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    backface-visibility: hidden;
-    perspective: 1000;
-    transform: translate3d(0,0,0);
-    transform: translateZ(0);
-}
 .standardSidebarView-3F1I7i { /*Modifies the settings window*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
