@@ -2334,6 +2334,9 @@
 .layer-3QrUeG { /*Settings background*/
     background-color: rgb(0,0,0,0.8);
 }
+.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk { /*Blurs the background behind the settings window*/
+    z-index: 0;
+}
 .standardSidebarView-3F1I7i { /*Modifies the settings window*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
