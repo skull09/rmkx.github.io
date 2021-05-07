@@ -773,7 +773,7 @@
 }
 .wrapper-3WhCwL { /*Mentioned username*/
     background: transparent;
-    color: var(--main-accent);
+    color: var(--text-link);
     border-radius: var(--panel-border-radius);
 }
 .wrapper-3WhCwL:hover { /*Mentioned username hover*/

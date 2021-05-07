@@ -729,6 +729,13 @@
     padding-left: 0px;
     margin-left: -3px;
 }
+.content-s2SEQO a,
+.wrapper-3WhCwL { /*Description modal links*/
+    color: var(--text-link);
+}
+.content-s2SEQO .wrapper-3WhCwL { /*Description modal channel link*/
+    background-color: transparent;
+}
 
 /*Code and text preview modals*/
 
