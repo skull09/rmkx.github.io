@@ -10,6 +10,7 @@
 :root {
     --background-image: unset; /*Changes the background image*/
     --bg-blur: 0px; /*Amount of blur on the background*/
+    --bg-opacity: 0; /*Background opacity*/
     --bg-main-panels: rgba(0,0,0,0); /*Changes the transparency of the main panels, modify the "y" on the rgba (x,x,x,y)*/
     --bg-second-panels: rgba(0,0,0,0); /*Changes the transparency of the secondary panels, modify the "y" on the rgba (x,x,x,y)*/
 }
