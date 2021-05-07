@@ -3931,6 +3931,17 @@
 .passthrough-1c2ewQ.selected-2YhbGh { /*Permissions buttons 3*/ 
     background-color: rgba(var(--main-color), .5);
 }
+.container-_phMUq { /*Role panel default permissions container*/
+    background-color: transparent;
+}
+.container-_phMUq:hover,
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) { /*Role panel default permissions container*/
+    background-color: rgba(var(--main-color), .25);
+}
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i,
+.icon-3_8HGa { /*Role panel icons background*/
+    background-color: transparent;
+}
 
 /*User card roles*/
 
