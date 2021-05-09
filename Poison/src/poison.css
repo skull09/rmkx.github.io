@@ -1952,7 +1952,7 @@
 .containerDefault--pIXnN .unread-2lAfLh { /*Unread messages in channel*/
     background-color: transparent;
 }
-.modeUnread-1qO3K1 .iconContainer-1BBaeJ::before{ /*Unread messages in channel glow*/
+.mainContent-u_9PKf[aria-label*="unread,"] .iconContainer-1BBaeJ::before{ /*Unread messages in channel glow*/
     content: '';
     position: absolute;
     top: 35%;
