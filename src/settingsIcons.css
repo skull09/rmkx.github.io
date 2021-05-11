@@ -310,3 +310,9 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-remove-reactions"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/removeReactions.svg')!important;
 }
+.scroller-3BxosC .colorDefault-2K3EoJ[aria-controls="user-settings-account-menu-upload-avatar"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/textImages.svg')!important; 
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[aria-controls="user-settings-account-menu-delete-avatar"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg')!important;  
+}
