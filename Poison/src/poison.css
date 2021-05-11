@@ -1011,17 +1011,20 @@
 
 /*Reactions*/
 
-.reaction-1hd86g:not(.reaction-1hd86g .emoji) { /*Reactions main modal*/
+.reaction-1hd86g { /*Reactions main modal*/
+    border: none;
     background: rgba(var(--main-color), 0.5);
     border-radius: var(--general-radius);
+    color: white;
 }
 .reaction-1hd86g.reactionMe-wv5HKu { /*Self reacted*/
+    border: none;
     background: rgba(var(--main-accent), 0.15);
     border-radius: var(--general-radius);
 }
-.reactionMe-wv5HKu .reactionCount-2mvXRV,
-.reactionMe-wv5HKu:hover .reactionCount-2mvXRV { /*Self reacter counter color*/
-    color: white;
+.reaction-1hd86g:hover { /*Reaction hover*/
+    border: none;
+    background: rgba(var(--main-accent), 0.05);
 }
 .button-F9qN4n,
 .button-F9qN4n:hover { /*Add reaction*/
