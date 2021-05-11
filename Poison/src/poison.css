@@ -707,7 +707,7 @@
 .role-1P70N6:hover { /*Allowed roles in channel*/
     background-color: transparent;
 }
-.operations-36ENbA>a { /*Cancel/save buttons when editing*/
+.operations-36ENbA > a { /*Cancel/save buttons when editing*/
     color: rgba(var(--main-accent), 0.75);
 }
 .modalTextContainer-ITvzbi { /*Expanded text file*/
