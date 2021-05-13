@@ -129,8 +129,11 @@
 .theme-dark .inset-3sAvek { /*Inside panel of the Active Now friend*/
     border-radius: var(--panel-border-radius);
 }
-.emptyCard-1RJw8n .emptyText-2zjpZr { /*Message when no one active now*/
+.emptyCard-1RJw8n .emptyText-2zjpZr { /*Message when no one is active now*/
     color: transparent;
+}
+.wrapper-3D2qGf { /*Active now wrapper class 13/05/2021*/
+    border: none;
 }
 
 /*DMs Panel*/
