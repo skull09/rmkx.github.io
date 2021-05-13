@@ -847,3 +847,15 @@
 .item-26Dhrx:hover:not([aria-checked=true]) { /*Hovered settings background*/
     background-color: var(--bg-second-panels);
 }
+.container-lRFx4q { /*New active now container*/
+    background-color: var(--bg-main-panels);
+}
+.section-2gLsgF { /*Activity info*/
+    background-color: var(--bg-second-panels);
+}
+.scroller-2ZPeAD { /*Active now main container*/
+    border-left: none;
+}
+.partyMemberOverflow-lXnzvu { /*Members in channel number*/
+    background-color: var(--bg-second-panels);
+}
