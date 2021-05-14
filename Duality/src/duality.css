@@ -1828,16 +1828,23 @@ body,
     color: rgb(var(--server-channel-textc));
 }
 .listDefault-3ir5aS .clickable-1lCRLF .content-1Wq3SX .username-3KYl0N { /*People in channel name*/
-    color: rgba(var(--server-channel-textc), 0.45)!important;
+    color: rgba(var(--server-channel-textc), 0.35)!important;
     transition: 0.25s ease;
 }
 .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX .username-3KYl0N { /*People in channel name hovered*/
+    color: rgba(var(--server-channel-textc), 0.65)!important;
+}
+.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX .username-3KYl0N  { /*Selecter user in channel name*/
     color: rgba(var(--server-channel-textc), 1)!important;
 }
 .listDefault-3ir5aS .clickable-1lCRLF .content-1Wq3SX { /*User in channel*/
     transition: 0.25s ease;
 }
 .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX { /*User in channel shadow*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
+.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX { /*Selected user in channel bg*/
     background-color: transparent;
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
