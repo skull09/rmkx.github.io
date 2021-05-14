@@ -1,5 +1,5 @@
 /**
-* @name         Duality.
+* @name         Duality
 * @description  Enjoy Discord with a theme based on elements that "pop out" of the screen.
 * @donate       https://bit.ly/3fnzq1Z
 * @source       https://github.com/rmkx/rmkx.github.io/blob/main/Duality/src/duality.css
@@ -2492,6 +2492,9 @@ body,
 }
 .separator-XqIyoz { /*Divider*/
     display: none;
+}
+.partyMemberOverflow-lXnzvu { /*Party members*/
+    background-color: transparent;
 }
 
 /*Guilds*/
