@@ -3383,6 +3383,10 @@ body,
     filter: drop-shadow(-3px -2px 1px black) drop-shadow(-3px -1px 1px black);
     color: rgb(var(--server-channel-textc))!important;
 }
+::selection,
+.highlight { /*Selection and matched words*/
+    background-color: rgba(var(--accent-color), 0.25);
+}
 
 /*Plugins compatibility*/
 
