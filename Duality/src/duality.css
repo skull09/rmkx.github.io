@@ -1180,6 +1180,7 @@ body,
     background-color: rgb(var(--server-channel-textc));
     overflow: visible!important;
     color: black;
+    right: -0.1%;
 }
 .group-spacing-16 .divider-3_HH5L .unreadPillCapStroke-7rkHbg { /*New message tag*/
     fill: rgb(var(--server-channel-textc));
