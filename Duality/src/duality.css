@@ -1899,6 +1899,13 @@ body,
     color: rgb(var(--accent-color), .55);
 }
 
+/*Nitro page*/
+
+.applicationStore-1pNvnv,
+.scroller-9moviB {
+    background-color: transparent;
+}
+
 /*User status area*/
 
 .panels-j1Uci_ { /*Main panel*/
