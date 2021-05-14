@@ -15,6 +15,6 @@
 
 <h2 align="center">More screenshots:</h2>
 <p align="center">
-  <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/fPznUAo.png"></p>
+  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/fPznUAo.png"></p>
   <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/lXBaeQd.png"></p>
 <p align="center">
