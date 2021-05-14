@@ -1908,6 +1908,7 @@ body,
     margin-bottom: 22px;
 }
 .container-3baos1 .button-14-BFJ { /*Mute/Deafen/Settings buttons*/
+    color: rgb(var(--server-channel-textc));
     filter: opacity(0.2);
     transition: 0.25s ease;
 }
