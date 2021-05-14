@@ -1397,6 +1397,35 @@ body,
     color: rgb(var(--server-channel-textc));
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
+.searchResultsWrap-3-pOjs {
+    background-color: transparent;
+    background: var(--popout-bg) center/cover no-repeat;
+}
+.searchHeader-2XoQg7,
+.searchResult-9tQ1uo,
+.channelName-1JRO3C {
+    background-color: transparent;
+}
+.tab-2j5AEF {
+    color: rgb(var(--server-channel-textc))!important;
+    filter: opacity(0.35);
+    transition: filter 0.25s ease;
+}
+.tab-2j5AEF:hover {
+    background-color: transparent;
+    color: rgb(var(--server-channel-textc))!important;
+    filter: opacity(0.65) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.tab-2j5AEF.selected-2LAck8 {
+    background-color: transparent!important;
+    color: rgb(var(--server-channel-textc))!important;
+    filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
+.totalResults--dyAxF,
+.channelName-1JRO3C { /*Text*/
+    color: rgb(var(--server-channel-textc))!important;
+    filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
+}
 
 /*Pinned messages modal*/
 
@@ -1441,12 +1470,14 @@ body,
     background-color: transparent;
     border: unset;
 }
-.jumpButton-3DTcS_ { /*Jump to message buton*/
+.jumpButton-3DTcS_,
+.button-11zvza { /*Jump to message buton*/
     background-color: transparent;
     color: rgba(var(--server-channel-textc), 0.35);
     transition: 0.25s ease;
 }
-.jumpButton-3DTcS_:hover { /*Jump to message buton*/
+.jumpButton-3DTcS_:hover,
+.button-11zvza:hover { /*Jump to message buton*/
     color: rgba(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
@@ -3360,4 +3391,3 @@ body,
     margin-left: 8px!important;
     background: transparent!important;
 }
-/*TO DO: SEARCH RESULTS*/
