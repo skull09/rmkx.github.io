@@ -1451,6 +1451,9 @@ body,
 
 /*Pinned messages modal*/
 
+.iconBadge-qZ4Ksk { /*Pinned messages icon*/
+    background-color: rgb(var(--accent-color), .55);
+}
 @keyframes menuShow {
     0% {
         transform: scaleY(0);
