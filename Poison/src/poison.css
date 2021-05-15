@@ -1427,10 +1427,11 @@
     background-color: transparent;
     transform: translateY(25%);
 }
-.scroller-2ZPeAD {
+.scroller-2ZPeAD { /*Active now container*/
+    border: none;
     height: 100%;
 }
-.scroller-2ZPeAD:hover {
+.scroller-2ZPeAD:hover { /*Active now container hover*/
     background-color: transparent!important;
 }
 .scroller-2ZPeAD .header-13Cw0- { /*Active now text*/
