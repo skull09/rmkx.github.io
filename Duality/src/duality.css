@@ -207,7 +207,8 @@ body,
 .layer-3QrUeG { /*Settings background*/
     background-color: rgba(0, 0, 0, 0.569);
 }
-.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk { /*Blurs the background behind the settings window*/
+.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk,
+.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child > .container-2lgZY8 > .guilds-1SWlCJ { /*Blurs the background behind the settings window*/
     filter: blur(2px);
     z-index: 0;
 }
