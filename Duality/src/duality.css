@@ -1427,6 +1427,27 @@ body,
     color: rgb(var(--server-channel-textc))!important;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
+.searchFilter-2ESiM3 { /*Search filter*/
+    border-radius: var(--button-radius);
+    background-color: rgba(var(--accent-color), 0.55)!important;
+}
+.searchAnswer-3Dz2-q { /*Search results*/
+    background-color: transparent!important;
+}
+.pageButton-2ruNwd.activeButton-rvKcqq { /*Result pages selected*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    color: rgb(var(--server-channel-textc))!important;
+    background-color: transparent!important;
+}
+.pageButton-2ruNwd { /*Reult pages*/
+    transition: 0.25s ease;
+    color: rgb(var(--server-channel-textc), 0.35)!important;
+}
+.pageButton-2ruNwd:hover { /*Reult pages hovered*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    color: rgb(var(--server-channel-textc), 0.65)!important;
+    background-color: transparent!important;
+}
 
 /*Pinned messages modal*/
 
