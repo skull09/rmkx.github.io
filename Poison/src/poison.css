@@ -1486,6 +1486,7 @@
 .nowPlayingColumn-2sl4cE .wrapper-3D2qGf { /*Active now card*/
     background-color: transparent;
     border-radius: var(--general-radius);
+    border: none;
 }
 .outer-1AjyKL.interactive-3B9GmY:hover { /*Hovered active now card*/
     background-color: transparent!important;
@@ -1546,6 +1547,10 @@
 }
 .partyMemberOverflow-lXnzvu { /*Members in a server*/
     background-color: transparent!important;
+}
+.container-lRFx4q,
+.section-2gLsgF { /*New classes background*/
+    background-color: transparent;
 }
 
 /*Explore servers*/
