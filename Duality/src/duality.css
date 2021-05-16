@@ -980,6 +980,10 @@ body,
 .menu-3sdvDG .colorDefault-2K3EoJ.focused-3afm-j .icon-LYJorE { /*Server menu icons*/
     transition: 0.25s ease;
 }
+.button-F9qN4n:hover,
+.keyboard-mode .button-F9qN4n.focused-3ZzkKr { /*Reactions hovered*/
+    background-color: transparent;
+}
 
 /*Chat settings*/
 
@@ -1963,12 +1967,14 @@ body,
     color: rgb(var(--accent-color));
 }
 .container-1giJp5,
-.activityPanel-28dQGo { /*Connected to server / User activity*/
+.activityPanel-28dQGo,
+.listeningAlong-30wH70 { /*Connected to server / User activity*/
     border-bottom: none;
 }
 .connection-3KRENF,
 .voiceUsers-YsH5Db,
-.activityPanel-28dQGo { /*Connected to server text*/
+.activityPanel-28dQGo,
+.listeningAlong-30wH70 { /*Connected to server text*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
 .button-14-BFJ { /*Buttons*/
