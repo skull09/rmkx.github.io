@@ -3162,6 +3162,12 @@ body,
     background-color: transparent;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
+.emojiSection-3Fb9ix { /*Clicked emoji in chat*/
+    background-color: transparent;
+    background: var(--popout-bg);
+    border-radius: var(--main-radius);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
 
 /*Server boost*/
 
