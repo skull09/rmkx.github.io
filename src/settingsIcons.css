@@ -20,25 +20,25 @@
     background: currentColor;
     transition: 0.25s ease;
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="My-Account-tab"]::before { 
+.side-8zPYf6 .item-PXvHYJ[aria-controls="My Account-tab"]::before { 
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg')!important;
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy-&-Safety-tab"]::before { 
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before { 
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/privacy.svg')!important;
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Authorized-Apps-tab"]::before {
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Authorized Apps-tab"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/authorizedApps.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Connections-tab"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/connections.svg')!important;
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Discord-Nitro-tab"]::before {
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/nitro.svg')!important;
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Nitro-Server-Boost-tab"]::before {
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Nitro Server Boost-tab"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/serverBoost.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Library-Inventory-tab"]::before {
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Library Inventory-tab"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/gift.svg')!important;
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Billing-tab"]::before {
@@ -50,10 +50,10 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Accessibility-tab"]::before { 
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/accessibility.svg')!important;
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Voice-&-Video-tab"]::before { 
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Voice & Video-tab"]::before { 
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/voiceVideo.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Text-&-Images-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Text & Images-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/textImages.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Notifications-tab"]::before {    
@@ -68,13 +68,13 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Windows-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/windows.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Streamer-Mode-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Streamer Mode-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/streaming.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Advanced-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/advanced.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Game-Activity-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Game Activity-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/gameActivity.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Overlay-tab"]::before {    
@@ -101,7 +101,7 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Change Log-tab"]::before /*Goosemod*/ {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/changelog.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Hypesquad-Online-tab"]::before {    
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Hypesquad Online-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/hypesquad.svg')!important; 
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {    
