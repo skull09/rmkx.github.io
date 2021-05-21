@@ -188,7 +188,7 @@
 .menu-3sdvDG:not(.submenu-2-ysNh) .scroller-3BxosC .item-1tOPte .label-22pbtT { /*Separates text and icon*/
     padding-left: 8px;
 }
-.menu-3sdvDG .scroller-3BxosC .item-1tOPte:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"]):not([id*="guild-context-"]):not([id*="channel-context-"]):not([id*="message-actions-"]):not([id*=textarea-context]):not([id*=mentions-filter-]):not([id*=manage-streams-]):not([id*=guild-settings-role-context-])::before { /*Category subcontainer pseudo*/
+.menu-3sdvDG .scroller-3BxosC .item-1tOPte:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"]):not([id*="guild-context-"]):not([id*="channel-context-"]):not([id*="message-actions-"]):not([id*=textarea-context]):not([id*=mentions-filter-]):not([id*=manage-streams-]):not([id*=guild-settings-role-context-]):not([id*=user-context-mute-channel-])::before { /*Category subcontainer pseudo*/
     content: '';
     position: relative;
     left: 0;
@@ -198,7 +198,7 @@
     transition: 0.25s ease;
     background: currentColor;
 }
-.scroller-3BxosC .colorDefault-2K3EoJ:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"]):not([id*="guild-context-"]):not([id*="channel-context-"]):not([id*="message-actions-"]):not([id*=textarea-context]):not([id*=mentions-filter-]):not([id*=manage-streams-]):not([id*=guild-settings-role-context-])::before {
+.scroller-3BxosC .colorDefault-2K3EoJ:not([id*="user-context-invite-to-server-"]):not([id*="user-context-roles-"]):not([id*="guild-header-popout-"]):not([id*="message-add-reaction-"]):not([id*="guild-context-"]):not([id*="channel-context-"]):not([id*="message-actions-"]):not([id*=textarea-context]):not([id*=mentions-filter-]):not([id*=manage-streams-]):not([id*=guild-settings-role-context-]):not([id*=user-context-mute-channel-])::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/defaultIcon.svg');
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-context-user-profile"]::before {    
@@ -315,4 +315,10 @@
 }
 .scroller-3BxosC .colorDefault-2K3EoJ[aria-controls="user-settings-account-menu-delete-avatar"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/delete.svg')!important;  
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[aria-controls="user-context-mute-channel"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/mute.svg')!important;  
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[aria-controls="user-context-devmode-copy-id"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/id.svg')!important;  
 }
