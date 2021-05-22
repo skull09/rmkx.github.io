@@ -1994,6 +1994,10 @@ body,
     color: rgba(var(--server-channel-textc), 1);
 }
 
+#status-picker.menu-3sdvDG { /*Select status menu*/
+    transform-origin: bottom;
+}
+
 /*Go live panel*/
 
 .segmentControlOption-1vCKaY { /*Go live tabs*/
