@@ -5,7 +5,7 @@
 * @source       https://github.com/rmkx/rmkx.github.io/blob/main/Duality/src/duality.css
 * @author       rmkx
 * @invite       HnGWVQbQBv
-* @version      1.0
+* @version      1.0.1
 */
 
 @import url('https://rmkx.github.io/Duality/src/duality.css');
@@ -19,6 +19,9 @@
     --background-image: url('https://i.imgur.com/XEIBjZS.jpg'); /*Main background image*/
     --bg-blur: 0px; /*Main background blur*/
     --bg-opacity: 0; /*Main background opacity*/
+    --popout-bg: url('https://i.imgur.com/wQLLZBE.png'); /*Background for popouts*/
+    --popout-blur: 0px; /*Popout background blur*/
+    --popout-opacity: 0; /*Popout background opacity*/
 
     /*General Settings*/
 
@@ -30,7 +33,6 @@
     --main-radius: 12px; /*Modifies the border-radius of most elements | Default 12px*/
     --settings-width: 60%; /*Width for the settings window | Default 60%*/
     --settings-heigth: 85%; /*Width for the settings window | Default 85%*/
-    --popout-bg: url('https://i.imgur.com/wQLLZBE.png'); /*Background for some elements*/
     --embed-border: 0px; /*Makes it so some embeds in chat have their corresponding border | 0px = no borders*/
     --button-radius: 8px; /*Radius for the buttons | Default 8px*/
     --accent-color: 142, 255, 174; /*Main accent | WARNING: USE RGB VALUES IF YOU CHANGE THE COLOR | Default 142, 255, 174*/
