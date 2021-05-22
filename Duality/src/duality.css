@@ -6,7 +6,7 @@
 * @author       rmkx
 * @invite       HnGWVQbQBv
 * @version      1.0.1
-*/
+*/  
 
 @import url('https://rmkx.github.io/src/settingsIcons.css');
 @import url('https://rmkx.github.io/src/customBadges.css');
@@ -548,7 +548,7 @@ body,
 .children-rWhLdy div[aria-labelledby] .item-26Dhrx:first-child::before { /*First privacy option*/
     content: '';
     position: absolute;
-    top: 12.3%;
+    top: 10.3%;
     left: 11%;
     height: 1px;
     width: 80%;
@@ -558,7 +558,7 @@ body,
 .children-rWhLdy div[aria-labelledby] .item-26Dhrx:nth-child(2)::before { /*Second privacy option*/
     content: '';
     position: absolute;
-    top: 16.3%;
+    top: 13.8%;
     left: 11%;
     height: 1px;
     width: 80%;
@@ -568,7 +568,7 @@ body,
 .children-rWhLdy div[aria-labelledby] .item-26Dhrx:last-child::before { /*Last privacy option*/
     content: '';
     position: absolute;
-    top: 20.4%;
+    top: 17.3%;
     left: 11%;
     height: 1px;
     width: 80%;
