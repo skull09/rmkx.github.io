@@ -2881,7 +2881,7 @@ body,
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.569);
     transition: box-shadow .25s ease;
 }
-.quickswitcher-3JagVE::before { /*Active now cards background*/
+.itemCard-v9viV7::before { /*Active now cards background*/
     content: '';
     position: absolute;
     top: 0;
@@ -2893,7 +2893,7 @@ body,
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.quickswitcher-3JagVE::after { /*Active now cards opacity*/
+.itemCard-v9viV7::after { /*Active now cards opacity*/
     content: '';
     position: absolute;
     top: 0;
