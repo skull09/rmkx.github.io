@@ -1236,6 +1236,8 @@
 .peopleList-3c4jOR .title-30qZAO { /*Online friends list title*/
     font-size: 85%;
     color: rgba(var(--main-accent), 0.8);
+    font-family: var(--font);
+    margin-top: 20px;
 }
 .peopleList-3c4jOR .title-30qZAO::after { /*Line after channel category*/
     content: '';
@@ -1434,16 +1436,18 @@
 .scroller-2ZPeAD:hover { /*Active now container hover*/
     background-color: transparent!important;
 }
-.scroller-2ZPeAD .header-13Cw0- { /*Active now text*/
+.scroller-2ZPeAD .header-2SF4Nh { /*Active now text*/
     text-align: center;
-    font-size: 85%;
+    font-size: 95%;
     color: rgba(var(--main-accent), 0.8);
+    font-weight: 600;
+    font-family: var(--font);
 }
-.scroller-2ZPeAD .header-13Cw0-::after { /*Line after channel category*/
+.scroller-2ZPeAD .header-2SF4Nh::after { /*Line after channel category*/
     content: '';
     position: absolute;
     overflow: hidden!important;
-    top: 27px;
+    top: 34px;
     left: 5%;
     width: 75%;
     height: 20px;
@@ -1452,11 +1456,11 @@
     transform: scaleY(0.25) scaleX(1.5);
     filter: brightness(0.85);
 }
-.scroller-2ZPeAD .header-13Cw0-::before { /*Line after channel category 2*/
+.scroller-2ZPeAD .header-2SF4Nh::before { /*Line after channel category 2*/
     content: '';
     position: absolute;
     overflow: hidden!important;
-    top: 32px;
+    top: 39px;
     left: 10%;
     width: 75%;
     height: 20px;
