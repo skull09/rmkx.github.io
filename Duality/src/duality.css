@@ -2877,33 +2877,10 @@ body,
 }
 .itemCard-v9viV7 { /*Active now cards*/
     border-radius: 8px;
-    background: transparent;
+    background: var(--popout-bg) center/cover no-repeat;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.569);
     border: unset;
     transition: box-shadow .25s ease;
-}
-.itemCard-v9viV7::before { /*Active now cards background*/
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 8px;
-    background: var(--popout-bg) center/cover no-repeat;
-    filter: blur(var(--popout-blur));
-    z-index: -2;
-}
-.itemCard-v9viV7::after { /*Active now cards opacity*/
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 8px;
-    background-color: rgba(0,0,0, var(--popout-opacity));
-    z-index: -1;
 }
 .itemCard-v9viV7 .inset-3sAvek { /*Active now activity*/
     background-color: transparent!important;
