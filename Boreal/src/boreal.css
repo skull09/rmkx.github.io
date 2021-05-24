@@ -79,19 +79,20 @@
 
 /*Active now Tweaks*/
 
-.header-13Cw0-.base-1x0h_U.size12-3cLvbJ { /*Settings of the Active Now text*/
-    margin-top: -8px;
+.header-2SF4Nh { /*Settings of the Active Now text*/
+    margin-top: -5px;
     color: white;
     text-align: center;
-    font-size: 80%;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
-.header-13Cw0-.base-1x0h_U.size12-3cLvbJ::after { /*Adds a radient under the Active Now text*/
+.header-2SF4Nh::after { /*Adds a radient under the Active Now text*/
     position: absolute;
     content:'';
     width: 100%;
     height: 4px;
     left: 0%;
-    top: 24px;
+    top: 32px;
     border-radius: 50px;
     background: var(--underline-gradient);
     transform: rotate(180deg);
