@@ -2866,11 +2866,13 @@ body,
 .container-lRFx4q { /*Main container*/
     background-color: transparent;
 }
-.nowPlayingColumn-2sl4cE .header-13Cw0- { /*Active now text*/
+.nowPlayingColumn-2sl4cE .header-2SF4Nh { /*Active now text*/
     text-align: center;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
-    font-size: 0.85rem;
-    padding-bottom: 18px;
+    font-size: 0.9rem;
+    padding-bottom: 0px;
+    margin-top: -4px;
+    font-weight: 600;
 }
 .nowPlayingColumn-2sl4cE .wrapper-3D2qGf { /*Active now cards main container*/
     margin-bottom: 18px;
