@@ -790,8 +790,8 @@
     background-color: var(--panel-boxes);
 }
 .wrapper-3WhCwL { /*Mentioned username*/
-    background: transparent;
-    color: var(--text-link);
+    background: transparent!important;
+    color: var(--text-link)!important;
     border-radius: var(--panel-border-radius);
 }
 .wrapper-3WhCwL:hover { /*Mentioned username hover*/
@@ -854,8 +854,8 @@
     backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
 }
-.topic-TCb_qw .wrapper-3WhCwL {
-    color: var(--main-accent);
+.topic-TCb_qw .wrapper-3WhCwL { /*Channel topic info*/
+    color: var(--text-link);
 }
 .content-c_0cLD { /*Follow updates content*/
     padding-top: 20px;
