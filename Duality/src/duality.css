@@ -2416,6 +2416,18 @@ body,
 .activity-11LB_k { /*User card activity*/
     background-color: transparent;
 }
+.headerNormal-1l1Znk { /*New header*/
+    background-color: transparent;
+    color: var(--server-channel-textc);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
+}
+.headerTop-2y3V6H { /*New header top*/
+    background-color: transparent;
+    border: none;
+}
+.input-2_SIlA { /*Message box input*/
+    background-color: transparent;
+}
 
 /*Profile modal*/
 
