@@ -1279,6 +1279,9 @@
     border-radius: var(--buttons-radius);
     border: var(--buttons-border);
 }
+.emojiButtonContainer-3d6DFV { /*Status emoji button*/
+    z-index: 1;
+}
 
 /*Settings Window*/
 
