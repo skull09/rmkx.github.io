@@ -736,6 +736,10 @@
 .content-s2SEQO .wrapper-3WhCwL { /*Description modal channel link*/
     background-color: transparent;
 }
+.replyBar-1YLQ2F,
+.threadSuggestionBar-2ufK2Z { /*Replying to bar*/
+    background-color: transparent;
+}
 
 /*Code and text preview modals*/
 

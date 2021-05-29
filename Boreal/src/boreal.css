@@ -943,6 +943,10 @@
 .avatar-1BDn8e { /*Chat avatar*/
     padding-left: 3px;
 }
+.replyBar-1YLQ2F,
+.threadSuggestionBar-2ufK2Z { /*Replying to bar*/
+    background-color: transparent;
+}
 
 /*Right click pannel settings*/
 

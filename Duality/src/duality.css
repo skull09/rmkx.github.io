@@ -1625,6 +1625,10 @@ body,
 .reactorDefault-1IUqMZ { /*Dividers*/
     box-shadow: unset!important;
 }
+.replyBar-1YLQ2F,
+.threadSuggestionBar-2ufK2Z { /*Replying to bar*/
+    background-color: transparent;
+}
 
 /*Pinned messages modal*/
 
