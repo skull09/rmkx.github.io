@@ -2438,6 +2438,18 @@ body,
     border: none;
     background-color: transparent;
 }
+.aboutMeSection-3bipSD { /*About me*/
+    background-color: transparent;
+}
+.aboutMeTitle-2M2L3- { /*About me title*/
+    width: fit-content;
+    color: rgb(var(--server-channel-textc))!important;
+    border-bottom: 1px solid rgb(var(--server-channel-textc));
+}
+.betaBadge-1JOhGD { /*Beta Badge*/
+    background-color: transparent!important;
+    color: rgb(var(--accent-color));
+}
 
 /*Profile modal*/
 
