@@ -4032,6 +4032,9 @@ body,
 .highlight { /*Selection and matched words*/
     background-color: rgba(var(--accent-color), 0.25);
 }
+.stageListenerPill-1RXT2G { /*Tooltip listening icon*/
+    background-color: transparent;
+}
 
 /*Plugins compatibility*/
 

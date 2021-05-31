@@ -2794,6 +2794,9 @@
 .theme-dark .checkbox-1ix_J3[style*="border-color: rgb(114, 137, 218);"] path { /*Checkbox checkmark*/
     fill: var(--main-accent)!important;
 }
+.stageListenerPill-1RXT2G { /*Tooltip listening icon*/
+    background-color: transparent;
+}
 
 /*Plugin compatibility*/
 

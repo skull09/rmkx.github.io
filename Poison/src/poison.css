@@ -4103,6 +4103,9 @@
 .required-7sPBq3 { /*Required input*/
     color: rgb(var(--main-accent), 1);
 }
+.stageListenerPill-1RXT2G { /*Tooltip listening icon*/
+    background-color: transparent;
+}
 
 /*Minimal Mode*/
 .bd-minimal .base-3dtUhz { /*Main modal*/
