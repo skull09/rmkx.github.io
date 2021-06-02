@@ -3435,6 +3435,16 @@ body,
 .lookFilled-1Gx00P.colorRed-1TFJan:hover .contents-18-Yxp {
     color: red;
 }
+.settingCard-3w2mVL,
+.scroller-305q3I { /*Channel role*/
+    background-color: transparent;
+}
+.group-1WdBVp { /*Permissions buttons*/
+    border:none;
+}
+.item-1yAxl1 { /*Permissions*/
+    background-color: transparent;
+}
 
 /*Invited to server*/
 
