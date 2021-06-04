@@ -3436,7 +3436,9 @@ body,
     color: red;
 }
 .settingCard-3w2mVL,
-.scroller-305q3I { /*Channel role*/
+.scroller-305q3I,
+.cardFolder-28dwxo,
+.settingCard-3w2mVL.active-1ytUzX { /*Channel role*/
     background-color: transparent;
 }
 .group-1WdBVp { /*Permissions buttons*/
