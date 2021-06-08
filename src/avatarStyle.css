@@ -11,6 +11,7 @@
 
 :root {
     --avatar-radius: 0%;
+    --user-card-width: 280px;
 }
 #app-mount .wrapper-3t9DeA svg:not(:root) { /*Makes the status bar show*/
     overflow: visible;
@@ -29,13 +30,13 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.userPopout-3XzG_A { /*User popout width*/
-    width: 250px!important;
+.userPopout-xaxa6l { /*User popout width*/
+    width: var(--user-card-width)!important;
 }
 .headerTop-2cWpdB { /*User card info*/
     margin-top: 225px;
 }
-.profileBadges-1dm1_q { /*User card badges*/
+.profileBadges-3cJaE1 { /*User card badges*/
     top: 40px;
 }
 .avatarPositionNormal-aZjAsn { /*User card avatar position*/
@@ -47,15 +48,15 @@
     mask: none;
 }
 .avatar-37jOim { /*Avatar dimensions*/
-    width: 250px!important;
-    height: 250px!important;
+    width: var(--user-card-width)!important;
+    height: var(--user-card-width)!important;
     border: none;
 }
 .avatarHint-1E3LMl { /*View profile hint*/
     top: 0;
     left: 0;
-    width: 250px!important;
-    height: 250px!important;
+    width: var(--user-card-width)!important;
+    height: var(--user-card-width)!important;
 }
 .avatarHint-1E3LMl foreignObject { /*View profile hint mask*/
     mask: none;
