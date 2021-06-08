@@ -97,7 +97,8 @@
     background: var(--underline-gradient);
     transform: rotate(180deg);
 }
-.nowPlayingColumn-2sl4cE { /*Surrounds the Active Now panel*/
+.nowPlayingColumn-2sl4cE,
+.nowPlayingSidebar-2OFn0o { /*Surrounds the Active Now panel*/
     position: absolute;
     top: 4%;
     left: 62.5%;   
@@ -2672,6 +2673,90 @@
     border: var(--panel-border);
 }
 
+/*Stage discovery*/
+
+.container-1a3EgQ { /*Main friends panel*/
+    position: absolute;
+    top: 0%;
+    left: var(--showing-width);
+    width: 100%;
+    height: 100%;
+}
+.container-1a3EgQ .headerBarContainer-31FKNA {
+    position: absolute;
+    top: 0%;
+}
+.headerBarContainer-31FKNA .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
+    position: absolute;
+    left: 33%;
+    transform: translateX(-33%);
+}
+.container-1a3EgQ .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
+    position: absolute;
+    left: 75%;
+    transform: translateX(-75%);
+}
+.headerBarContainer-31FKNA { /*Header shadow underline*/
+    box-shadow: none;
+}
+.stageSection-3mAD8V { /*Main modal*/
+    background-color: transparent;
+}
+.container-24CyRY { /*Stages panel*/
+    position: absolute;
+    top: 4%;
+    left: 22.5%;
+    transform: translateX(-22.5%);
+    border-radius: var(--panel-border-radius);
+    margin-top: 5px;
+    margin-left: 0%;
+    width: 50%;
+    height: 78.5%;
+}
+.pageHeader-3nuK1W { /*Live stages text*/
+    margin-top: 13px;
+    font-size: 90%;
+    text-align: center;
+    color: white;
+    font-family: var(--font-display);
+    font-weight: 600;
+}
+.pageHeader-3nuK1W::after { /*Live stages text underline*/
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 4px;
+    left: 0%;
+    top: 33px;
+    background: var(--underline-gradient);
+}
+.container-S9SaVf { /*Stage card*/
+    background-color: var(--panel-boxes)!important;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: var(--panel-border-radius);
+}
+.container-S9SaVf:hover { /*Settings for the Active Now friends panel*/
+    background: var(--element-hovered)!important;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: var(--panel-border-radius);
+}
+.container-7Unqij,
+.iconMicrophone-1A2Yqh,
+.speakerCount-3KijLY { /*Card icons*/
+    background-color: transparent;
+}
+.bulletsContainer-3omDLR,
+.circle-1anBj0 { /*Create stage*/
+    background-color: transparent;
+}
+.borderBottom-cijHjW { /*Divider*/
+    border: none;
+}
+
 /*BD Minimal Mode*/
 
 .bd-minimal .base-3dtUhz { /*Main Modal*/
@@ -2808,6 +2893,9 @@
 }
 .stageListenerPill-1RXT2G { /*Tooltip listening icon*/
     background-color: transparent;
+}
+.featuredTag-3pT1Rf { /*Featured tag*/
+    background-color: transparent!important;
 }
 
 /*Plugin compatibility*/

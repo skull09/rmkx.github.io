@@ -2627,7 +2627,8 @@ body,
     font-size: 0.85rem;
     grid-area: header;
 }
-.container-1D34oG .toolbar-1t6TWx { /*Inbox, help, etc container*/
+.container-1D34oG .toolbar-1t6TWx, /*Inbox, help, etc container*/
+.headerBarContainer-31FKNA .toolbar-1t6TWx { /*Stage modal toolbar*/
     position: absolute;
     right: 8.506%;
     transform: translateX(-8.506%);
@@ -2898,7 +2899,8 @@ body,
 .container-lRFx4q { /*Main container*/
     background-color: transparent;
 }
-.nowPlayingColumn-2sl4cE .header-2SF4Nh { /*Active now text*/
+.nowPlayingColumn-2sl4cE .header-2SF4Nh,
+.nowPlayingSidebar-2OFn0o .header-2SF4Nh { /*Active now text*/
     text-align: center;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
     font-size: 0.9rem;
@@ -2906,7 +2908,8 @@ body,
     margin-top: -4px;
     font-weight: 600;
 }
-.nowPlayingColumn-2sl4cE .wrapper-3D2qGf { /*Active now cards main container*/
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf,
+.nowPlayingSidebar-2OFn0o .wrapper-3D2qGf { /*Active now cards main container*/
     margin-bottom: 18px;
 }
 .itemCard-v9viV7 { /*Active now cards*/
@@ -2925,13 +2928,16 @@ body,
 .emptyCard-1RJw8n {
     background-color: transparent;
 }
-.nowPlayingColumn-2sl4cE .wrapper-3D2qGf > div { /*Active now card info*/
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf > div,
+.nowPlayingSidebar-2OFn0o .wrapper-3D2qGf > div  { /*Active now card info*/
     transition: filter 0.25s ease;
 }
-.nowPlayingColumn-2sl4cE .wrapper-3D2qGf:hover > div { /*Active now hovered card info*/
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf:hover > div,
+.nowPlayingSidebar-2OFn0o .wrapper-3D2qGf:hover > div { /*Active now hovered card info*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
-.nowPlayingColumn-2sl4cE .emptyText-2zjpZr { /*No one active text*/
+.nowPlayingColumn-2sl4cE .emptyText-2zjpZr,
+.nowPlayingSidebar-2OFn0o .emptyText-2zjpZr { /*No one active text*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
 .voiceSectionDetails-2DQTfs:hover .voiceSectionText-vrWR1s { /*Hovered activity*/
@@ -3905,6 +3911,57 @@ body,
     border: none;
 }
 
+/*Stage Discovery*/
+
+.stageSection-3mAD8V { /*Main modal*/
+    background-color: transparent;
+}
+.headerBarContainer-31FKNA { /*Header shadow underline*/
+    box-shadow: none;
+}
+.container-S9SaVf { /*Stage cards*/
+    border-radius: 8px;
+    background: var(--popout-bg) center/cover no-repeat;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.569);
+    border: unset;
+    transition: box-shadow .25s ease;
+}
+.container-S9SaVf:hover { /*Active now cards*/
+    box-shadow: -3px -3px 5px 3px rgba(0, 0, 0, 0.569);
+}
+.container-S9SaVf .topicText-3B26Cx { /*Stage card title*/
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.container-7Unqij,
+.iconMicrophone-1A2Yqh,
+.speakerCount-3KijLY { /*Card icons*/
+    background-color: transparent;
+}
+.container-2rNpDV { /*Stage picture*/
+    background-color: transparent;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.pageHeader-3nuK1W { /*Live stages title text*/
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    text-align: center;
+}
+.bulletsContainer-3omDLR,
+.circle-1anBj0 { /*Create stage*/
+    background-color: transparent;
+}
+.bulletsContainer-3omDLR,
+.header-1AQlNL { /*Create stage text*/
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+}
+.header-1AQlNL {
+    color: rgb(var(--server-channel-textc));
+}
+.borderBottom-cijHjW { /*Divider*/
+    border: none;
+}
+
 /*Misc*/
 
 .ring-13rgEW { /*Ring when tabbing*/
@@ -4044,6 +4101,12 @@ body,
 }
 .stageListenerPill-1RXT2G { /*Tooltip listening icon*/
     background-color: transparent;
+}
+.featuredTag-3pT1Rf { /*Featured tag*/
+    background-color: transparent!important;
+}
+.featuredTagText-HmlSoA { /*Featured tag text*/
+    color: rgb(var(--accent-color));
 }
 
 /*Plugins compatibility*/

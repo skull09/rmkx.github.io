@@ -4107,6 +4107,9 @@
 .stageListenerPill-1RXT2G { /*Tooltip listening icon*/
     background-color: transparent;
 }
+.newBrand .hero-EvfTTA { /*Nitro panel picture*/
+    background-image: unset;
+}
 
 /*Minimal Mode*/
 .bd-minimal .base-3dtUhz { /*Main modal*/
