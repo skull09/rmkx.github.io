@@ -3658,7 +3658,8 @@
 .aboutMeTitle-2M2L3- { /*About me title*/
     color: rgba(var(--main-accent), .75)!important;
 }
-.betaBadge-1Ve-yb { /*Beta Badge*/
+.betaBadge-1Ve-yb,
+.betaBadge-2EDLLs { /*Beta Badge*/
     background-color: transparent!important;
     color: rgba(var(--main-accent), .75);
 }

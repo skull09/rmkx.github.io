@@ -2447,7 +2447,8 @@ body,
     color: rgb(var(--server-channel-textc))!important;
     border-bottom: 1px solid rgb(var(--server-channel-textc));
 }
-.betaBadge-1Ve-yb { /*Beta Badge*/
+.betaBadge-1Ve-yb,
+.betaBadge-2EDLLs { /*Beta Badge*/
     background-color: transparent!important;
     color: rgb(var(--accent-color));
 }
