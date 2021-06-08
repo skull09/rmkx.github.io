@@ -2367,7 +2367,8 @@ body,
 .userPopout-xaxa6l .headerNormal-1mX3KY { /*User card header*/
     background-color: transparent!important;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
-    
+    background-color: transparent;
+    color: var(--server-channel-textc);
 }
 .userPopout-xaxa6l .body-3HBlXn,
 .footer-1N3bR3 { /*User card body/footer*/
@@ -2385,13 +2386,13 @@ body,
     text-align: center;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
-.bodyTitle-Y0qMQz { /*User card body subtitles*/
+.bodyTitle-3FWCs2 { /*User card body subtitles*/
     width: fit-content;
     border-bottom: 1px solid rgb(var(--server-channel-textc));
     text-align: center;
     color: rgb(var(--server-channel-textc));
 }
-.note-3HfJZ5 { /*User card note*/
+.note-1MiCN7 { /*User card note*/
     height: fit-content;
     margin-left: 0px;
     margin-right: 0px;
@@ -2419,11 +2420,6 @@ body,
 }
 .activity-11LB_k { /*User card activity*/
     background-color: transparent;
-}
-.headerNormal-1l1Znk { /*New header*/
-    background-color: transparent;
-    color: var(--server-channel-textc);
-    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
 .headerTop-2cWpdB { /*New header top*/
     background-color: transparent;
