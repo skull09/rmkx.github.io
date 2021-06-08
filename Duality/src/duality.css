@@ -2451,13 +2451,13 @@ body,
 
 /*Profile modal*/
 
-.root-SR8cQa { /*Main modal*/
+.root-3QyAh1 { /*Main modal*/
     border-radius: var(--main-radius);
     background: transparent;
     box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
     background-color: transparent;
 }
-.root-SR8cQa::before { /*Main modal background*/
+.root-3QyAh1::before { /*Main modal background*/
     content: '';
     position: absolute;
     top: 0;
@@ -2469,7 +2469,7 @@ body,
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.root-SR8cQa::after { /*Main modal opacity*/
+.root-3QyAh1::after { /*Main modal opacity*/
     content: '';
     position: absolute;
     top: 0;

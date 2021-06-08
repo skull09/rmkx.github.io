@@ -3666,12 +3666,12 @@
 
 /*Profile window*/
 
-.root-SR8cQa { /*Main modal*/
+.root-3QyAh1 { /*Main modal*/
     border-radius: var(--general-radius);
     background-color: transparent;
     box-shadow: 0px 0px 5px 2px rgba(var(--main-accent), 0.85);
 }
-.root-SR8cQa::before { /*Main modal background*/
+.root-3QyAh1::before { /*Main modal background*/
     content: '';
     position: absolute;
     top: 0;
@@ -3720,7 +3720,7 @@
     animation: selectedItem 0.25s ease;
     animation-fill-mode: forwards;
 }
-.root-SR8cQa .listRow-1iDGel:hover { /*Hovered mutual server*/
+.root-3QyAh1 .listRow-1iDGel:hover { /*Hovered mutual server*/
     background-color: rgba(var(--main-color), 0.1);
     border-radius: var(--general-radius);
 }
