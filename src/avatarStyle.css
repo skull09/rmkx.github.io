@@ -38,15 +38,15 @@
 .profileBadges-1dm1_q { /*User card badges*/
     top: 40px;
 }
-.avatarPositionNormal-1CZUPk { /*User card avatar position*/
+.avatarPositionNormal-aZjAsn { /*User card avatar position*/
     top: 60px;
     left: 0;
     border-radius: 0;
 }
-.avatar-22FtUu svg foreignObject { /*User card avatar mask*/
+.avatar-37jOim svg foreignObject { /*User card avatar mask*/
     mask: none;
 }
-.avatar-22FtUu { /*Avatar dimensions*/
+.avatar-37jOim { /*Avatar dimensions*/
     width: 250px!important;
     height: 250px!important;
     border: none;
@@ -131,7 +131,7 @@
     y: 15!important;
     width: 40px!important;
 }
-.avatarWrapper-1-5NA0 .wrapper-3t9DeA svg > :last-child:not(foreignObject) { /*User card status*/
+.avatarWrapper-3r9PdD .wrapper-3t9DeA svg > :last-child:not(foreignObject) { /*User card status*/
     mask: none;
     y: -80;
     x: 79.75;
@@ -139,7 +139,7 @@
     width: 3px;
     height: 100%;
 }
-.avatarWrapper-1-5NA0 .wrapper-3t9DeA svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*User card status changed settings*/
+.avatarWrapper-3r9PdD .wrapper-3t9DeA svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*User card status changed settings*/
     mask: none;
     width: 200%;
     height: 4px;
@@ -147,7 +147,7 @@
     x: -48!important;
     transform: rotate(0deg);
 }
-.avatarWrapper-1-5NA0 .wrapper-3t9DeA svg > svg:not(foreignObject) { /*User card status changed*/
+.avatarWrapper-3r9PdD .wrapper-3t9DeA svg > svg:not(foreignObject) { /*User card status changed*/
     x: 0!important;
     y: 15!important;
     width: 100%!important;

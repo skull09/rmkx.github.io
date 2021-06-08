@@ -2336,12 +2336,12 @@ body,
 
 /*User card*/
 
-.userPopout-3XzG_A { /*Main modal*/
+.userPopout-xaxa6l { /*Main modal*/
     border-radius: var(--main-radius);
     background: transparent;
     box-shadow: -3px -6px 10px 10px rgba(0, 0, 0, 0.569);
 }
-.userPopout-3XzG_A::before { /*Main modal background*/
+.userPopout-xaxa6l::before { /*Main modal background*/
     content: '';
     position: absolute;
     top: 0;
@@ -2353,7 +2353,7 @@ body,
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.userPopout-3XzG_A::after { /*Main modal opacity*/
+.userPopout-xaxa6l::after { /*Main modal opacity*/
     content: '';
     position: absolute;
     top: 0;
@@ -2364,12 +2364,12 @@ body,
     background-color: rgba(0,0,0, var(--popout-opacity));
     z-index: -1;
 }
-.userPopout-3XzG_A .headerNormal-1mX3KY { /*User card header*/
+.userPopout-xaxa6l .headerNormal-1mX3KY { /*User card header*/
     background-color: transparent!important;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
     
 }
-.userPopout-3XzG_A .body-3HBlXn,
+.userPopout-xaxa6l .body-3HBlXn,
 .footer-1N3bR3 { /*User card body/footer*/
     background-color: transparent!important;
 }
@@ -2548,16 +2548,16 @@ body,
 .connectedAccount-2Jb-Z0:hover .connectedAccountOpenIcon-2cNbq5 { /*Connected account text and icon hovered*/
     color: rgb(var(--server-channel-textc), 1);
 }
-.listRow-hutiT_ { /*Shared servers*/
+.listRow-1iDGel { /*Shared servers*/
     transition: 0.25s;
 }
-.listRow-hutiT_ .listRowContent-3Kih4Q { /*Shared servers text*/
+.listRow-1iDGel .listRowContent-3Kih4Q { /*Shared servers text*/
     color: rgb(var(--server-channel-textc), 0.35);
 }
-.listRow-hutiT_:hover .listRowContent-3Kih4Q { /*Shared servers*/
+.listRow-1iDGel:hover .listRowContent-3Kih4Q { /*Shared servers*/
     color: rgb(var(--server-channel-textc), 1);
 }
-.listRow-hutiT_:hover { /*Shared servers hover*/
+.listRow-1iDGel:hover { /*Shared servers hover*/
     background-color: transparent;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
