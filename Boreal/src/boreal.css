@@ -445,7 +445,7 @@
 
 /*User card settings*/
 
-.userPopout-3XzG_A { /*User card settings*/
+.userPopout-xaxa6l { /*User card settings*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
@@ -459,7 +459,7 @@
     border: var(--panel-border);
     background-color: var(--panel-boxes);
 }
-.userPopout-3XzG_A::before {
+.userPopout-xaxa6l::before {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
@@ -555,6 +555,7 @@
     background-color: transparent!important;
     color: white;
 }
+
 
 /*Role tags*/
 
@@ -1081,7 +1082,7 @@
     margin-top: -15px;
     color: white;
 }
-.listRow-hutiT_:hover { /*Hovered mutual server*/
+.listRow-1iDGel:hover { /*Hovered mutual server*/
     background-color: var(--chat-hover);
     border-radius: var(--panel-border-radius);
 }
@@ -1096,6 +1097,15 @@
     transform: translateZ(0);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+}
+.topSection-y3p-_D,
+.headerFill-39azRn,
+.body-r6_QPy { /*New profile modal classes*/
+    background-color: transparent;
+}
+.tabBarContainer-37hZsr,
+.userInfoSection-q_35fn+.userInfoSection-q_35fn { /*Profile divider*/
+    border-top: none;
 }
 
 /*Buttons settings*/
