@@ -3553,11 +3553,11 @@
 .headerTop-3C2Zn0 {
     filter: brightness(0.95);
 }
-.header-2BwW8b,
+.headerNormal-1mX3KY,
 .headerPlaying-j0WQBV,
 .headerTop-3C2Zn0,
-.body-3iLsc4,
-.footer-1fjuF6 { /*Body modals*/
+.body-3HBlXn,
+.footer-1N3bR3 { /*Body modals*/
     background-color: transparent!important;
 }
 .barInner-3NDaY_ { /*Spotify progress bar*/
@@ -3647,7 +3647,7 @@
 .input-2_SIlA { /*Message box input*/
     background-color: transparent;
 }
-.avatar-22FtUu { /*User card avatar*/
+.avatar-37jOim { /*User card avatar*/
     border: none;
     background-color: transparent;
 }
@@ -3694,7 +3694,7 @@
 .userInfoSection-2acyCx+.userInfoSection-2acyCx { /*Divider*/
     border-top: unset;
 }
-.connectedAccount-36nQx7 { /*Connected accounts profile*/
+.connectedAccount-2Jb-Z0 { /*Connected accounts profile*/
     border-color: transparent;
 }
 .tabBarItem-1b8RUP { /*Profile mutual tabs*/
@@ -3725,11 +3725,11 @@
     background-color: rgba(var(--main-color), 0.1);
     border-radius: var(--general-radius);
 }
-.connectedAccountOpenIcon-2cNbq5 { /*Connected account website*/
+.connectedAccountIcon-3_EQqg { /*Connected account website*/
     color: rgb(var(--main-accent), 0.35);
     transition: color 0.25s ease;
 }
-.connectedAccountOpenIcon-2cNbq5:hover { /*Connected account website*/
+.connectedAccountIcon-3_EQqg:hover { /*Connected account website*/
     color: rgb(var(--main-accent), 1);
 }
 .topSectionSpotify-1lI0-P { /*Spotify playing*/
