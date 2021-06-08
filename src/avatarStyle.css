@@ -83,7 +83,7 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.avatar-3EQepX svg foreignObject { /*Profile avatar*/
+.avatar-AvHqJA svg foreignObject { /*Profile avatar*/
     mask: none;
     border-radius: var(--avatar-radius);
     border-bottom-left-radius: 0px;
@@ -192,7 +192,7 @@
     y: 15!important;
     width: 40px!important;
 }
-.avatar-3EQepX svg > :last-child:not(foreignObject) { /*Profile status*/
+.avatar-AvHqJA svg > :last-child:not(foreignObject) { /*Profile status*/
     mask: none;
     x: 76;
     y: -80;
@@ -200,14 +200,14 @@
     width: 4px;
     height: inherit;
 }
-.avatar-3EQepX svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on profile*/
+.avatar-AvHqJA svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed on profile*/
     mask: none;
     width: 126%;
     height: 4px;
     y: 15!important;
     x: -14!important;
 }
-.avatar-3EQepX svg > svg:not(foreignObject) { /*Status changed on profile*/
+.avatar-AvHqJA svg > svg:not(foreignObject) { /*Status changed on profile*/
     x: 0!important;
     y: 15!important;
     width: 40px!important;
