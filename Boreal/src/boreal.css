@@ -2675,23 +2675,23 @@
 
 /*Stage discovery*/
 
-.container-1a3EgQ { /*Main friends panel*/
+.container-1a3EgQ { /*Stage panel*/
     position: absolute;
     top: 0%;
     left: var(--showing-width);
     width: 100%;
     height: 100%;
 }
-.container-1a3EgQ .headerBarContainer-31FKNA {
+.container-1a3EgQ .headerBarContainer-31FKNA { /*Stage toolbar*/
     position: absolute;
     top: 0%;
 }
-.headerBarContainer-31FKNA .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
+.headerBarContainer-31FKNA .children-19S4PO { /*Centers Stage Discovery text*/
     position: absolute;
     left: 33%;
     transform: translateX(-33%);
 }
-.container-1a3EgQ .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
+.container-1a3EgQ .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx { /*Moves stage discovery buttons*/
     position: absolute;
     left: 75%;
     transform: translateX(-75%);
@@ -2718,7 +2718,7 @@
     font-size: 90%;
     text-align: center;
     color: white;
-    font-family: var(--font-display);
+    font-family: var(--font);
     font-weight: 600;
 }
 .pageHeader-3nuK1W::after { /*Live stages text underline*/

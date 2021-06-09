@@ -95,7 +95,9 @@
     filter: blur(var(--bg-blur));
     opacity: var(--bg-opacity);
 }
-.container-1D34oG::before {
+.container-1D34oG::before,
+.container-1a3EgQ::before,
+.applicationStore-1pNvnv::before {
     content: "";
     background: var(--background-image);
     background-position: center;
@@ -1478,7 +1480,8 @@
     transform: translateY(25px);
     border-radius: var(--general-radius);
 }
-.nowPlayingColumn-2sl4cE .wrapper-3D2qGf::after { /*Active friends*/
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf::after,
+.nowPlayingSidebar-2OFn0o .wrapper-3D2qGf::after { /*Active friends*/
     content: '';
     position: absolute;
     bottom: 0;
@@ -1492,7 +1495,8 @@
     transition: 0.25s ease-in;
     filter: brightness(0.55);
 }
-.nowPlayingColumn-2sl4cE .wrapper-3D2qGf { /*Active now card*/
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf,
+.nowPlayingSidebar-2OFn0o .wrapper-3D2qGf { /*Active now card*/
     background-color: transparent;
     border-radius: var(--general-radius);
     border: none;
@@ -1500,7 +1504,8 @@
 .outer-1AjyKL.interactive-3B9GmY:hover { /*Hovered active now card*/
     background-color: transparent!important;
 }
-.nowPlayingColumn-2sl4cE .wrapper-3D2qGf:hover:not(.active-1xchHY)::after { /*Hovered active now card underline*/
+.nowPlayingColumn-2sl4cE .wrapper-3D2qGf:hover:not(.active-1xchHY)::after,
+.nowPlayingSidebar-2OFn0o .wrapper-3D2qGf:hover:not(.active-1xchHY)::after { /*Hovered active now card underline*/
     content: '';
     position: absolute;
     bottom: 0%;
@@ -4019,6 +4024,62 @@
     z-index: 3;
 }
 
+/*Stage Discovery*/
+
+.stageSection-3mAD8V { /*Stages panel*/
+    height: 95%;
+}
+.headerContainer-1Wluzl { /*Live stages title*/
+    margin-bottom: 1%;
+}
+.headerContainer-1Wluzl .pageHeader-3nuK1W { /*Live stages text*/
+    font-size: 95%;
+    color: rgba(var(--main-accent), 0.8);
+    font-family: var(--font);
+    text-align: center;
+}
+.headerContainer-1Wluzl::after { /*Line after Live stages title*/
+    content: '';
+    position: absolute;
+    overflow: hidden!important;
+    top: 3.8%;
+    left: 18%;
+    width: 70%;
+    height: 20px;
+    background: radial-gradient(16px, transparent, transparent 4px, rgb(var(--main-accent)) 4px, rgb(var(--main-accent)) 10px, transparent 11px);
+    background-size: 30px 40px;
+    transform: scaleY(0.25) scaleX(1.5);
+    filter: brightness(0.85);
+}
+.headerContainer-1Wluzl::before { /*Line after Live stages title 2*/
+    content: '';
+    position: absolute;
+    overflow: hidden!important;
+    top: 4.3%;
+    left: 19.35%;
+    width: 70%;
+    height: 20px;
+    background: radial-gradient(16px, transparent, transparent 4px, rgb(var(--main-accent)) 4px, rgb(var(--main-accent)) 10px, transparent 11px);
+    background-position: 0px -20px;
+    background-size: 30px 40px;
+    transform: scaleY(0.25) scaleX(1.5);
+    filter: brightness(0.85);
+}
+.container-S9SaVf { /*Stage card*/
+    background-color: transparent!important;
+    border: 1px solid rgba(var(--main-accent), 0.2);
+    transition: 0.25s ease;
+}
+.container-S9SaVf:hover { /*Hovered stage card*/
+    background-color: transparent;
+    border-color: rgba(var(--main-accent), 1);
+}
+.container-7Unqij,
+.iconMicrophone-1A2Yqh,
+.speakerCount-3KijLY { /*Card icons*/
+    background-color: transparent;
+}
+
 /*Misc*/
 
 .attachButtonPlay-3iJ0mf { /*Attach Spotify group listen button*/
@@ -4109,6 +4170,12 @@
 }
 .newBrand .hero-EvfTTA { /*Nitro panel picture*/
     background-image: unset;
+}
+.featuredTag-3pT1Rf { /*Featured tag*/
+    background-color: transparent!important;
+}
+.featuredTagText-HmlSoA { /*Featured tag text*/
+    color: rgb(var(--main-accent));
 }
 
 /*Minimal Mode*/
