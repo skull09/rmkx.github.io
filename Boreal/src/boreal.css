@@ -1388,13 +1388,13 @@
 .container-3auIfb { /*Checked buttons*/
     border-radius: var(--buttons-radius);
 }
-.container-3auIfb:not([style*="background-color: rgb(67, 181, 129);"]) { /*Unchecked buttons*/
+.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] { /*Unchecked buttons*/
     background-color: var(--buttons-background)!important;
 }
-.container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) { /*Checked buttons color*/
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] { /*Checked buttons color*/
     background-color: var(--main-accent)!important
 }
-.container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) > svg > svg path { /*Changes the checkmark color*/
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] svg path { /*Changes the checkmark color*/
     fill: var(--main-accent)!important;
 }
 .authedApp-mj2Hmd { /*Authorized app*/
@@ -1584,7 +1584,8 @@
 .closeButton-1tv5uR:active { /*Makes the window dissapear*/
     transform: none;
 }
-.previewMessage-1ZN7YG { /*Saturation preview*/
+.previewMessage-1ZN7YG,
+.preview-2nSL_2 { /*Previews*/
     background-color: transparent;
 }
 
