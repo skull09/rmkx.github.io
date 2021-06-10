@@ -335,11 +335,11 @@ body,
 .container-3auIfb { /*Checked buttons*/
     border-radius: var(--general-radius);
 }
-.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] { /*Unchecked buttons*/
+.container-3auIfb[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] { /*Unchecked buttons*/
     border-radius: var(--button-radius);
     background-color: transparent!important;
 }
-.container-3auIfb[style*="background-color: rgb(114, 118, 125);"]::before { /*Unchecked buttons background*/
+.container-3auIfb[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"]::before { /*Unchecked buttons background*/
     content: '';
     position: absolute;
     top: 0;
@@ -350,11 +350,11 @@ body,
     background-color: rgb(var(--main-dark-color))!important;
     filter: brightness(20%);
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] { /*Checked buttons color*/
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] { /*Checked buttons color*/
     border-radius: var(--button-radius);
     background-color: transparent!important;
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92);"]::before { /*Checked buttons background*/
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]::before { /*Checked buttons background*/
     content: '';
     position: absolute;
     top: 0;
@@ -365,8 +365,8 @@ body,
     background-color: rgb(var(--accent-color))!important;
     filter: brightness(0.35);
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] svg svg path,
-.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] svg svg path { /*Checkmark svg*/
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] svg svg path,
+.container-3auIfb[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] svg svg path { /*Checkmark svg*/
     display: none;
 }
 .cardPrimary-1Hv-to { /*Card in bottom settings*/

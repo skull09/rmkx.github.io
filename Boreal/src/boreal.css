@@ -1388,13 +1388,13 @@
 .container-3auIfb { /*Checked buttons*/
     border-radius: var(--buttons-radius);
 }
-.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] { /*Unchecked buttons*/
+.container-3auIfb[style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] { /*Unchecked buttons*/
     background-color: var(--buttons-background)!important;
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] { /*Checked buttons color*/
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] { /*Checked buttons color*/
     background-color: var(--main-accent)!important
 }
-.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] svg path { /*Changes the checkmark color*/
+.container-3auIfb[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] svg path { /*Changes the checkmark color*/
     fill: var(--main-accent)!important;
 }
 .authedApp-mj2Hmd { /*Authorized app*/
