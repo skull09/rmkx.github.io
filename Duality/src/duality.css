@@ -2567,6 +2567,11 @@ body,
 .topSectionStreaming-1Tpf5X { /*Profile activities*/
     background-color: transparent;
 }
+.avatar-AvHqJA { /*Profile avatar*/
+    background-color: transparent;
+    border: none;
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0));
+}
 
 /*Upload file modal*/
 
