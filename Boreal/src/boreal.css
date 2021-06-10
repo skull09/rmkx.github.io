@@ -1547,43 +1547,46 @@
     animation: closeButtonUnhover 0.25s ease;
     animation-fill-mode: forwards;
 }
- .closeButton-1tv5uR { /*Close button circle*/
-     border-color: transparent!important;
- }
- .closeButton-1tv5uR:hover { /*Close button hover*/
-     background-color: transparent!important;
- }
- .closeButton-1tv5uR path { /*Close button X*/
-     fill: var(--main-accent);
- }
- .keybind-KpFkfr { /*Esc text under close button*/
-     color: var(--main-accent)!important;
- }
- .closeButton-1tv5uR::before { /*Close button left backdrop*/
-     content: '';
-     position: fixed;
-     top: calc(0% - calc(100% - var(--settings-heigth)));
-     left: -40%;
-     width: calc(100% - var(--settings-width));
-     height: 2000px;
-     cursor: pointer;
-     pointer-events: inherit;
-     transition: 0.25s ease-in;
- }
- .closeButton-1tv5uR::after { /*Close button right backdrop*/
-     content: '';
-     position: fixed;
-     top: calc(0% - calc(100% - var(--settings-heigth)));
-     left: 100%;
-     width: calc(100% - var(--settings-width));
-     height: 2000px;
-     cursor: pointer;
-     pointer-events: inherit;
-     transition: 0.25s ease-in;
- }
- .closeButton-1tv5uR:active { /*Makes the window dissapear*/
-     transform: none;
- }
+.closeButton-1tv5uR { /*Close button circle*/
+    border-color: transparent!important;
+}
+.closeButton-1tv5uR:hover { /*Close button hover*/
+    background-color: transparent!important;
+}
+.closeButton-1tv5uR path { /*Close button X*/
+    fill: var(--main-accent);
+}
+.keybind-KpFkfr { /*Esc text under close button*/
+    color: var(--main-accent)!important;
+}
+.closeButton-1tv5uR::before { /*Close button left backdrop*/
+    content: '';
+    position: fixed;
+    top: calc(0% - calc(100% - var(--settings-heigth)));
+    left: -40%;
+    width: calc(100% - var(--settings-width));
+    height: 2000px;
+    cursor: pointer;
+    pointer-events: inherit;
+    transition: 0.25s ease-in;
+}
+.closeButton-1tv5uR::after { /*Close button right backdrop*/
+    content: '';
+    position: fixed;
+    top: calc(0% - calc(100% - var(--settings-heigth)));
+    left: 100%;
+    width: calc(100% - var(--settings-width));
+    height: 2000px;
+    cursor: pointer;
+    pointer-events: inherit;
+    transition: 0.25s ease-in;
+}
+.closeButton-1tv5uR:active { /*Makes the window dissapear*/
+    transform: none;
+}
+.previewMessage-1ZN7YG { /*Saturation preview*/
+    background-color: transparent;
+}
 
 /*Find channel/someone panel*/
 
