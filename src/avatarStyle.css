@@ -52,13 +52,13 @@
     height: var(--user-card-width)!important;
     border: none;
 }
-.avatarHint-1E3LMl { /*View profile hint*/
+.avatarHint-2A3RNb { /*View profile hint*/
     top: 0;
     left: 0;
     width: var(--user-card-width)!important;
     height: var(--user-card-width)!important;
 }
-.avatarHint-1E3LMl foreignObject { /*View profile hint mask*/
+.avatarHint-2A3RNb foreignObject { /*View profile hint mask*/
     mask: none;
 }
 .avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar*/
