@@ -2490,7 +2490,7 @@ body,
 }
 .tabBarContainer-37hZsr,
 .userInfoSection-q_35fn+.userInfoSection-q_35fn { /*Profile divider*/
-    border-top: none;
+    border: none;
 }
 .thin-1ybCId::-webkit-scrollbar-thumb { /*Profile scrollbar*/
     background-color: rgb(var(--server-channel-textc))!important;

@@ -1106,7 +1106,7 @@
 }
 .tabBarContainer-37hZsr,
 .userInfoSection-q_35fn+.userInfoSection-q_35fn { /*Profile divider*/
-    border-top: none;
+    border: none;
 }
 .avatar-AvHqJA { /*Profile avatar*/
     background-color: transparent;
