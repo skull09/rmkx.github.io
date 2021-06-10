@@ -44,6 +44,10 @@
     left: 0;
     border-radius: 0;
 }
+.avatarPositionPremium-3We5Ho { /*User card nitro position*/
+    top: 120px;
+    left: 0;
+}
 .avatar-37jOim svg foreignObject { /*User card avatar mask*/
     mask: none;
 }
