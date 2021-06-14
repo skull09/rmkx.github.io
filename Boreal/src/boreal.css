@@ -1839,6 +1839,9 @@
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
 }
+.qualitySettingsContainer-1gOtRJ { /*Quality container*/
+    border: none;
+}
 .theme-dark .item-3T2z1R { /*Go live quality button*/
     border-radius: var(--buttons-radius);
     border: var(--buttons-border);
