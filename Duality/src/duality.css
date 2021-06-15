@@ -4068,7 +4068,8 @@ body,
         transform: scale(1);
     }
 }
-.tooltip-2QfLtc { /*Hovered element tooltip*/
+.tooltip-2QfLtc,
+.toolbar-2bjZV7 { /*Hovered element tooltip*/
     filter: drop-shadow(-3px -2px 1px black) drop-shadow(-3px -1px 1px black);
     background-color: transparent!important;
     background: transparent!important;
@@ -4169,6 +4170,13 @@ body,
 }
 .featuredTagText-HmlSoA { /*Featured tag text*/
     color: rgb(var(--accent-color));
+}
+.active-2HPddW,
+.hover-28QbSq:hover { /*Selected text toolbar option*/
+    background-color: transparent;
+}
+.toolbar-2bjZV7:before { /*Selected text toolbar tip*/
+    border-top-color: rgb(var(--accent-color));
 }
 
 /*Plugins compatibility*/
