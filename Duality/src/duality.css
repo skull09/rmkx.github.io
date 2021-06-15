@@ -2563,13 +2563,14 @@ body,
     color: rgb(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
-.tabBar-2MuP6- { /*Profile tabs main*/
-    height: 35px;
+.tabBar-3nvOPa { /*Profile tabs main*/
+    height: 25px;
 }
 .top-28JiJ- .item-PXvHYJ { /*Profile tabs*/
     color: rgb(var(--server-channel-textc), 0.35);
     border-color: rgb(var(--server-channel-textc), 0.35)!important;
     transition: 0.25s ease;
+    margin-right: 20px;
 }
 .top-28JiJ- .item-PXvHYJ:hover { /*Profile tabs*/
     color: rgb(var(--server-channel-textc), 0.65);
