@@ -4208,6 +4208,9 @@ body,
 .compactButtonDisabled-1WXLm6 { /*New DM message*/
     background-color: transparent!important;
 }
+.badge-1JXQev { /*Streaming icon*/
+    background-color: transparent;
+}
 
 /*Plugins compatibility*/
 
