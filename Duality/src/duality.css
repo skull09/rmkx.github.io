@@ -1714,6 +1714,9 @@ body,
     color: rgba(var(--server-channel-textc), 1);
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
+.footer-1kmXd4 { /*Pinned messages footer*/
+    background-color: transparent;
+}
 
 /*Mentions settings*/
 
