@@ -2908,6 +2908,10 @@
 .featuredTag-3pT1Rf { /*Featured tag*/
     background-color: transparent!important;
 }
+.compactButton-195WSV, 
+.compactButtonDisabled-1WXLm6 { /*New DM message*/
+    background-color: transparent!important;
+}
 
 /*Plugin compatibility*/
 

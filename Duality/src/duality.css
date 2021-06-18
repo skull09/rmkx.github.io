@@ -4204,6 +4204,10 @@ body,
 .toolbar-2bjZV7:before { /*Selected text toolbar tip*/
     border-top-color: rgb(var(--accent-color));
 }
+.compactButton-195WSV, 
+.compactButtonDisabled-1WXLm6 { /*New DM message*/
+    background-color: transparent!important;
+}
 
 /*Plugins compatibility*/
 
