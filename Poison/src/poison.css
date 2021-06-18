@@ -4244,6 +4244,15 @@
 .bd-minimal .base-3dtUhz { /*Main modal*/
     left: 0;
 }
+.bd-minimal .guilds-1SWlCJ {
+    width: 900px;
+}
+.bd-minimal .tree-2wKJdG {
+    width: 60px;
+}
+.bd-minimal .guilds-1SWlCJ .wrapper-3Njo_c>span {
+    height: 100%;
+}
 
 /*Plugins compatibility*/
 
