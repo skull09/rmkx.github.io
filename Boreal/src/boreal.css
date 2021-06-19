@@ -2776,8 +2776,18 @@
 .bd-minimal .peopleColumn-29fq28 { /*Minimal mode Friends modal*/
     max-width: 70%;
 }
+.bd-minimal .guilds-1SWlCJ {
+    width: 900px;
+}
+.bd-minimal .tree-2wKJdG {
+    width: 60px;
+}
+.bd-minimal .guilds-1SWlCJ .wrapper-3Njo_c>span {
+    height: 100%;
+}
 
 /*Enable community panel*/
+
 .checkboxWrapper-SkhIWG.row-3QHy4I:hover:not(.checked-3_4uQ9) { /*Verification panel hovered*/
     background-color: var(--main-accent);
     border-radius: var(--panel-border-radius);
