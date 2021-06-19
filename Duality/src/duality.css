@@ -492,7 +492,8 @@ body,
     filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
 .connection-1fbD7X,
-.connectionHeader-2MDqhu { /*Discord connected account*/
+.connectionHeader-2MDqhu,
+.integration-3kMeY4 { /*Discord connected account*/
     background-color: transparent;
 }
 .connection-1fbD7X { /*Discord connected account main panel*/
