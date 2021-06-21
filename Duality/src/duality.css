@@ -2153,6 +2153,9 @@ body,
 
 /*Server members*/
 
+.members-1998pB>div { /*Server members panel background*/
+    background-color: transparent;
+}
 .membersWrap-2h-GB4 { /*Main modal*/
     margin-bottom: 22px;
 }
