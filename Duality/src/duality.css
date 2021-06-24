@@ -2443,7 +2443,7 @@ body,
     color: var(--server-channel-textc);
 }
 .userPopout-xaxa6l .body-3HBlXn,
-.footer-1N3bR3 { /*User card body/footer*/
+.footer-3UKYOU { /*User card body/footer*/
     background-color: transparent!important;
 }
 .body-3HBlXn { /*Body padding*/
@@ -2457,6 +2457,7 @@ body,
 .bodyInnerWrapper-26fQXj { /*User card body subtitles container*/
     text-align: center;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
+    background-color: transparent;
 }
 .bodyTitle-1ySSKn { /*User card body subtitles*/
     width: fit-content;
