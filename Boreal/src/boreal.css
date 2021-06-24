@@ -1595,6 +1595,14 @@
 .preview-2nSL_2 { /*Previews*/
     background-color: transparent;
 }
+.accountProfileCard-1XCH88,
+.profileBannerPreview-3_l0Wd { /*User card info*/
+    background-color: transparent;
+}
+.avatarUploaderInner-Oiob_P { /*New avatar uploader*/
+    border: none;
+    background-color: transparent;
+}
 
 /*Find channel/someone panel*/
 

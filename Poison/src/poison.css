@@ -2739,6 +2739,14 @@
     background-color: transparent!important;
     border-color: transparent!important;
 }
+.accountProfileCard-1XCH88,
+.profileBannerPreview-3_l0Wd { /*User card info*/
+    background-color: transparent;
+}
+.avatarUploaderInner-Oiob_P { /*New avatar uploader*/
+    border: none;
+    background-color: transparent;
+}
 
 @keyframes hoveredItem {
     0% {
