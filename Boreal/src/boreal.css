@@ -1599,7 +1599,8 @@
 .profileBannerPreview-3_l0Wd { /*User card info*/
     background-color: transparent;
 }
-.avatarUploaderInner-Oiob_P { /*New avatar uploader*/
+.avatarUploaderInner-Oiob_P,
+.avatar-1uQSZT { /*New avatar uploader*/
     border: none;
     background-color: transparent;
 }

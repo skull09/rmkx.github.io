@@ -23,6 +23,9 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="My Account-tab"]::before { 
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/myAccount.svg')!important;
 }
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Profile Customization-tab"]::before { 
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/userProfile.svg')!important;
+}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before { 
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/privacy.svg')!important;
 }
@@ -107,6 +110,7 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/logout.svg')!important; 
 }
+
 
 /*GooseMod*/
 
