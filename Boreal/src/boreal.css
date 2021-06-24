@@ -519,7 +519,7 @@
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
 }
-.bodyInnerWrapper-1NH0NQ .bodyTitle-3FWCs2 { /*Roles and notes title*/
+.bodyInnerWrapper-26fQXj .bodyTitle-1ySSKn { /*Roles and notes title*/
     text-align: center;
     color: white;
 }
@@ -555,6 +555,9 @@
 .betaBadge-2EDLLs { /*Beta Badge*/
     background-color: transparent!important;
     color: white;
+}
+.divider-ewBQKj { /*User card divider*/
+    background-color: transparent;
 }
 
 
