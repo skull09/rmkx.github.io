@@ -1640,7 +1640,8 @@ body,
     box-shadow: unset!important;
 }
 .replyBar-1YLQ2F,
-.threadSuggestionBar-2ufK2Z { /*Replying to bar*/
+.threadSuggestionBar-2ufK2Z,
+.attachedBars-tZDmyV { /*Replying to bar*/
     background-color: transparent;
 }
 

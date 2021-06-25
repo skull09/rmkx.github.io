@@ -859,3 +859,6 @@
 .partyMemberOverflow-lXnzvu { /*Members in channel number*/
     background-color: var(--bg-second-panels);
 }
+.attachedBars-tZDmyV { /*replying to bar*/
+    background-color: var(--bg-second-panels);
+}
