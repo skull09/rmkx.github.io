@@ -1594,3 +1594,7 @@ div.sidebarRegion-VFTUkN{
 .children-rWhLdy div[style*="display: grid;"] div[style*="width: calc(100% - 32px);"] { /*Main elements addons*/
     left: 5px!important;
 }
+
+.textBadge-1iylP6 { /*Banner nitro badge*/
+    background-color: transparent!important;
+}

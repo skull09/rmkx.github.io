@@ -4232,6 +4232,9 @@ body,
 .badge-1JXQev { /*Streaming icon*/
     background-color: transparent;
 }
+.textBadge-1iylP6 { /*Banner nitro badge*/
+    background-color: transparent!important;
+}
 
 /*Plugins compatibility*/
 
