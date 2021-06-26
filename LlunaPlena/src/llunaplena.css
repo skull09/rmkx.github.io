@@ -268,12 +268,12 @@
     color: var(--blue-hue-elements);
 }
 .wrapper-3WhCwL{
-    color: var(--blue-hue-elements);
-    background-color: #293f4757;
+    color: var(--blue-hue-elements)!important;
+    background-color: #293f4757!important;
 }
 .wrapper-3WhCwL:hover{
-    color: var(--blue-hue-elements);
-    background-color: var(--channel-color);
+    color: var(--blue-hue-elements)!important;
+    background-color: var(--channel-color)!important;
 }
 .wrapper-39oAo3{
     background-color: var(--chat-color);
@@ -533,6 +533,12 @@
 }
 .nameNormal-2lqVQK{
     text-align: unset!important;
+}
+.divider-ewBQKj {
+    background-color: transparent;
+}
+.input-2_SIlA {
+    background-color: transparent;
 }
 
 /*Server role settings*/
