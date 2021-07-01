@@ -3577,13 +3577,15 @@ body,
 
 /*Gif/Emote panels*/
 
-.drawerSizingWrapper-17Mss4 { /*Main modal*/
+.drawerSizingWrapper-17Mss4,
+.emojiPicker-3PwZFl { /*Main modal*/
     background: transparent;
     border-radius: var(--main-radius);
     animation: menuShow 0.25s ease;
     transform-origin: bottom;
 }
-.drawerSizingWrapper-17Mss4::before { /*Main modal background*/
+.drawerSizingWrapper-17Mss4::before,
+.emojiPicker-3PwZFl::before { /*Main modal background*/
     content: '';
     position: absolute;
     top: 0;
@@ -3595,7 +3597,8 @@ body,
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.drawerSizingWrapper-17Mss4::after { /*Main modal opacity*/
+.drawerSizingWrapper-17Mss4::after,
+.emojiPicker-3PwZFl::after { /*Main modal opacity*/
     content: '';
     position: absolute;
     top: 0;
