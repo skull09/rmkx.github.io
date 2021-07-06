@@ -2468,10 +2468,10 @@ body,
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
     background-color: transparent;
 }
-.bodyTitle-1ySSKn { /*User card body subtitles*/
+.bodyTitle-1ySSKn,
+.aboutMeTitle-1IYtPE { /*User card body subtitles*/
     width: fit-content;
     border-bottom: 1px solid rgb(var(--server-channel-textc));
-    text-align: center;
     color: rgb(var(--server-channel-textc));
 }
 .note-1MiCN7 { /*User card note*/
