@@ -402,7 +402,8 @@ body,
 .card-3AyPWq:hover { /*Server boosts hovered*/
     background-color: transparent;
 }
-.wrapper-3nSjSv { /*Nitro deals background*/
+.wrapper-3nSjSv,
+.upsellContainer-3UlEOE { /*Nitro deals background*/
     background: transparent;
 }
 .tier-1EY-yj { /*Nitro tier*/
@@ -1832,7 +1833,7 @@ body,
 .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
 .buttonInvertedPurple-WtBglX,
-.lookOutlined-3sRXeN.colorGreen-29iAKY  { /*Buttons main settings*/
+.lookOutlined-3sRXeN.colorGreen-29iAKY { /*Buttons main settings*/
     border-radius: var(--button-radius);
     border: 1px solid;
     color: rgb(var(--server-channel-textc))!important;
@@ -1854,7 +1855,8 @@ body,
     background-color: transparent!important;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
-.lookFilled-1Gx00P.colorPrimary-3b3xI6 { /*Discord nitro gift grey button*/
+.lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.colorWhite-rEQuAQ  { /*Discord nitro gift grey button*/
     border-radius: var(--button-radius);
     border: 1px solid;
     color: rgb(var(--server-channel-textc))!important;
@@ -1862,7 +1864,8 @@ body,
     filter: opacity(0.55);
     transition: filter  0.25s ease;
 }
-.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover { /*Discord nitro gift grey button hovered*/
+.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover { /*Discord nitro gift grey button hovered*/
     background-color: transparent!important;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
@@ -1947,6 +1950,9 @@ body,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, 
 .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp { /*Streamming buttons*/
     background-color: transparent;
+}
+.upsellButton-1QHAmZ { /*Nitro buttons*/
+    color: rgb(var(--server-channel-textc));
 }
 
 /*Message box*/
@@ -3536,6 +3542,10 @@ body,
 .item-1yAxl1 { /*Permissions*/
     background-color: transparent;
 }
+.container-2VW0UT { /*Save changes*/
+    background-color: rgba(0, 0, 0, 0.3)!important;
+    backdrop-filter: blur(5px);
+}
 
 /*Invited to server*/
 
@@ -3910,6 +3920,13 @@ body,
 }
 .breadcrumbsWrapper-1m9gjf { /*Buy boost divider*/
     border-bottom: none;
+}
+.tierBody-3aUxuc,
+.tierHeaderLocked-3S508x {
+    background-color: transparent!important;
+}
+.tierHeaderLocked-3S508x {
+    border-bottom: 1px solid rgb(var(--server-channel-textc));
 }
 
 /*Channel preview/Stream preview*/
