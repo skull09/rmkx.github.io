@@ -4030,10 +4030,12 @@ body,
 .auto-3V-QBl::-webkit-scrollbar-track { /*Scrollbar thing*/
     border: none;
 }
-.participantsButton-KYW-IW { /*Call participants button*/
+.participantsButton-KYW-IW,
+.cta-3gK0Pu { /*Call participants button*/
     background-color: rgba(0,0,0,.3);
 }
-.participantsButton-KYW-IW:hover { /*Call participants button hovered*/
+.participantsButton-KYW-IW:hover,
+.cta-3gK0Pu:hover { /*Call participants button hovered*/
     background-color: rgba(0,0,0,.6);
 }
 .separator-2-RRj_ { /*Invite separator*/
