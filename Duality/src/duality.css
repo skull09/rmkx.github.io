@@ -1831,7 +1831,8 @@ body,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
-.buttonInvertedPurple-WtBglX  { /*Buttons main settings*/
+.buttonInvertedPurple-WtBglX,
+.lookOutlined-3sRXeN.colorGreen-29iAKY  { /*Buttons main settings*/
     border-radius: var(--button-radius);
     border: 1px solid;
     color: rgb(var(--server-channel-textc))!important;
@@ -1848,7 +1849,8 @@ body,
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
-.buttonInvertedPurple-WtBglX:hover { /*Hovered buttons main settings*/
+.buttonInvertedPurple-WtBglX:hover,
+.lookOutlined-3sRXeN.colorGreen-29iAKY:hover { /*Hovered buttons main settings*/
     background-color: transparent!important;
     filter: opacity(1) drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-2px 0px 1px rgb(0, 0, 0));
 }
@@ -2489,7 +2491,7 @@ body,
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
 .input-cIJ7To:focus { /*Message user focus*/
-    border-color: rgba(var(--server-channel-textc), 1);
+    border-color: rgba(var(--server-channel-textc), 1)!important;
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
 .activity-11LB_k { /*User card activity*/
@@ -3575,7 +3577,7 @@ body,
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
 }
 
-/*Gif/Emote panels*/
+/*Gif/Emote/Stickers panels*/
 
 .drawerSizingWrapper-17Mss4,
 .emojiPicker-3PwZFl { /*Main modal*/
@@ -3785,6 +3787,12 @@ body,
     background: transparent;
     border-radius: var(--main-radius);
     box-shadow: unset;
+}
+.header-2k4I2o { /*Stickers panel*/
+    box-shadow: unset;
+}
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 { /*Hovered sticker*/
+    background-color: transparent;
 }
 
 /*Server boost*/
@@ -4021,6 +4029,24 @@ body,
 .auto-3V-QBl::-webkit-scrollbar-thumb,
 .auto-3V-QBl::-webkit-scrollbar-track { /*Scrollbar thing*/
     border: none;
+}
+.participantsButton-KYW-IW { /*Call participants button*/
+    background-color: rgba(0,0,0,.3);
+}
+.participantsButton-KYW-IW:hover { /*Call participants button hovered*/
+    background-color: rgba(0,0,0,.6);
+}
+.separator-2-RRj_ { /*Invite separator*/
+    box-shadow: unset!important;
+}
+.inviteRow-2L02ae { /*Invite friend to channel*/
+    color: rgb(var(--server-channel-textc), 0.35);
+    transition: 0.25s ease;
+}
+.inviteRow-2L02ae:hover { /*Invite friend to channel hovered*/
+    background-color: transparent!important;
+    color: rgb(var(--server-channel-textc));
+    filter: drop-shadow(-3px -1px 1px rgb(0, 0, 0)) drop-shadow(-3px -1px 1px rgb(0, 0, 0));
 }
 
 /*Stage Discovery*/
