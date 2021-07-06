@@ -4147,7 +4147,8 @@ body,
     }
 }
 .tooltip-2QfLtc,
-.toolbar-2bjZV7 { /*Hovered element tooltip*/
+.toolbar-2bjZV7,
+.scroller-2ymjU1 { /*Hovered element tooltip*/
     filter: drop-shadow(-3px -2px 1px black) drop-shadow(-3px -1px 1px black);
     background-color: transparent!important;
     background: transparent!important;
@@ -4156,7 +4157,8 @@ body,
     color: rgb(var(--server-channel-textc))!important;
     box-shadow: unset!important;
 }
-.tooltip-2QfLtc::before { /*Stream preview background*/
+.tooltip-2QfLtc::before,
+.scroller-2ymjU1::before { /*Stream preview background*/
     content: '';
     position: absolute;
     top: 0;
@@ -4168,7 +4170,8 @@ body,
     filter: blur(var(--popout-blur));
     z-index: -2;
 }
-.tooltip-2QfLtc::after{ /*Stream preview opacity*/
+.tooltip-2QfLtc::after,
+.scroller-2ymjU1::after { /*Stream preview opacity*/
     content: '';
     position: absolute;
     top: 0;
@@ -4178,6 +4181,10 @@ body,
     background-color: rgba(0,0,0, var(--popout-opacity));
     border-radius: var(--main-radius);
     z-index: -1;
+}
+.memberListItem-3IkoL8:not(.popoutDisabled-161HX0):hover { /*Hovered stream viewer*/
+    background-color: transparent!important;
+    filter: drop-shadow(-3px -2px 1px black) drop-shadow(-3px -1px 1px black);
 }
 .tooltip-2QfLtc .reactionTooltipContent-2TwEIL {
     filter: drop-shadow(-3px -2px 1px black) drop-shadow(-3px -1px 1px black);
