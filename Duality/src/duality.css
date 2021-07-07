@@ -2454,7 +2454,7 @@ body,
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
 }
 .headerTagUsernameNoNickname-2-Y5Ct { /*Username*/
-    color: var(--server-channel-textc);
+    color: rgb(var(--server-channel-textc));
 }
 .userPopout-xaxa6l .body-3HBlXn,
 .footer-3UKYOU { /*User card body/footer*/
