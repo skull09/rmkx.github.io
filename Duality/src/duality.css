@@ -2445,10 +2445,15 @@ body,
     background-color: rgba(0,0,0, var(--popout-opacity));
     z-index: -1;
 }
-.userPopout-xaxa6l .headerNormal-1mX3KY { /*User card header*/
+.userPopout-xaxa6l .headerNormal-3KXFBt { /*User card header*/
     background-color: transparent!important;
+}
+.avatarWrapper-3r9PdD,
+.headerTop-3vNv-a,
+.aboutMeSection-1Fw5Ia { /*Avatar, username and about me*/
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
-    background-color: transparent;
+}
+.headerTagUsernameNoNickname-2-Y5Ct { /*Username*/
     color: var(--server-channel-textc);
 }
 .userPopout-xaxa6l .body-3HBlXn,
