@@ -2575,7 +2575,8 @@ body,
     background-color: transparent!important;
 }
 .tabBarContainer-37hZsr,
-.userInfoSection-q_35fn+.userInfoSection-q_35fn { /*Profile divider*/
+.userInfoSection-q_35fn+.userInfoSection-q_35fn,
+.noTabBar-3ZjPNR { /*Profile divider*/
     border: none;
 }
 .thin-1ybCId::-webkit-scrollbar-thumb { /*Profile scrollbar*/
