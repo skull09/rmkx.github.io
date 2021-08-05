@@ -2467,6 +2467,8 @@ body,
     border-radius: var(--button-radius);
     filter: drop-shadow(-3px -1px 1px black) drop-shadow(-3px -1px 1px black);
     margin-right: 6px;
+    background: transparent;
+    border-color: transparent!important;
 }
 .bodyInnerWrapper-26fQXj { /*User card body subtitles container*/
     text-align: center;
@@ -4123,6 +4125,64 @@ body,
 }
 .borderBottom-cijHjW { /*Divider*/
     border: none;
+}
+
+/*Threads*/
+
+.container-7uh5fX { /*Main modal*/
+    background: transparent;
+    border-radius: var(--main-radius);
+    animation: menuShow 0.25s ease;
+    transform-origin: bottom;
+}
+.container-7uh5fX::before { /*Main modal background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--popout-bg) center/cover no-repeat;
+    border-radius: var(--main-radius);
+    filter: blur(var(--popout-blur));
+    z-index: -2;
+}
+.container-7uh5fX::after { /*Main modal opacity*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--main-radius);
+    background-color: rgba(0,0,0, var(--popout-opacity));
+    z-index: -1;
+}
+.header-1VS4tm {
+    background-color: transparent;
+}
+.header-1VS4tm .tabBar-31Wimb .tab-PQvTH4,
+.list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB { /*Tab buttons*/
+    color: rgba(var(--server-channel-textc), 0.2);
+    transition: 0.25s ease;
+}
+.header-1VS4tm .tabBar-31Wimb .tab-PQvTH4:hover,
+.list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB:hover { /*Tab buttons hover*/
+    color: rgba(var(--server-channel-textc), 0.65);
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    background-color: transparent!important;
+}
+.header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA,
+.list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB.active-3JUHqX { /*Selected tab*/
+    color: rgba(var(--server-channel-textc), 1)!important;
+    filter: drop-shadow(-3px -1px 1px black) drop-shadow(-2px 0px 1px black);
+    background-color: transparent!important;
+}
+.divider-mDc_D8 { /*Divider*/
+    background: transparent;
+}
+.icon-3pEw1v { /*svg background*/
+    background: transparent;
 }
 
 /*Misc*/

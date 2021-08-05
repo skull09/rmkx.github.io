@@ -4094,6 +4094,29 @@
     z-index: 3;
 }
 
+/*Threads*/
+
+.container-7uh5fX { /*Main modal*/
+    background-color: transparent;
+    border-radius: var(--general-radius);
+    box-shadow: unset;
+}
+.container-7uh5fX::before { /*Main modal background*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: var(--general-radius);
+    background-color: rgb(var(--main-color));
+    filter: brightness(0.25);
+    z-index: -1;
+}
+.icon-3pEw1v {
+    background: transparent;
+}
+
 /*Stage Discovery*/
 
 .stageSection-3mAD8V { /*Stages panel*/
