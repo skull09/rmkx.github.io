@@ -319,6 +319,12 @@
 .scroller-3BxosC .colorDefault-2K3EoJ[id="message-remove-reactions"]::before {
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/removeReactions.svg')!important;
 }
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-unpin"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/unpin.svg')!important;  
+}
+.scroller-3BxosC .colorDefault-2K3EoJ[id="message-thread"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/threads.svg')!important;  
+}
 .scroller-3BxosC .colorDefault-2K3EoJ[id="user-settings-account-menu-upload-avatar"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/textImages.svg')!important; 
 }
