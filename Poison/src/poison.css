@@ -1354,17 +1354,17 @@
     color: rgba(var(--main-accent), 0.5);
     transition: color 0.25s ease;
 }
-.topPill-30KHOu .item-PXvHYJ[aria-controls="ADD_FRIEND-tab"] { /*Add friend tab*/
+.topPill-30KHOu .item-PXvHYJ[aria-controls="add_friend-tab"] { /*Add friend tab*/
     color: var(--interactive-normal)!important;
     background-color: transparent!important;
     transition: color 0.25s ease;
 }
-.topPill-30KHOu .item-PXvHYJ[aria-controls="ADD_FRIEND-tab"]:hover { /*Add friend tab hovered */
+.topPill-30KHOu .item-PXvHYJ[aria-controls="add_friend-tab"]:hover { /*Add friend tab hovered */
     color: rgba(var(--main-accent), 0.5)!important;
     background-color: transparent!important;
     transition: color 0.25s ease;
 }
-.topPill-30KHOu .item-PXvHYJ[aria-controls="ADD_FRIEND-tab"][aria-selected="true"] { /*Add friend tab selected*/
+.topPill-30KHOu .item-PXvHYJ[aria-controls="add_friend-tab"][aria-selected="true"] { /*Add friend tab selected*/
     color: rgba(var(--main-accent), 1)!important;
 }
 .sectionHeader-20RGqu { /*Add friends window line*/

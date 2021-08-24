@@ -241,7 +241,7 @@
 .tabBody-3YRQ8W:before { /*Removes little shadow line under top buttons*/
     box-shadow: unset;
 }
-.tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"] { /*Add friend button stuff*/
+.tabBar-ZmDY9v .item-3HknzM[aria-controls="add_friend-tab"] { /*Add friend button stuff*/
     color: var(--buttons-color)!important;
 }
 .title-30qZAO { /*Online, Pending, etc middle panel on top of friends*/
