@@ -110,9 +110,6 @@
 .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/logout.svg')!important; 
 }
-.side-8zPYf6 .item-PXvHYJ[aria-controls="STICKERS-tab"]::before {    
-    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/stickers.svg')!important; 
-}
 
 
 /*GooseMod*/
@@ -188,6 +185,12 @@
 }
 .side-8zPYf6 .item-PXvHYJ[aria-controls="permissions-tab"]::before {    
     -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/permissions.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="stickers-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/stickers.svg')!important; 
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="threads-tab"]::before {    
+    -webkit-mask: url('https://rmkx.github.io/svg/menuIcons/threads.svg')!important; 
 }
 
 
