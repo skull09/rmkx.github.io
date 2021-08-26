@@ -4359,6 +4359,11 @@ body,
 .sidebarContainer-7fi3LO { /*Hubs sidebar*/
     background: transparent;
 }
+.modal-f02hVt,
+.guildSidebar-2OCzWB,
+.formFieldWrapper-malor5 { /*Rules modal*/
+    background: transparent;
+}
 
 /*Plugins compatibility*/
 
