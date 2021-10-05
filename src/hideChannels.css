@@ -360,7 +360,7 @@
     transform: translateZ(0);
     padding: 8px;
     height: auto;
-    visibility: visible;
+    visibility: visible!important;
 }
 .sidebar-2K8pFh:hover .activityPanel-28dQGo { /*Shows the sharing screen panel*/
     -webkit-backface-visibility: hidden;
@@ -373,7 +373,7 @@
     transform: translateZ(0);
     padding: 8px;
     height: auto;
-    visibility: visible;
+    visibility: visible!important;
 }
 .sidebar-2K8pFh:hover .container-1giJp5 { /*Shows the connected channel panel*/
     -webkit-backface-visibility: hidden;
@@ -386,7 +386,7 @@
     transform: translateZ(0);
     padding: 8px;
     height: auto;
-    visibility: visible;
+    visibility: visible!important;
 }
 .sidebar-2K8pFh:hover .voiceUserSummary-2X_2vp { /*Showing collapsed voice chanels on server*/
     -webkit-backface-visibility: hidden;
