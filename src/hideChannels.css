@@ -136,7 +136,7 @@
     transition: height var(--transition-speed) ease, visibility 0.0000000000000001s ease, padding calc(var(--transition-speed) - 0.1s) ease;
     will-change: height, padding;
 }
-.container-1giJp5 { /*Hides the connected channel panel*/
+.wrapper-24pKcD { /*Hides the connected channel panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
@@ -375,7 +375,7 @@
     height: auto;
     visibility: visible!important;
 }
-.sidebar-2K8pFh:hover .container-1giJp5 { /*Shows the connected channel panel*/
+.sidebar-2K8pFh:hover .wrapper-24pKcD { /*Shows the connected channel panel*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
